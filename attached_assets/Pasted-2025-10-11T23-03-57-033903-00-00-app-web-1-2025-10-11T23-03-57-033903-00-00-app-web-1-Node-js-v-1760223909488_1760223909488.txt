@@ -1,0 +1,16 @@
+2025-10-11T23:03:57.033903+00:00 app[web.1]: 
+2025-10-11T23:03:57.033903+00:00 app[web.1]: Node.js v20.19.5
+2025-10-11T23:03:57.068160+00:00 app[web.1]: npm notice
+2025-10-11T23:03:57.068163+00:00 app[web.1]: npm notice New major version of npm available! 10.9.4 -> 11.6.2
+2025-10-11T23:03:57.068169+00:00 app[web.1]: npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.6.2
+2025-10-11T23:03:57.068169+00:00 app[web.1]: npm notice To update run: npm install -g npm@11.6.2
+2025-10-11T23:03:57.068169+00:00 app[web.1]: npm notice
+2025-10-11T23:03:57.117577+00:00 heroku[web.1]: Process exited with status 1
+2025-10-11T23:03:57.151920+00:00 heroku[web.1]: State changed from starting to crashed
+2025-10-11T23:04:47.639193+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=shopttk-1c593b0f0a16.herokuapp.com request_id=40bec2ea-135a-97fe-5c57-23ecfe6289d6 fwd="" dyno= connect=0ms service=0ms status=503 bytes=567 protocol=http1.1 tls=true tls_version=unknown
+2025-10-11T23:04:51.968263+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=shopttk-1c593b0f0a16.herokuapp.com request_id=7cc3e4de-e58d-5bbe-be35-3227058ca850 fwd="" dyno= connect=0ms service=0ms status=503 bytes=567 protocol=http1.1 tls=true tls_version=unknown
+2025-10-11T23:03:49.667906+00:00 app[api]: Release v9 created by user magazineezicolau@bol.com.br
+2025-10-11T23:03:53.000000+00:00 app[api]: Build succeeded
+2025-10-11T23:03:49.667906+00:00 app[api]: Deploy 26e7a39a by user magazineezicolau@bol.com.br
+2025-10-11T23:04:57.427756+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=shopttk-1c593b0f0a16.herokuapp.com request_id=bc781bc8-6641-a3da-79cb-221409e05fae fwd="" dyno= connect=0ms service=0ms status=503 bytes=567 protocol=http1.1 tls=true tls_version=unknown
+2025-10-11T23:05:01.641980+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=shopttk-1c593b0f0a16.herokuapp.com request_id=67a6b78e-73a9-54d9-981f-201a74efb3dd fwd="" dyno= connect=0ms service=0ms status=503 bytes=567 protocol=http1.1 tls=true tls_version=unknown

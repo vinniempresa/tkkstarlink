@@ -1,0 +1,857 @@
+
+2025-10-18T02:23:29.198867+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=d534e9b1-fb8f-2864-2a62-213f09e62922 fwd="187.181.208.187" dyno=web.5 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.204908+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=439e85c9-b236-5f13-0ddb-f0e9eae34c04 fwd="177.27.20.62" dyno=web.4 connect=0ms service=1ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.205943+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=314737b0-facc-3d61-879f-c81339eedf49 fwd="177.27.20.62" dyno=web.2 connect=0ms service=2ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.228218+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=28b88670-3b0c-badc-c143-9312f819f56e fwd="179.180.83.77" dyno=web.4 connect=0ms service=3ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.229743+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=5cc9dec9-a373-75b3-48e9-a5bb4c6a6bc1 fwd="179.180.83.77" dyno=web.1 connect=0ms service=5ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.275849+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=b1afc02b-60fe-ae56-32a0-24a101ea4294 fwd="191.8.60.146" dyno=web.2 connect=0ms service=1ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.277768+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=14b843ba-34ab-f010-7ead-1ddc2b2dffe4 fwd="191.8.60.146" dyno=web.2 connect=0ms service=1ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.280947+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=810a5eca-589c-98c0-dc54-9bc2b0bffd67 fwd="179.152.246.84" dyno=web.5 connect=0ms service=1ms status=200 bytes=56492 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.316386+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=45c0b096-327c-a19f-86b7-883325581d20 fwd="179.152.246.84" dyno=web.3 connect=0ms service=2ms status=200 bytes=58172 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.316861+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=ffd60198-0b82-f79e-917c-787ddf3715a6 fwd="179.152.246.84" dyno=web.6 connect=0ms service=1ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.444525+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=cf17d6a7-db96-7929-2ff9-f0b80cc967ef fwd="187.181.208.187" dyno=web.1 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.460169+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=c93b6122-78f3-f3f4-fe3a-e361953a4df9 fwd="187.181.208.187" dyno=web.1 connect=0ms service=0ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.501841+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=217fa191-2dc7-bf2e-8d28-92c25d2d2da4 fwd="45.224.135.58" dyno=web.6 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.532441+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&ttclid=E_C_P_Ct0BK5CtaRDauxFPOVjYx_2nDrz51vhOSZkv8y6bi1rE-NfeTgG-NxwyhRaDQ8QnU4EOTqiXwfReu3cKc1A6ozWdK_AXkkEH6xZ67EEmcnVCOdof7VHm-bPIfelWLDZjQt4LDKLaOS972c7YIH3QzKTZKaIhnmUZ0Jd9iVJjxfNyOKxT8F6Acgd78gUJpu2cg3ni-NfKTRrU0OaLuGcabhvFiyWM1xcejqi6YobvnED2K4_Bi5ZyzC-o2vE9cpskMobxvTEQGVqiw2jkZagnjT1kLogKAI5f87QdppbZzNASBHYyLjA" host=tiktok.shop-brasil.com request_id=663417f7-92f3-9a9b-3284-63e148c4ae5c fwd="177.70.222.70" dyno=web.3 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.558578+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.CtUBpj7ZrUQuOkM1PMwP6QCsAmR6icQAnkWiIOBggRXAu3SGhBni7LpR-e76RbH3TxtYDmuiObexpKMmtHTMMAqXXKcbH6nDLQFB2eqy7awY_0hth7NtokBnTxEZMJnEBoczoGaqUt4_-1gu80ZgXvILQz9hhxh2lER6gEeOpWgeH8sDngrTmbeG1j2bPN8yNz625uEdQ7GxnNXjZSERuGJwQh_4b9wWErjJKBGevL-oFJFODmoYjsKYviXQFcqN_PKnOdni71swooYLjsYGpTbYpQLW_n4GEgR2Mi4wGiA-QfKgC6FEc-lxErmvBmaMUPI7kHWDlAkVtKreUhJdZA" host=tiktok.shop-brasil.com request_id=0ed50ac1-9a09-f005-506b-de8ca20064bc fwd="45.165.221.140" dyno=web.2 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.660815+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=8c2b827a-d702-f831-9560-b8bd78779161 fwd="168.194.174.137" dyno=web.2 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.747059+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=f6152a9d-786f-8ed5-522b-9883b151a576 fwd="45.165.221.140" dyno=web.4 connect=0ms service=1ms status=200 bytes=4096 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.746953+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=16bd5cc9-0a4c-c62c-06fa-d74f16f6e667 fwd="45.165.221.140" dyno=web.3 connect=0ms service=1ms status=200 bytes=4096 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.757933+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=4f375531-28e8-933a-d063-fbbadf66b0f8 fwd="167.250.40.21" dyno=web.3 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.764764+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=d95cead1-43e9-a8c3-9108-ae41f1464105 fwd="167.250.40.21" dyno=web.6 connect=0ms service=1ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.875464+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=75034101-2df3-1ca6-2783-4e0ef01d9a3c fwd="177.70.222.70" dyno=web.1 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.875776+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=bc69678d-1fd7-cd86-b232-cefc19003fd6 fwd="177.70.222.70" dyno=web.3 connect=0ms service=3ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.893798+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=4be1ba1a-17df-1c38-bf54-9dc3744561bf fwd="177.101.117.218" dyno=web.3 connect=0ms service=1ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.932594+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=e649c852-05ac-25a4-5b66-db9b301ac245 fwd="179.218.97.225" dyno=web.2 connect=0ms service=2ms status=200 bytes=56492 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.935849+00:00 heroku[router]: at=info method=GET path="/api/transactions/4M1274459885" host=tiktok.shop-brasil.com request_id=e72e5403-7068-725f-bc6c-fdd9ecad023e fwd="52.73.167.24" dyno=web.1 connect=0ms service=1214ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.977765+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=76d4e20e-6d70-831a-9ea2-700dd349020d fwd="177.27.20.62" dyno=web.1 connect=0ms service=2ms status=200 bytes=56492 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.996807+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&show_landingpage=1&ttclid=E.C.P.CuABQbCuuvnEekZV0IcrvqO7sh-huBAcidVdDPuBly4zaL8ThZ8UvQ5SrXxf-S_dkHHdoG53LRalw44yGUpI3dLqoNm6k-70_Eb6dkr83ZWDEjh_msvuKOHsipvPI5iD2HvNHuDsz5dT1Xlz6f5aKHBGy9wk3gL7ZzFsxcfX1C-x0taSBQ24lDG3-5rThYkfiqhNsF6lE3mirCM4pkurQ2Z1tbqWl3WktVaKFoHoorATWceXgX5FifP8l8jQjAft1siAsOtVms1hb7MrljoehQXwIiiL1yPPpO0V6em_KOFsCJYSBHYyLjAaIE9JzpjuE00riV4xGxdqmQ6oncUVRgavs0B5GZx3qwV1&orientation=portrait&height=74..." host=tiktok.shop-brasil.com request_id=6be3c53a-eb30-22f7-2e6c-e61edcf32085 fwd="189.7.125.115" dyno=web.6 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.002775+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=befabf54-7e6d-2ab5-bacb-c26bb4716ddf fwd="179.218.97.225" dyno=web.2 connect=0ms service=1ms status=200 bytes=58172 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.003309+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=467b4559-b940-4a8e-4538-df84fa37da8f fwd="179.218.97.225" dyno=web.4 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.085456+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CvUBPMOYQTryy5SRMyaiM1ZrUOkNrnbteHrPAqXnOYoFQVyb_3yM99yQlJT9WgE_QJzR5JbjhJvVdcu-LFuNBCznDWsPAauJUz6J1yllqO7jIqZg9ea2WJ59UfdYWAvxJTvDpoib5m3ho4vH_S-lPj1RwhkEDHvuaOhEXwT7jhT3-whIdIwUMMIb8-zD6Djd_J1knAfccXM6vTiFOBAruRzIABZgvsZ_6TFPkxbHcAzo9_Bw0kI6MgfraI9uaMOaxq1qWcNwmQXAFkdNCOcFiqRVGnl7WiobbyZZN2icWYRGlgen3639IeEh-OdUOKNL9NjtCAekom4SBHYyLjAaIGPhqQ4ejZo7W51Cpd6ya6m__qAkyhIx4lgc3YL6-exK" host=tiktok.shop-brasil.com request_id=f61f3223-55e7-ade7-11b8-f7e36f221d64 fwd="138.255.144.204" dyno=web.2 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.186050+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=a430682d-9593-2cfe-c5e7-c2fca1b20cb0 fwd="191.8.60.146" dyno=web.6 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:29.935320+00:00 app[web.1]: 🔍 RESPOSTA COMPLETA DA TRANSAÇÃO: {
+2025-10-18T02:23:29.935340+00:00 app[web.1]:   "gateway_id": "4M1274459885",
+2025-10-18T02:23:29.935340+00:00 app[web.1]:   "status": "waiting_payment",
+2025-10-18T02:23:29.935341+00:00 app[web.1]:   "amount": 149.8,
+2025-10-18T02:23:29.935341+00:00 app[web.1]:   "fee_amount": 0,
+2025-10-18T02:23:29.935341+00:00 app[web.1]:   "net_amount": 149.8,
+2025-10-18T02:23:29.935342+00:00 app[web.1]:   "customer_name": "Sérgio Rodrigues ",
+2025-10-18T02:23:29.935342+00:00 app[web.1]:   "customer_email": "sergiorodrigues2736@cliente.com",
+2025-10-18T02:23:29.935343+00:00 app[web.1]:   "description": "Buggy Controle remoto a Gasolina Com Bolsa Off Road 29cc",
+2025-10-18T02:23:29.935344+00:00 app[web.1]:   "pix_code": "00020101021226820014br.gov.bcb.pix2560qrcode.pagsm.com.br/pix/b8c745ff-fbee-4159-b0f0-07ff4ef7f3a65204000053039865802BR5918PAGAMENTOCERTOLTDA6008SaoPaulo62070503***630474D5",
+2025-10-18T02:23:29.935344+00:00 app[web.1]:   "pix_qr_code": "",
+2025-10-18T02:23:29.935344+00:00 app[web.1]:   "order_bump_accepted": false,
+2025-10-18T02:23:29.935354+00:00 app[web.1]:   "upsell_completed": false,
+2025-10-18T02:23:29.935354+00:00 app[web.1]:   "expires_at": null,
+2025-10-18T02:23:29.935354+00:00 app[web.1]:   "paid_at": null,
+2025-10-18T02:23:29.935354+00:00 app[web.1]:   "created_at": "2025-10-18T02:23:09.763Z",
+2025-10-18T02:23:29.935355+00:00 app[web.1]:   "updated_at": "2025-10-18T02:23:12.356Z"
+2025-10-18T02:23:29.935355+00:00 app[web.1]: }
+2025-10-18T02:23:29.935358+00:00 app[web.1]: 🎯 Status da transação: waiting_payment
+2025-10-18T02:23:29.935982+00:00 app[web.1]: 2:23:29 AM [express] GET /api/transactions/4M1274459885 304 in 1214ms :: {"gateway_id":"4M1274459885…
+2025-10-18T02:23:30.199575+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=534da1a3-30b4-923c-8979-5afad327d466 fwd="189.7.125.115" dyno=web.6 connect=0ms service=1ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.205708+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=b3308551-2e6a-adb3-cc11-d3d1f6c51f65 fwd="189.7.125.115" dyno=web.5 connect=0ms service=4ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.202080+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.CsoB4QvTeTrMOW-XGB0_CpzXj5c9n8-MRminyzS3q471iKNATOWxTPJSG92UngVB19eKXTjj1kxEI9G425hhubJX3BKxBke1w9_pObY88XMI-vu5pvBZnBxKEztLEPqeZUJC-eeMLNsc6_XtQIuDdqx10nPncg5b5kOTNB-5XdHtT2e8tmi1K2sCj_frukALB2bQNKhZDre08OyZIQLuRbEYmCBmcKqm4O5wGTZ_qf2pJzyecCxBZUtb6OPsf1MBZlpGgbxJy9XE_g81LBIEdjIuMBogy9-XqyqH7RMFa5fg16hjukvdrYOb8LozFlwCg7wa9Qk" host=tiktok.shop-brasil.com request_id=f02aeb7d-e2ba-b315-19cf-24a21fb22746 fwd="181.77.8.242" dyno=web.3 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.209003+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.Ct0Bi-t-a8L_E0yfCZOXLSLtIKJkr_Jeu1V3MMsTFtQLFgIFhiBBtE1jgq1A4ZcSjAZaQilJ9nN3iDv3OhkqADp1fF1s79W2m-EEZNuFQ7fi1dVHG373U0Lvy7FidSruKvKB0NXvcQo01Jh5koS5lMItXorOxLQ4Hr0KnGiX9epsO7BwJBFACtgZNND8_5x_md6s3Ois4OqDSD_SZv6m_zDFYWyNLGfm77GQ6KeH0pHNROg_LPL4aQETqT9dYKMWBkaDObL0U77MABFbpigEGf7jtY0520AiP4VUHdItxvISBHYyLjAaIFaRZkVBdbH51Fbv8s-4Z2dHLz3mnwpFGpthFe2SPveH" host=tiktok.shop-brasil.com request_id=db44dfa9-94f4-f18d-fb92-cde3b5f85be5 fwd="187.86.250.175" dyno=web.2 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.234777+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=611c73b7-5d1b-575e-e691-40ca815ed1f1 fwd="138.255.144.204" dyno=web.2 connect=0ms service=1ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.236831+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=888d4ad3-afb9-b379-aa67-8e483c1266a9 fwd="138.255.144.204" dyno=web.4 connect=0ms service=3ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.252945+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=36550fb3-7ad5-6d4c-7078-87c5cfa8e3aa fwd="177.27.20.62" dyno=web.6 connect=0ms service=2ms status=200 bytes=58172 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.252500+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=9fc8bd5f-da4a-770e-a8b4-18c1072dc9d6 fwd="177.27.20.62" dyno=web.1 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.262921+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CtUBzay2tUckxtY7FENTfNknKJjSv0o0DVu7jC9RLB7LSdZG1t4LPHRqPvfCH9yDurhYhKRkmSLH286JIz-rg6VukqXZj9gdBHIWOxqQxfe0IydM9XDLdULL8aDQIJ2GRAPazTibihwsLgK2tAcnRdGeiEyyFRiy0GstiHPvBK8VIe4szgnsHZFQEy2Zi4HateouwM5H1-IsPBmic7PMYs2SBefEAgXX8FTLy6E5CtcWOT7hNIY7mqa4PWtwZhnb7lHuJLlYJUbuogCrmx5uUj3Msv5P38WIEgR2Mi4wGiA5opVFUmcX2ANvlKQ0dCiJvMyuUZ5aX7fiod7E9mtTiA" host=tiktok.shop-brasil.com request_id=99daf0b6-01a6-ebc5-98e2-064147876fc9 fwd="177.161.249.36" dyno=web.3 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.356038+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=99cdb2ce-e8fd-b32b-eb37-7b4a34fdeeeb fwd="179.152.246.84" dyno=web.5 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.455776+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=929ec2c2-b277-ab6a-f326-e00e8210b2ec fwd="191.8.60.146" dyno=web.5 connect=0ms service=1ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.359176+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=d78283a4-5b1b-a3e4-7639-6e671e351ee1 fwd="138.186.73.125" dyno=web.1 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.364938+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=508a7c57-0a0c-8620-5464-7e099e1b1f2d fwd="179.183.248.123" dyno=web.4 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.400068+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=4f51b66d-36fa-0cd1-d4ed-418e9d63cca8 fwd="187.86.250.175" dyno=web.1 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.400784+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=7105741c-d790-6b59-a1b9-cd8bcfdc3cf5 fwd="187.86.250.175" dyno=web.4 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.423135+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=ad817ddc-a9fa-143a-a60a-18d2d585ea40 fwd="181.77.8.242" dyno=web.4 connect=0ms service=1ms status=200 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.465313+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=ccd0f93c-7399-7a09-dd78-67dbba07f877 fwd="179.183.248.123" dyno=web.2 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.441241+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=0812ff10-2b1e-59c2-b843-f63ebcd934c2 fwd="177.161.249.36" dyno=web.6 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.537600+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=5017cede-8392-07f4-4acf-7d567f4a6b15 fwd="177.161.249.36" dyno=web.4 connect=0ms service=3ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.619360+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=5cfa3b01-4c64-600f-7481-4c2e8f5e1668 fwd="187.86.250.175" dyno=web.2 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.636361+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=8419dafb-d875-aab0-c165-36675782e4db fwd="187.86.250.175" dyno=web.6 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.633403+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=d1aa8914-8729-9d9d-c7c8-ac809da4f9ce fwd="138.186.73.125" dyno=web.5 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.639900+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=4afce70b-9a11-c436-bd35-908c3c7a236c fwd="138.255.203.152" dyno=web.4 connect=0ms service=1ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.713169+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=2c2dc54a-c0b3-78ca-785e-c9b5027fb95b fwd="177.70.222.70" dyno=web.5 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.727057+00:00 heroku[web.13]: Starting process with command `npm start`
+2025-10-18T02:23:30.791890+00:00 heroku[web.49]: Starting process with command `npm start`
+2025-10-18T02:23:30.742895+00:00 heroku[web.47]: Starting process with command `npm start`
+2025-10-18T02:23:24.227380+00:00 app[api]: Scaled to web@71:Standard-1X by user magazineezicolau@bol.com.br
+2025-10-18T02:23:30.795014+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=8cbf50d1-f3f2-9089-03e7-d20ddc250022 fwd="177.104.17.3" dyno=web.4 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.837723+00:00 heroku[web.67]: Starting process with command `npm start`
+2025-10-18T02:23:30.868345+00:00 heroku[web.57]: Starting process with command `npm start`
+2025-10-18T02:23:30.842096+00:00 heroku[web.11]: Starting process with command `npm start`
+2025-10-18T02:23:30.844441+00:00 heroku[web.23]: Starting process with command `npm start`
+2025-10-18T02:23:30.847322+00:00 heroku[web.40]: Starting process with command `npm start`
+2025-10-18T02:23:30.846978+00:00 heroku[web.30]: Starting process with command `npm start`
+2025-10-18T02:23:30.849416+00:00 heroku[web.12]: Starting process with command `npm start`
+2025-10-18T02:23:30.865664+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=4d35cfbb-e1c1-ee4d-0109-b4c18a0ceab1 fwd="168.194.174.137" dyno=web.3 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.866773+00:00 heroku[web.27]: Starting process with command `npm start`
+2025-10-18T02:23:30.867249+00:00 heroku[web.22]: Starting process with command `npm start`
+2025-10-18T02:23:30.867150+00:00 heroku[web.10]: Starting process with command `npm start`
+2025-10-18T02:23:30.870462+00:00 heroku[web.9]: Starting process with command `npm start`
+2025-10-18T02:23:30.883220+00:00 heroku[web.14]: Starting process with command `npm start`
+2025-10-18T02:23:30.888574+00:00 heroku[web.28]: Starting process with command `npm start`
+2025-10-18T02:23:30.908198+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CtMBNrMjabm5o5J8DMXVhS-6dC_z7Ur29_o5DE0EeC-_9iciV_o1jY4Us9LoJvzadorgHn1tzMROvtOWw6SRoPzQa7owhNqKA6XFDIwgMrC40NEoXvX9YgriuD6MeLAnFTcwEys79PJWADRARvdTuMLx4aDdatt_Js_jkKtzv1VyqoNxH3yiSidjTXDtmUuDvj_c7FChuvTBlkVjqhD_hwdjI_WM9Zo0PAm_nGa5bKmwVD0R-9PwKKmoHkIHcHDuVYY-w7j-9BEPpQF9tpx0JVbH6ZMINxIEdjIuMBog4uya7xmTQphT3u0OD1JqBD2a6F1duZhfuFic4Ng7rxo" host=tiktok.shop-brasil.com request_id=67bacfc8-e468-47df-c8e8-52df8531218a fwd="45.227.54.1" dyno=web.5 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.923269+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=1a65660a-421e-c9df-cc2d-04bbaecc1d1f fwd="138.255.144.204" dyno=web.5 connect=0ms service=2ms status=200 bytes=56492 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.917132+00:00 heroku[web.18]: Starting process with command `npm start`
+2025-10-18T02:23:30.918623+00:00 heroku[web.66]: Starting process with command `npm start`
+2025-10-18T02:23:30.921585+00:00 heroku[web.34]: Starting process with command `npm start`
+2025-10-18T02:23:30.933058+00:00 heroku[web.46]: Starting process with command `npm start`
+2025-10-18T02:23:30.939678+00:00 heroku[web.8]: Starting process with command `npm start`
+2025-10-18T02:23:30.938922+00:00 heroku[web.61]: Starting process with command `npm start`
+2025-10-18T02:23:30.940951+00:00 heroku[web.68]: Starting process with command `npm start`
+2025-10-18T02:23:30.946356+00:00 heroku[web.15]: Starting process with command `npm start`
+2025-10-18T02:23:30.949002+00:00 heroku[web.26]: Starting process with command `npm start`
+2025-10-18T02:23:30.959265+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=a1b26ef2-0172-26c4-a6e1-19279e8cef9c fwd="138.255.144.204" dyno=web.3 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.959134+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=3f4f4f1a-817e-5e32-abdc-60a36592d1e0 fwd="138.255.144.204" dyno=web.3 connect=0ms service=2ms status=200 bytes=58172 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:30.951403+00:00 heroku[web.29]: Starting process with command `npm start`
+2025-10-18T02:23:30.967344+00:00 heroku[web.43]: Starting process with command `npm start`
+2025-10-18T02:23:30.982749+00:00 heroku[web.60]: Starting process with command `npm start`
+2025-10-18T02:23:30.994841+00:00 heroku[web.44]: Starting process with command `npm start`
+2025-10-18T02:23:30.992214+00:00 heroku[web.39]: Starting process with command `npm start`
+2025-10-18T02:23:30.992048+00:00 heroku[web.32]: Starting process with command `npm start`
+2025-10-18T02:23:30.999412+00:00 heroku[web.50]: Starting process with command `npm start`
+2025-10-18T02:23:31.005808+00:00 heroku[web.37]: Starting process with command `npm start`
+2025-10-18T02:23:31.021781+00:00 heroku[web.35]: Starting process with command `npm start`
+2025-10-18T02:23:31.033149+00:00 heroku[web.59]: Starting process with command `npm start`
+2025-10-18T02:23:31.036951+00:00 heroku[web.55]: Starting process with command `npm start`
+2025-10-18T02:23:31.043140+00:00 heroku[web.54]: Starting process with command `npm start`
+2025-10-18T02:23:31.062714+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=3fdc2572-3cf8-c896-1387-219d594d1373 fwd="52.73.167.24" dyno=web.3 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.057501+00:00 heroku[web.62]: Starting process with command `npm start`
+2025-10-18T02:23:31.062469+00:00 heroku[web.51]: Starting process with command `npm start`
+2025-10-18T02:23:31.064976+00:00 heroku[web.38]: Starting process with command `npm start`
+2025-10-18T02:23:31.101511+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=cfbc9cf6-8517-28b0-17e3-c7337bc66947 fwd="189.7.125.115" dyno=web.2 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.103262+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=5344de3c-9d16-9522-9fba-fccd9d183f50 fwd="45.227.54.1" dyno=web.6 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.103467+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=a3b871c9-c1f7-c232-65f5-7d4472417916 fwd="45.227.54.1" dyno=web.2 connect=0ms service=2ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.104511+00:00 heroku[web.33]: Starting process with command `npm start`
+2025-10-18T02:23:31.106624+00:00 heroku[web.52]: Starting process with command `npm start`
+2025-10-18T02:23:31.123175+00:00 heroku[web.71]: Starting process with command `npm start`
+2025-10-18T02:23:31.122966+00:00 heroku[web.24]: Starting process with command `npm start`
+2025-10-18T02:23:31.125991+00:00 heroku[web.65]: Starting process with command `npm start`
+2025-10-18T02:23:31.135253+00:00 heroku[web.25]: Starting process with command `npm start`
+2025-10-18T02:23:31.159320+00:00 heroku[web.36]: Starting process with command `npm start`
+2025-10-18T02:23:31.234941+00:00 heroku[web.17]: Starting process with command `npm start`
+2025-10-18T02:23:31.174173+00:00 heroku[web.19]: Starting process with command `npm start`
+2025-10-18T02:23:31.185602+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&show_landingpage=1&ttclid=E.C.P.CtUBrUYOACX7WIOBPFrAKTEoLvR511gFnRV6AbnrbkTw-J4OjSLsjYVmZK9sHEEyBJQ8_ofG3s501k_Q08X2_7V3Fr2zFAMrhkduEIQGkFbbGaG7WOKay4I5qdN6yWjXTQ_LuFZIAEw_NkPfXQRFZR_7G0-7_-GSsl2-eiql1EO-eqMxwV80nsD7-t-88shRnYLQLGW_d1GuUwXSuze-FFiAH1mSYDF3h65J7y4kpZCQqF-WZrqWFXSSG2CY1eznTCIE6m7eEcGvTlM-qU7o48rRi3aK1Yc0EgR2Mi4wGiDgo8Wv2lY6vEyN7I--bIiXp1OSyZrvgWwHqO-pXK9HVQ&orientation=portrait&height=830&wi..." host=tiktok.shop-brasil.com request_id=866e99ad-36ad-8e65-df32-8fc9a3492a6d fwd="170.84.38.58" dyno=web.3 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.186111+00:00 heroku[router]: at=info method=GET path="/api/transactions/4M1274459885" host=tiktok.shop-brasil.com request_id=3c02d231-e2c3-39ed-8436-f3224d23bb4b fwd="52.73.167.24" dyno=web.4 connect=0ms service=1034ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.177932+00:00 heroku[web.53]: Starting process with command `npm start`
+2025-10-18T02:23:31.183538+00:00 heroku[web.58]: Starting process with command `npm start`
+2025-10-18T02:23:31.189228+00:00 heroku[web.7]: Starting process with command `npm start`
+2025-10-18T02:23:31.189987+00:00 heroku[web.63]: Starting process with command `npm start`
+2025-10-18T02:23:31.200598+00:00 heroku[web.21]: Starting process with command `npm start`
+2025-10-18T02:23:31.213870+00:00 heroku[web.56]: Starting process with command `npm start`
+2025-10-18T02:23:31.229000+00:00 heroku[web.16]: Starting process with command `npm start`
+2025-10-18T02:23:31.241552+00:00 heroku[web.45]: Starting process with command `npm start`
+2025-10-18T02:23:31.384420+00:00 heroku[web.42]: Starting process with command `npm start`
+2025-10-18T02:23:31.398517+00:00 heroku[web.31]: Starting process with command `npm start`
+2025-10-18T02:23:31.413494+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=28a87749-7ef3-cc8f-c4bf-5a5cc1c3d86b fwd="170.84.38.58" dyno=web.3 connect=0ms service=2ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.413699+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=c12d5a5d-f1d9-5c55-de37-d3fba134a2fe fwd="170.84.38.58" dyno=web.6 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.411141+00:00 heroku[web.20]: Starting process with command `npm start`
+2025-10-18T02:23:31.185334+00:00 app[web.4]: 🔍 RESPOSTA COMPLETA DA TRANSAÇÃO: {
+2025-10-18T02:23:31.185360+00:00 app[web.4]:   "gateway_id": "4M1274459885",
+2025-10-18T02:23:31.185360+00:00 app[web.4]:   "status": "waiting_payment",
+2025-10-18T02:23:31.185361+00:00 app[web.4]:   "amount": 149.8,
+2025-10-18T02:23:31.185361+00:00 app[web.4]:   "fee_amount": 0,
+2025-10-18T02:23:31.185362+00:00 app[web.4]:   "net_amount": 149.8,
+2025-10-18T02:23:31.185362+00:00 app[web.4]:   "customer_name": "Sérgio Rodrigues ",
+2025-10-18T02:23:31.185363+00:00 app[web.4]:   "customer_email": "sergiorodrigues2736@cliente.com",
+2025-10-18T02:23:31.185374+00:00 app[web.4]:   "description": "Buggy Controle remoto a Gasolina Com Bolsa Off Road 29cc",
+2025-10-18T02:23:31.185389+00:00 app[web.4]:   "pix_code": "00020101021226820014br.gov.bcb.pix2560qrcode.pagsm.com.br/pix/b8c745ff-fbee-4159-b0f0-07ff4ef7f3a65204000053039865802BR5918PAGAMENTOCERTOLTDA6008SaoPaulo62070503***630474D5",
+2025-10-18T02:23:31.185389+00:00 app[web.4]:   "pix_qr_code": "",
+2025-10-18T02:23:31.185390+00:00 app[web.4]:   "order_bump_accepted": false,
+2025-10-18T02:23:31.185390+00:00 app[web.4]:   "upsell_completed": false,
+2025-10-18T02:23:31.185390+00:00 app[web.4]:   "expires_at": null,
+2025-10-18T02:23:31.185390+00:00 app[web.4]:   "paid_at": null,
+2025-10-18T02:23:31.185391+00:00 app[web.4]:   "created_at": "2025-10-18T02:23:09.763Z",
+2025-10-18T02:23:31.185391+00:00 app[web.4]:   "updated_at": "2025-10-18T02:23:12.356Z"
+2025-10-18T02:23:31.185391+00:00 app[web.4]: }
+2025-10-18T02:23:31.185455+00:00 app[web.4]: 🎯 Status da transação: waiting_payment
+2025-10-18T02:23:31.186153+00:00 app[web.4]: 2:23:31 AM [express] GET /api/transactions/4M1274459885 304 in 1033ms :: {"gateway_id":"4M1274459885…
+2025-10-18T02:23:31.457546+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.Ct0BW658B0WflJmjMuge-ju276lhnC6fWrWF0Waf6ADoMVCCR5G-3vEW4PR-BarpdX36aGWaCTXxaGek7uAlbVN7M0j548PM9AptoWybB4cY9pc0CuPlHgh_O0pGaIM2GuG1StaZRJaelj1WKuLLVguYy9Rngvr6fIsad7ldGFcXRPBMc-lX2XcCGt7f-RXnIcWSu6MoX5eyHNk2eGTF7gHIszC741aSEbMUgBOI7ZCEGZilpgKma0hw1_l5IDPdd-GszOT6_Mp0STTl8WqKV2WQC8Z2fee2SfrOIpXpwPASBHYyLjAaIJDNaObs3cgXCqFn3F3v6WlSmmCY9ITLLtF5yAP8-oz-" host=tiktok.shop-brasil.com request_id=4f3cfd1a-8356-852c-a6f4-bb00dfdfb49d fwd="177.35.129.35" dyno=web.6 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.528664+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CvkBBabimC65xr5cawWcDHcmvqWVYxyOohEsmIqywW5rrdOlg4RkvjCpJv-jwruiyv286jIGTdjbHJUUSXYCUo7gT2zWP9760Ze1LhOXYugemTX9G6SakuQLIpDMAHaa92GLG3wqRjPIuk2U41pdBU4tbXBZBJXauyiTauJ6zfkcZbhJp_kKV7Efn7-hQs0ezkLZ-mRYPiSn-CRUw7ImuD2wCQi8KnPcmF2p_TphgY5YgP3SoyuEHqYHgp-R4rs5A5PSC9g9ntQjk8VY0nzABvJCXAbqJQptuCJRopcgF20_Nsdp_BLiKTmT9KjswShdLtxedqychc2OtgjEEgR2Mi4wGiBgfHas8p6XbUHa_X3FtTtev6hXnIAnsscA6SBU2L_07w" host=tiktok.shop-brasil.com request_id=0433538c-4e1a-964e-e1d4-61425dd5269f fwd="179.84.249.226" dyno=web.1 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.529653+00:00 heroku[web.64]: Starting process with command `npm start`
+2025-10-18T02:23:31.604285+00:00 heroku[web.70]: Starting process with command `npm start`
+2025-10-18T02:23:31.625986+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=6f7751c7-a023-3b8c-0cab-504849cc7dab fwd="177.161.249.36" dyno=web.2 connect=0ms service=1ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.646870+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=0312a8f6-74bb-8b74-cc28-493500819ca4 fwd="179.68.119.41" dyno=web.2 connect=0ms service=1ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.665587+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=88a00031-e763-7a33-74b4-afef0dc0a4c0 fwd="179.84.249.226" dyno=web.1 connect=0ms service=3ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.667203+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=abafd39d-aec7-fd9a-e9a9-9d29a52765f4 fwd="179.84.249.226" dyno=web.5 connect=0ms service=4ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.670038+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.Cs0B2KT2PvRIJm-Eq-XUM_ckqhES51Lx4KI36HEtb43NRuROZ_pG4qIThMOzFpNOMUOY64VTfqRzDjSVDxrRDYPBEVjCZHU0XU8ZAMV1pcQwORGUSzRW5tnpGvNCtzamJJATbMmfeSvkizqwLkqa27Oxz6LSx_xAmd_O2yZXbZwBzrJyhFvBUtlCxrtQCi1pUdA5MocAxtkp7B499RKpUxJMIAELbIE_zhvasQk_utIoCL7IkH9N8NTM8gNRiYcSQWBnoa1Al-VdM7tdk8MTyxIEdjIuMBogZ9XHUY4Tz5G7_vKgYE3k503VNzW3ogupFuaANrN_Iso" host=tiktok.shop-brasil.com request_id=391d1941-a5e8-dbce-e966-6c30216d8bc9 fwd="191.121.16.252" dyno=web.2 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.765969+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&ttclid=E.C.P.Cs8BYHCg_H5NxNKWG5Vy1v_B_rp5fT9wz0OjOZedtso-gqvkTg4iJ-dyESKtmx8dL8av_ETbWly5oYy6t5VUM_6v2-_AgFsg07ZdiQq-O3omeXZOSQ3tz8Oipc6eX9C6rWpkyshgx1cYxrcITlbnLyGretmRLh9aQHhh0LQz3PRSCqqiFGUEaJB1J9kOfWELk_NVvgEG319lFTHQFXmQ0PSO3rVhcM2QPMXhu86Q5WhIycLQglt_fZnTwicYjBDS3pWqE9ZxTP558wAOohaqwuSFEgR2Mi4wGiB-Qi3e9pZOq527UdIbllbjs57SX6nRaDTHyXLRtVCAVA" host=tiktok.shop-brasil.com request_id=217e1e38-f8e8-d80a-45ef-0bdbd94af687 fwd="179.34.52.67" dyno=web.6 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.705798+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=b93895a7-bfd3-cbfb-016d-a457fc4ab9a5 fwd="179.68.119.41" dyno=web.2 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.767948+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=2655ac97-56ce-bb3a-a161-96d4039aa53d fwd="177.35.129.35" dyno=web.3 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.864503+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=e19013f0-1030-175c-e4fe-b3ecd89d777f fwd="177.104.17.3" dyno=web.4 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.773863+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=89e70682-c15e-8020-ab99-b9fb1e9dfebf fwd="177.35.129.35" dyno=web.2 connect=0ms service=2ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.787166+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=4b9d4e42-2136-9b33-38d7-0cfd0e0c9104 fwd="179.180.83.77" dyno=web.2 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.823534+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&ttclid=E.C.P.CucBi56s1mu-mi0dvRBsOaR68q-dwUl-P1D2hXl4_0wAGuknWfVoAMGXBNEC0N_cwcvooaZqyyerUqFxAzatQZKLDyQNdNAI1cKEUu2sboCtrpB7Ymvpdq9PkGHoO7AAcmohPFnE9-_jFgMM5gl8hZHhEFNJBwE1SajxyhjdpIE4Z7LsLgykA7ZP04x5U_oLlZ6JpjXjwyXU6D_AkXJJT72Bs6qFam7HLuztyKcodiVkMeJ4h6GeSxTNWi0XFxsz2PEZzZzr0_K-lDXXoR-Kw9MvGLpGaGfYw5b3C17I3mauCKaAUNbL5x41EgR2Mi4wGiA7ARb85WuhHSjZOFIIbCN_dTIw2Bfq_Ps2fi9A6yscNg" host=tiktok.shop-brasil.com request_id=c8f98839-03f1-3a56-9c33-90e7d9fdcb7e fwd="191.185.79.176" dyno=web.3 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.892831+00:00 heroku[web.47]: State changed from starting to up
+2025-10-18T02:23:31.627297+00:00 app[web.47]: 
+2025-10-18T02:23:31.627313+00:00 app[web.47]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.627314+00:00 app[web.47]: > node dist/index.js
+2025-10-18T02:23:31.627314+00:00 app[web.47]: 
+2025-10-18T02:23:31.641586+00:00 app[web.13]: 
+2025-10-18T02:23:31.641632+00:00 app[web.13]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.641635+00:00 app[web.13]: > node dist/index.js
+2025-10-18T02:23:31.641637+00:00 app[web.13]: 
+2025-10-18T02:23:31.872630+00:00 app[web.13]: 2:23:31 AM [express] serving on port 13207
+2025-10-18T02:23:31.698741+00:00 app[web.49]: 
+2025-10-18T02:23:31.698758+00:00 app[web.49]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.698758+00:00 app[web.49]: > node dist/index.js
+2025-10-18T02:23:31.698759+00:00 app[web.49]: 
+2025-10-18T02:23:31.936111+00:00 app[web.49]: 2:23:31 AM [express] serving on port 14231
+2025-10-18T02:23:31.969337+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=ba83ed7c-ac6e-3eff-0fa7-995c041d700a fwd="191.121.16.252" dyno=web.4 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.974310+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=48a946e9-f6d7-90b5-1843-d934bb2263ba fwd="191.121.16.252" dyno=web.2 connect=0ms service=3ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.054635+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=426bda6f-cb53-e2a0-a06e-c9787e15e8b6 fwd="179.34.52.67" dyno=web.5 connect=0ms service=3ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.055564+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&ttclid=E.C.P.CucB0k3sl9QlvVqwbE6DMksqfpzERMn_xMEIiet9irO0_KRC_Ixy9trden3XyaQLkzQDVB0qjlVaKmwZGmXckkBdAPS2VDlLCbNonoeOjFpMRrAvIpL96d_oZ886tIBbqC2NQcotgEtYP3BNaUXdUKS0ahO9cW4IWQi1C8pjVJAqR6iAZ3TqV7FXLEfGrFGf-_wvc02oPm2wdLkeop-4RUpwQ4XrsJGXp-Za6Yw0jPsC4j4HDzaZ_SEaIGvXArnWVP_NZZAE9NXQwd0G0X_kjoAoH_R-zbBpJrBjiMgfLCFyEl8iF6Y1mQBjEgR2Mi4wGiBYKMLGCtLO-IcVXblBcEWSfo78O8QhoPO2oIwMu5uD1g" host=tiktok.shop-brasil.com request_id=b9c249d3-5307-a6c3-9b2d-b83525cd69a3 fwd="192.140.20.47" dyno=web.4 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.733225+00:00 app[web.23]: 
+2025-10-18T02:23:31.733245+00:00 app[web.23]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.733246+00:00 app[web.23]: > node dist/index.js
+2025-10-18T02:23:31.733246+00:00 app[web.23]: 
+2025-10-18T02:23:32.026700+00:00 heroku[web.12]: State changed from starting to up
+2025-10-18T02:23:31.759863+00:00 app[web.12]: 
+2025-10-18T02:23:31.759883+00:00 app[web.12]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.759884+00:00 app[web.12]: > node dist/index.js
+2025-10-18T02:23:31.759884+00:00 app[web.12]: 
+2025-10-18T02:23:32.002448+00:00 app[web.12]: 2:23:31 AM [express] serving on port 25845
+2025-10-18T02:23:31.767190+00:00 app[web.67]: 
+2025-10-18T02:23:31.767231+00:00 app[web.67]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.767235+00:00 app[web.67]: > node dist/index.js
+2025-10-18T02:23:31.767235+00:00 app[web.67]: 
+2025-10-18T02:23:31.975932+00:00 app[web.67]: 2:23:31 AM [express] serving on port 5925
+2025-10-18T02:23:32.046860+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.CtIBIGBYjLAeEsxB4P34uJHgqfk9gFLSsdjd84aIbDuvKUOjaXljDvuYXqwX3BU-3O3noVhqj-FdGL4syP-63_UqZdfcvm7hgwM8wKx2GypdnK8gaylatJJS14zVanCTB5QtXuxzDDshYq3MKRzXIzTRIm9iKm73jwmDMhkYinUl0VeX93oIrE0_6mW_3VNHrkE0ZlEYhrHTFBM5jwCnM6YPxwO87rFYql3dX79I00GVp2wYaz9cyojMesYVrddIHCMQSF6dwhOykfd3fGljeTtZ0nnyEgR2Mi4wGiAG494x0cjMWI6xq0ll5-ppdnI2Mu3FJTP2_1yRpohjIA" host=tiktok.shop-brasil.com request_id=88f2d328-7db3-b44b-c4df-100dc55085fa fwd="186.226.222.194" dyno=web.4 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.054646+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=bbb138fd-6b64-a8f1-d5bb-fa180b0c0a79 fwd="191.185.79.176" dyno=web.5 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.789167+00:00 app[web.27]: 
+2025-10-18T02:23:31.789182+00:00 app[web.27]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.789183+00:00 app[web.27]: > node dist/index.js
+2025-10-18T02:23:31.789183+00:00 app[web.27]: 
+2025-10-18T02:23:32.032427+00:00 app[web.27]: 2:23:32 AM [express] serving on port 37742
+2025-10-18T02:23:31.877899+00:00 app[web.22]: 
+2025-10-18T02:23:31.877919+00:00 app[web.22]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.877919+00:00 app[web.22]: > node dist/index.js
+2025-10-18T02:23:31.877920+00:00 app[web.22]: 
+2025-10-18T02:23:31.786494+00:00 app[web.10]: 
+2025-10-18T02:23:31.786506+00:00 app[web.10]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.786506+00:00 app[web.10]: > node dist/index.js
+2025-10-18T02:23:31.786506+00:00 app[web.10]: 
+2025-10-18T02:23:32.056297+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=99ee8fc1-772b-8f4d-bdb2-71b8a9706af6 fwd="179.34.52.67" dyno=web.2 connect=0ms service=4ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.056210+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=c28610cf-c35d-11ae-894d-9f0c11d4840c fwd="191.185.79.176" dyno=web.2 connect=0ms service=3ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.793857+00:00 app[web.30]: 
+2025-10-18T02:23:31.793890+00:00 app[web.30]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.793893+00:00 app[web.30]: > node dist/index.js
+2025-10-18T02:23:31.793893+00:00 app[web.30]: 
+2025-10-18T02:23:32.023375+00:00 app[web.30]: 2:23:32 AM [express] serving on port 59934
+2025-10-18T02:23:31.795320+00:00 app[web.40]: 
+2025-10-18T02:23:31.795341+00:00 app[web.40]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.795341+00:00 app[web.40]: > node dist/index.js
+2025-10-18T02:23:31.795342+00:00 app[web.40]: 
+2025-10-18T02:23:32.004984+00:00 app[web.40]: 2:23:31 AM [express] serving on port 16459
+2025-10-18T02:23:31.805087+00:00 app[web.11]: 
+2025-10-18T02:23:31.805105+00:00 app[web.11]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.805106+00:00 app[web.11]: > node dist/index.js
+2025-10-18T02:23:31.805106+00:00 app[web.11]: 
+2025-10-18T02:23:31.812603+00:00 app[web.28]: 
+2025-10-18T02:23:31.812622+00:00 app[web.28]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.812622+00:00 app[web.28]: > node dist/index.js
+2025-10-18T02:23:31.812623+00:00 app[web.28]: 
+2025-10-18T02:23:32.054086+00:00 app[web.28]: 2:23:32 AM [express] serving on port 51846
+2025-10-18T02:23:31.816009+00:00 app[web.66]: 
+2025-10-18T02:23:31.816027+00:00 app[web.66]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.816028+00:00 app[web.66]: > node dist/index.js
+2025-10-18T02:23:31.816028+00:00 app[web.66]: 
+2025-10-18T02:23:32.043586+00:00 app[web.66]: 2:23:32 AM [express] serving on port 28145
+2025-10-18T02:23:31.811062+00:00 app[web.57]: 
+2025-10-18T02:23:31.811080+00:00 app[web.57]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.811080+00:00 app[web.57]: > node dist/index.js
+2025-10-18T02:23:31.811081+00:00 app[web.57]: 
+2025-10-18T02:23:32.061065+00:00 app[web.57]: 2:23:32 AM [express] serving on port 50773
+2025-10-18T02:23:31.820230+00:00 app[web.9]: 
+2025-10-18T02:23:31.820250+00:00 app[web.9]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.820251+00:00 app[web.9]: > node dist/index.js
+2025-10-18T02:23:31.820251+00:00 app[web.9]: 
+2025-10-18T02:23:32.035081+00:00 app[web.9]: 2:23:32 AM [express] serving on port 51343
+2025-10-18T02:23:31.841212+00:00 app[web.14]: 
+2025-10-18T02:23:31.841229+00:00 app[web.14]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.841230+00:00 app[web.14]: > node dist/index.js
+2025-10-18T02:23:31.841230+00:00 app[web.14]: 
+2025-10-18T02:23:31.848798+00:00 app[web.18]: 
+2025-10-18T02:23:31.848818+00:00 app[web.18]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.848819+00:00 app[web.18]: > node dist/index.js
+2025-10-18T02:23:31.848819+00:00 app[web.18]: 
+2025-10-18T02:23:32.094279+00:00 app[web.18]: 2:23:32 AM [express] serving on port 5950
+2025-10-18T02:23:32.121332+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=83307d1c-181e-9f83-87b8-aedff1fbe71f fwd="177.161.249.36" dyno=web.3 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.880691+00:00 app[web.47]: 2:23:31 AM [express] serving on port 38875
+2025-10-18T02:23:31.868703+00:00 app[web.15]: 
+2025-10-18T02:23:31.868722+00:00 app[web.15]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.868723+00:00 app[web.15]: > node dist/index.js
+2025-10-18T02:23:31.868723+00:00 app[web.15]: 
+2025-10-18T02:23:31.873670+00:00 app[web.61]: 
+2025-10-18T02:23:31.873696+00:00 app[web.61]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.873698+00:00 app[web.61]: > node dist/index.js
+2025-10-18T02:23:31.873699+00:00 app[web.61]: 
+2025-10-18T02:23:32.097031+00:00 app[web.61]: 2:23:32 AM [express] serving on port 12060
+2025-10-18T02:23:31.899761+00:00 app[web.46]: 
+2025-10-18T02:23:31.899781+00:00 app[web.46]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.899782+00:00 app[web.46]: > node dist/index.js
+2025-10-18T02:23:31.899783+00:00 app[web.46]: 
+2025-10-18T02:23:32.146903+00:00 app[web.46]: 2:23:32 AM [express] serving on port 3634
+2025-10-18T02:23:31.883006+00:00 app[web.29]: 
+2025-10-18T02:23:31.883018+00:00 app[web.29]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.883018+00:00 app[web.29]: > node dist/index.js
+2025-10-18T02:23:31.883018+00:00 app[web.29]: 
+2025-10-18T02:23:32.119847+00:00 app[web.29]: 2:23:32 AM [express] serving on port 6645
+2025-10-18T02:23:31.880954+00:00 app[web.68]: 
+2025-10-18T02:23:31.880995+00:00 app[web.68]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.880996+00:00 app[web.68]: > node dist/index.js
+2025-10-18T02:23:31.880996+00:00 app[web.68]: 
+2025-10-18T02:23:32.146096+00:00 heroku[web.41]: Starting process with command `npm start`
+2025-10-18T02:23:32.157135+00:00 heroku[web.48]: Starting process with command `npm start`
+2025-10-18T02:23:31.896628+00:00 app[web.26]: 
+2025-10-18T02:23:31.896681+00:00 app[web.26]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.896683+00:00 app[web.26]: > node dist/index.js
+2025-10-18T02:23:31.896685+00:00 app[web.26]: 
+2025-10-18T02:23:32.130775+00:00 app[web.26]: 2:23:32 AM [express] serving on port 31908
+2025-10-18T02:23:31.912110+00:00 app[web.8]: 
+2025-10-18T02:23:31.912132+00:00 app[web.8]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.912132+00:00 app[web.8]: > node dist/index.js
+2025-10-18T02:23:31.912132+00:00 app[web.8]: 
+2025-10-18T02:23:32.130350+00:00 app[web.8]: 2:23:32 AM [express] serving on port 51363
+2025-10-18T02:23:31.927468+00:00 app[web.34]: 
+2025-10-18T02:23:31.927496+00:00 app[web.34]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.927510+00:00 app[web.34]: > node dist/index.js
+2025-10-18T02:23:31.927511+00:00 app[web.34]: 
+2025-10-18T02:23:32.168850+00:00 app[web.34]: 2:23:32 AM [express] serving on port 47458
+2025-10-18T02:23:31.939372+00:00 app[web.37]: 
+2025-10-18T02:23:31.939392+00:00 app[web.37]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.939393+00:00 app[web.37]: > node dist/index.js
+2025-10-18T02:23:31.939393+00:00 app[web.37]: 
+2025-10-18T02:23:32.181521+00:00 app[web.37]: 2:23:32 AM [express] serving on port 39805
+2025-10-18T02:23:31.931311+00:00 app[web.43]: 
+2025-10-18T02:23:31.931333+00:00 app[web.43]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.931334+00:00 app[web.43]: > node dist/index.js
+2025-10-18T02:23:31.931334+00:00 app[web.43]: 
+2025-10-18T02:23:32.163434+00:00 app[web.43]: 2:23:32 AM [express] serving on port 20789
+2025-10-18T02:23:32.022048+00:00 app[web.55]: 
+2025-10-18T02:23:32.022064+00:00 app[web.55]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.022064+00:00 app[web.55]: > node dist/index.js
+2025-10-18T02:23:32.022065+00:00 app[web.55]: 
+2025-10-18T02:23:32.246241+00:00 app[web.55]: 2:23:32 AM [express] serving on port 6300
+2025-10-18T02:23:31.944760+00:00 app[web.60]: 
+2025-10-18T02:23:31.944778+00:00 app[web.60]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.944779+00:00 app[web.60]: > node dist/index.js
+2025-10-18T02:23:31.944779+00:00 app[web.60]: 
+2025-10-18T02:23:32.177790+00:00 app[web.60]: 2:23:32 AM [express] serving on port 37345
+2025-10-18T02:23:32.217525+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=e582d19a-d502-711e-cbea-9b7c4189a3b3 fwd="192.140.20.47" dyno=web.6 connect=0ms service=1ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.218610+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=8bc01558-72a8-b39c-960b-e9ed0a40f4bb fwd="192.140.20.47" dyno=web.3 connect=0ms service=3ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.971721+00:00 app[web.44]: 
+2025-10-18T02:23:31.971740+00:00 app[web.44]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.971740+00:00 app[web.44]: > node dist/index.js
+2025-10-18T02:23:31.971740+00:00 app[web.44]: 
+2025-10-18T02:23:32.256839+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=0b6d5ae6-f5f4-938d-105c-88ac292cf98a fwd="186.226.222.194" dyno=web.1 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.257152+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=548a3b23-d8df-5549-5565-379b596a076e fwd="186.226.222.194" dyno=web.4 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:31.988013+00:00 app[web.39]: 
+2025-10-18T02:23:31.988033+00:00 app[web.39]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.988033+00:00 app[web.39]: > node dist/index.js
+2025-10-18T02:23:31.988033+00:00 app[web.39]: 
+2025-10-18T02:23:32.013031+00:00 app[web.23]: 2:23:31 AM [express] serving on port 3996
+2025-10-18T02:23:31.998900+00:00 app[web.59]: 
+2025-10-18T02:23:31.998920+00:00 app[web.59]: > rest-express@1.0.0 start
+2025-10-18T02:23:31.998920+00:00 app[web.59]: > node dist/index.js
+2025-10-18T02:23:31.998921+00:00 app[web.59]: 
+2025-10-18T02:23:32.008385+00:00 app[web.62]: 
+2025-10-18T02:23:32.008410+00:00 app[web.62]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.008413+00:00 app[web.62]: > node dist/index.js
+2025-10-18T02:23:32.008413+00:00 app[web.62]: 
+2025-10-18T02:23:32.239387+00:00 app[web.62]: 2:23:32 AM [express] serving on port 7170
+2025-10-18T02:23:32.009346+00:00 app[web.32]: 
+2025-10-18T02:23:32.009379+00:00 app[web.32]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.009380+00:00 app[web.32]: > node dist/index.js
+2025-10-18T02:23:32.009380+00:00 app[web.32]: 
+2025-10-18T02:23:32.019510+00:00 app[web.50]: 
+2025-10-18T02:23:32.019532+00:00 app[web.50]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.019533+00:00 app[web.50]: > node dist/index.js
+2025-10-18T02:23:32.019534+00:00 app[web.50]: 
+2025-10-18T02:23:32.261491+00:00 app[web.50]: 2:23:32 AM [express] serving on port 12787
+2025-10-18T02:23:32.055623+00:00 app[web.10]: 2:23:32 AM [express] serving on port 23062
+2025-10-18T02:23:32.046763+00:00 app[web.51]: 
+2025-10-18T02:23:32.046783+00:00 app[web.51]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.046784+00:00 app[web.51]: > node dist/index.js
+2025-10-18T02:23:32.046784+00:00 app[web.51]: 
+2025-10-18T02:23:32.293076+00:00 app[web.51]: 2:23:32 AM [express] serving on port 15516
+2025-10-18T02:23:32.314293+00:00 heroku[web.13]: State changed from starting to up
+2025-10-18T02:23:32.317751+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=a16e86d3-792f-0b7e-85a5-06e6fe3b1192 fwd="179.84.249.226" dyno=web.6 connect=0ms service=2ms status=200 bytes=56492 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.349978+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=8acf537d-9932-aa19-54f9-339887b58f97 fwd="179.84.249.226" dyno=web.4 connect=0ms service=2ms status=200 bytes=58172 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.077365+00:00 app[web.65]: 
+2025-10-18T02:23:32.077388+00:00 app[web.65]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.077401+00:00 app[web.65]: > node dist/index.js
+2025-10-18T02:23:32.077401+00:00 app[web.65]: 
+2025-10-18T02:23:32.320164+00:00 app[web.65]: 2:23:32 AM [express] serving on port 40476
+2025-10-18T02:23:32.079779+00:00 app[web.54]: 
+2025-10-18T02:23:32.079796+00:00 app[web.54]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.079797+00:00 app[web.54]: > node dist/index.js
+2025-10-18T02:23:32.079797+00:00 app[web.54]: 
+2025-10-18T02:23:32.092501+00:00 app[web.14]: 2:23:32 AM [express] serving on port 8884
+2025-10-18T02:23:32.093027+00:00 app[web.11]: 2:23:32 AM [express] serving on port 52680
+2025-10-18T02:23:32.087159+00:00 app[web.35]: 
+2025-10-18T02:23:32.087189+00:00 app[web.35]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.087191+00:00 app[web.35]: > node dist/index.js
+2025-10-18T02:23:32.087192+00:00 app[web.35]: 
+2025-10-18T02:23:32.328924+00:00 app[web.35]: 2:23:32 AM [express] serving on port 6914
+2025-10-18T02:23:32.350785+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=2fb2ba01-2880-7596-ed11-bf0bd5246891 fwd="179.84.249.226" dyno=web.3 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.091210+00:00 app[web.52]: 
+2025-10-18T02:23:32.091229+00:00 app[web.52]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.091230+00:00 app[web.52]: > node dist/index.js
+2025-10-18T02:23:32.091230+00:00 app[web.52]: 
+2025-10-18T02:23:32.101924+00:00 app[web.71]: 
+2025-10-18T02:23:32.101945+00:00 app[web.71]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.101946+00:00 app[web.71]: > node dist/index.js
+2025-10-18T02:23:32.101947+00:00 app[web.71]: 
+2025-10-18T02:23:32.342924+00:00 app[web.71]: 2:23:32 AM [express] serving on port 40538
+2025-10-18T02:23:32.113299+00:00 app[web.25]: 
+2025-10-18T02:23:32.113322+00:00 app[web.25]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.113322+00:00 app[web.25]: > node dist/index.js
+2025-10-18T02:23:32.113323+00:00 app[web.25]: 
+2025-10-18T02:23:32.338983+00:00 app[web.25]: 2:23:32 AM [express] serving on port 38652
+2025-10-18T02:23:32.121728+00:00 app[web.15]: 2:23:32 AM [express] serving on port 6857
+2025-10-18T02:23:32.115585+00:00 app[web.33]: 
+2025-10-18T02:23:32.115610+00:00 app[web.33]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.115610+00:00 app[web.33]: > node dist/index.js
+2025-10-18T02:23:32.115611+00:00 app[web.33]: 
+2025-10-18T02:23:32.358114+00:00 app[web.33]: 2:23:32 AM [express] serving on port 44760
+2025-10-18T02:23:32.134749+00:00 app[web.68]: 2:23:32 AM [express] serving on port 50060
+2025-10-18T02:23:32.390839+00:00 heroku[router]: at=info method=GET path="/api/transactions/4M1274459885" host=tiktok.shop-brasil.com request_id=96efc1f0-2bb5-ab8d-57d3-a38a95d24996 fwd="52.73.167.24" dyno=web.3 connect=0ms service=1080ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.132085+00:00 app[web.38]: 
+2025-10-18T02:23:32.132137+00:00 app[web.38]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.132137+00:00 app[web.38]: > node dist/index.js
+2025-10-18T02:23:32.132138+00:00 app[web.38]: 
+2025-10-18T02:23:32.376651+00:00 app[web.38]: 2:23:32 AM [express] serving on port 5944
+2025-10-18T02:23:32.409865+00:00 heroku[web.49]: State changed from starting to up
+2025-10-18T02:23:32.157247+00:00 app[web.22]: 2:23:32 AM [express] serving on port 44674
+2025-10-18T02:23:32.406071+00:00 heroku[web.69]: Starting process with command `npm start`
+2025-10-18T02:23:32.166069+00:00 app[web.19]: 
+2025-10-18T02:23:32.166081+00:00 app[web.19]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.166081+00:00 app[web.19]: > node dist/index.js
+2025-10-18T02:23:32.166082+00:00 app[web.19]: 
+2025-10-18T02:23:32.185697+00:00 app[web.56]: 
+2025-10-18T02:23:32.185716+00:00 app[web.56]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.185716+00:00 app[web.56]: > node dist/index.js
+2025-10-18T02:23:32.185716+00:00 app[web.56]: 
+2025-10-18T02:23:32.421334+00:00 app[web.56]: 2:23:32 AM [express] serving on port 23022
+2025-10-18T02:23:32.456592+00:00 heroku[web.27]: State changed from starting to up
+2025-10-18T02:23:32.514863+00:00 heroku[web.67]: State changed from starting to up
+2025-10-18T02:23:32.201753+00:00 app[web.63]: 
+2025-10-18T02:23:32.201771+00:00 app[web.63]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.201771+00:00 app[web.63]: > node dist/index.js
+2025-10-18T02:23:32.201771+00:00 app[web.63]: 
+2025-10-18T02:23:32.441652+00:00 app[web.63]: 2:23:32 AM [express] serving on port 46893
+2025-10-18T02:23:32.203576+00:00 app[web.58]: 
+2025-10-18T02:23:32.203594+00:00 app[web.58]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.203595+00:00 app[web.58]: > node dist/index.js
+2025-10-18T02:23:32.203596+00:00 app[web.58]: 
+2025-10-18T02:23:32.479173+00:00 heroku[web.30]: State changed from starting to up
+2025-10-18T02:23:32.533411+00:00 heroku[web.15]: State changed from starting to up
+2025-10-18T02:23:32.227648+00:00 app[web.44]: 2:23:32 AM [express] serving on port 48463
+2025-10-18T02:23:32.483699+00:00 heroku[web.57]: State changed from starting to up
+2025-10-18T02:23:32.550673+00:00 heroku[web.23]: State changed from starting to up
+2025-10-18T02:23:32.493531+00:00 heroku[web.40]: State changed from starting to up
+2025-10-18T02:23:32.561931+00:00 heroku[web.61]: State changed from starting to up
+2025-10-18T02:23:32.500032+00:00 heroku[web.10]: State changed from starting to up
+2025-10-18T02:23:32.563431+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=4c7c59a5-d1b2-91d2-4eb7-11efc692e4f9 fwd="186.226.222.194" dyno=web.4 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.577273+00:00 heroku[web.26]: State changed from starting to up
+2025-10-18T02:23:32.503346+00:00 heroku[web.14]: State changed from starting to up
+2025-10-18T02:23:32.562509+00:00 heroku[web.18]: State changed from starting to up
+2025-10-18T02:23:32.230650+00:00 app[web.36]: 
+2025-10-18T02:23:32.230674+00:00 app[web.36]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.230675+00:00 app[web.36]: > node dist/index.js
+2025-10-18T02:23:32.230675+00:00 app[web.36]: 
+2025-10-18T02:23:32.242297+00:00 app[web.53]: 
+2025-10-18T02:23:32.242330+00:00 app[web.53]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.242331+00:00 app[web.53]: > node dist/index.js
+2025-10-18T02:23:32.242331+00:00 app[web.53]: 
+2025-10-18T02:23:32.474628+00:00 app[web.53]: 2:23:32 AM [express] serving on port 4182
+2025-10-18T02:23:32.510407+00:00 heroku[web.9]: State changed from starting to up
+2025-10-18T02:23:32.578178+00:00 heroku[web.8]: State changed from starting to up
+2025-10-18T02:23:32.254807+00:00 app[web.59]: 2:23:32 AM [express] serving on port 59613
+2025-10-18T02:23:32.513454+00:00 heroku[web.28]: State changed from starting to up
+2025-10-18T02:23:32.589854+00:00 heroku[web.68]: State changed from starting to up
+2025-10-18T02:23:32.515568+00:00 heroku[web.66]: State changed from starting to up
+2025-10-18T02:23:32.609366+00:00 heroku[web.29]: State changed from starting to up
+2025-10-18T02:23:32.517412+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=96187cc5-bad9-2eeb-47db-4796aa39db02 fwd="138.255.203.152" dyno=web.6 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.261585+00:00 app[web.32]: 2:23:32 AM [express] serving on port 38427
+2025-10-18T02:23:32.268773+00:00 app[web.39]: 2:23:32 AM [express] serving on port 22765
+2025-10-18T02:23:32.267303+00:00 app[web.16]: 
+2025-10-18T02:23:32.267327+00:00 app[web.16]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.267328+00:00 app[web.16]: > node dist/index.js
+2025-10-18T02:23:32.267329+00:00 app[web.16]: 
+2025-10-18T02:23:32.265255+00:00 app[web.7]: 
+2025-10-18T02:23:32.265274+00:00 app[web.7]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.265275+00:00 app[web.7]: > node dist/index.js
+2025-10-18T02:23:32.265275+00:00 app[web.7]: 
+2025-10-18T02:23:32.541249+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=903af342-591e-0df3-9dd0-01ea7929e0d3 fwd="186.226.222.194" dyno=web.6 connect=0ms service=0ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.548517+00:00 heroku[web.11]: State changed from starting to up
+2025-10-18T02:23:32.625038+00:00 heroku[web.34]: State changed from starting to up
+2025-10-18T02:23:32.315003+00:00 app[web.21]: 
+2025-10-18T02:23:32.315039+00:00 app[web.21]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.315040+00:00 app[web.21]: > node dist/index.js
+2025-10-18T02:23:32.315040+00:00 app[web.21]: 
+2025-10-18T02:23:32.312895+00:00 app[web.45]: 
+2025-10-18T02:23:32.312920+00:00 app[web.45]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.312947+00:00 app[web.45]: > node dist/index.js
+2025-10-18T02:23:32.312947+00:00 app[web.45]: 
+2025-10-18T02:23:32.327037+00:00 app[web.17]: 
+2025-10-18T02:23:32.327101+00:00 app[web.17]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.327104+00:00 app[web.17]: > node dist/index.js
+2025-10-18T02:23:32.327106+00:00 app[web.17]: 
+2025-10-18T02:23:32.602660+00:00 heroku[web.43]: State changed from starting to up
+2025-10-18T02:23:32.700932+00:00 heroku[web.44]: State changed from starting to up
+2025-10-18T02:23:32.343430+00:00 app[web.24]: 
+2025-10-18T02:23:32.343456+00:00 app[web.24]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.343456+00:00 app[web.24]: > node dist/index.js
+2025-10-18T02:23:32.343457+00:00 app[web.24]: 
+2025-10-18T02:23:32.361719+00:00 app[web.52]: 2:23:32 AM [express] serving on port 14968
+2025-10-18T02:23:32.618757+00:00 heroku[web.46]: State changed from starting to up
+2025-10-18T02:23:32.707764+00:00 heroku[web.60]: State changed from starting to up
+2025-10-18T02:23:32.372499+00:00 app[web.54]: 2:23:32 AM [express] serving on port 11364
+2025-10-18T02:23:32.631498+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CuABh-nyWW02Tc0ocDT663X1kJyrO2XLKybjfy8h-BNkuL9YGHBzTJIFeYDqbBsPKfiOcqOKJz_IDl8t8gNsPUQfUNnSX10FezBIhoQ_PWa-J-5gOKweQJxkZMGOz5fcCz5KOYcRp23L_9hVv5FH_vGAVv-aPNZp1O037bTIsmiIrcS9zUqU6YJK990Dyo9d2BmPcl5YZl7i4y4gRpmVUhnfSjf8MFuC3CdET2dgtlvxnTdQhOXl9xIyuZPjUIuPNTQTVhrMwdZKYGcVqEIefR6zVtfoiQJ3AkOqsUJD_A21-CASBHYyLjAaIBUdqruj0wbywReKkwBzJhGHiwyNc3YhRYS8zr-lTPj0" host=tiktok.shop-brasil.com request_id=c3c5d976-7719-28aa-e571-fd80d3912407 fwd="191.37.172.234" dyno=web.1 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.634916+00:00 heroku[web.22]: State changed from starting to up
+2025-10-18T02:23:32.711012+00:00 heroku[web.62]: State changed from starting to up
+2025-10-18T02:23:32.390132+00:00 app[web.3]: 🔍 RESPOSTA COMPLETA DA TRANSAÇÃO: {
+2025-10-18T02:23:32.390148+00:00 app[web.3]:   "gateway_id": "4M1274459885",
+2025-10-18T02:23:32.390149+00:00 app[web.3]:   "status": "waiting_payment",
+2025-10-18T02:23:32.390149+00:00 app[web.3]:   "amount": 149.8,
+2025-10-18T02:23:32.390149+00:00 app[web.3]:   "fee_amount": 0,
+2025-10-18T02:23:32.390150+00:00 app[web.3]:   "net_amount": 149.8,
+2025-10-18T02:23:32.390150+00:00 app[web.3]:   "customer_name": "Sérgio Rodrigues ",
+2025-10-18T02:23:32.390151+00:00 app[web.3]:   "customer_email": "sergiorodrigues2736@cliente.com",
+2025-10-18T02:23:32.390161+00:00 app[web.3]:   "description": "Buggy Controle remoto a Gasolina Com Bolsa Off Road 29cc",
+2025-10-18T02:23:32.390161+00:00 app[web.3]:   "pix_code": "00020101021226820014br.gov.bcb.pix2560qrcode.pagsm.com.br/pix/b8c745ff-fbee-4159-b0f0-07ff4ef7f3a65204000053039865802BR5918PAGAMENTOCERTOLTDA6008SaoPaulo62070503***630474D5",
+2025-10-18T02:23:32.390162+00:00 app[web.3]:   "pix_qr_code": "",
+2025-10-18T02:23:32.390162+00:00 app[web.3]:   "order_bump_accepted": false,
+2025-10-18T02:23:32.390162+00:00 app[web.3]:   "upsell_completed": false,
+2025-10-18T02:23:32.390162+00:00 app[web.3]:   "expires_at": null,
+2025-10-18T02:23:32.390163+00:00 app[web.3]:   "paid_at": null,
+2025-10-18T02:23:32.390163+00:00 app[web.3]:   "created_at": "2025-10-18T02:23:09.763Z",
+2025-10-18T02:23:32.390163+00:00 app[web.3]:   "updated_at": "2025-10-18T02:23:12.356Z"
+2025-10-18T02:23:32.390164+00:00 app[web.3]: }
+2025-10-18T02:23:32.390168+00:00 app[web.3]: 🎯 Status da transação: waiting_payment
+2025-10-18T02:23:32.390951+00:00 app[web.3]: 2:23:32 AM [express] GET /api/transactions/4M1274459885 304 in 1080ms :: {"gateway_id":"4M1274459885…
+2025-10-18T02:23:32.662303+00:00 heroku[web.51]: State changed from starting to up
+2025-10-18T02:23:32.720755+00:00 heroku[web.59]: State changed from starting to up
+2025-10-18T02:23:32.668219+00:00 heroku[web.39]: State changed from starting to up
+2025-10-18T02:23:32.742041+00:00 heroku[web.24]: State changed from starting to up
+2025-10-18T02:23:32.428250+00:00 app[web.19]: 2:23:32 AM [express] serving on port 21340
+2025-10-18T02:23:32.421729+00:00 app[web.31]: 
+2025-10-18T02:23:32.421750+00:00 app[web.31]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.421750+00:00 app[web.31]: > node dist/index.js
+2025-10-18T02:23:32.421751+00:00 app[web.31]: 
+2025-10-18T02:23:32.690986+00:00 heroku[web.55]: State changed from starting to up
+2025-10-18T02:23:32.752722+00:00 heroku[web.33]: State changed from starting to up
+2025-10-18T02:23:32.429368+00:00 app[web.42]: 
+2025-10-18T02:23:32.429400+00:00 app[web.42]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.429404+00:00 app[web.42]: > node dist/index.js
+2025-10-18T02:23:32.429404+00:00 app[web.42]: 
+2025-10-18T02:23:32.703235+00:00 heroku[web.32]: State changed from starting to up
+2025-10-18T02:23:32.776356+00:00 heroku[web.71]: State changed from starting to up
+2025-10-18T02:23:32.706007+00:00 heroku[web.37]: State changed from starting to up
+2025-10-18T02:23:32.797111+00:00 heroku[web.35]: State changed from starting to up
+2025-10-18T02:23:32.455027+00:00 app[web.58]: 2:23:32 AM [express] serving on port 40336
+2025-10-18T02:23:32.712674+00:00 heroku[web.50]: State changed from starting to up
+2025-10-18T02:23:32.804829+00:00 heroku[web.36]: State changed from starting to up
+2025-10-18T02:23:32.448467+00:00 app[web.64]: 
+2025-10-18T02:23:32.448502+00:00 app[web.64]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.448503+00:00 app[web.64]: > node dist/index.js
+2025-10-18T02:23:32.448503+00:00 app[web.64]: 
+2025-10-18T02:23:32.692479+00:00 app[web.64]: 2:23:32 AM [express] serving on port 47908
+2025-10-18T02:23:32.483481+00:00 app[web.20]: 
+2025-10-18T02:23:32.483501+00:00 app[web.20]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.483501+00:00 app[web.20]: > node dist/index.js
+2025-10-18T02:23:32.483501+00:00 app[web.20]: 
+2025-10-18T02:23:32.757451+00:00 heroku[web.54]: State changed from starting to up
+2025-10-18T02:23:32.829831+00:00 heroku[web.25]: State changed from starting to up
+2025-10-18T02:23:32.507609+00:00 app[web.36]: 2:23:32 AM [express] serving on port 5868
+2025-10-18T02:23:32.770030+00:00 heroku[web.65]: State changed from starting to up
+2025-10-18T02:23:32.849903+00:00 heroku[web.16]: State changed from starting to up
+2025-10-18T02:23:32.799448+00:00 heroku[web.38]: State changed from starting to up
+2025-10-18T02:23:32.556838+00:00 app[web.7]: 2:23:32 AM [express] serving on port 42895
+2025-10-18T02:23:32.821462+00:00 heroku[web.52]: State changed from starting to up
+2025-10-18T02:23:32.564117+00:00 app[web.16]: 2:23:32 AM [express] serving on port 48309
+2025-10-18T02:23:32.821693+00:00 heroku[web.17]: State changed from starting to up
+2025-10-18T02:23:32.912291+00:00 heroku[web.53]: State changed from starting to up
+2025-10-18T02:23:32.822480+00:00 heroku[web.56]: State changed from starting to up
+2025-10-18T02:23:32.921571+00:00 heroku[web.58]: State changed from starting to up
+2025-10-18T02:23:32.578565+00:00 app[web.17]: 2:23:32 AM [express] serving on port 36742
+2025-10-18T02:23:32.584399+00:00 app[web.45]: 2:23:32 AM [express] serving on port 27368
+2025-10-18T02:23:32.591575+00:00 app[web.21]: 2:23:32 AM [express] serving on port 39436
+2025-10-18T02:23:32.854447+00:00 heroku[web.63]: State changed from starting to up
+2025-10-18T02:23:32.862510+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CskBWCfwf9n2F3gtF0QHxGeejKnpbpHj1OVILE8p-nemEIBLrfxnJ6QqfopsVv8hDXu6BVXbkYsypgymgae7A73Zt0RaOoKzor7DSqM94Ano7MD27C7QB8xQL52fwRfRBWMjsugwaizc7OUaaDKNtmfzkmyYWz3HKXjWBrag3YtKInAZjB3cVebgofmpjz-SnQPzDRNSkpxzjEIpCZN7BZmy5LjrEZWZo1bnIvmPMiWnvSaEt3FqqoPnc6RlEVitY25N0dYwOU30ULCeEgR2Mi4wGiBskE2KCrC6BL4MWz7rhPg0eYooqGvyYuKouHy45phJ6g" host=tiktok.shop-brasil.com request_id=3588f16a-082c-f4f2-e8d9-33ba58699a03 fwd="170.247.239.218" dyno=web.5 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.921503+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&ttclid=E.C.P.CukB3IfU1MQZ_PU0a_SziYbv-voLaI9q1_cEmgnoHonzsF5OsGRQqk9YABhyMv8PhKTCivyZhgZeVvQmLd4uqq7KMGiQ22jecdDSg3kl1UDeGFA36wfJihwY0R8bxU_6ycK_bpEatXmTwF9sIyiHlrej-O3OJ5t6PbKH1y5K8kEBg63-4KIFNWzBK-rcXKFr6J-T3bKpG0F0kAvcpgOyFTxjSMiMOzAMpibBihfebvRH6hTB7q3m5BvJuXfTYyZNCDyGRYtAy-aNAVOfAvMx3PuO7PTmuuD1u6ks6gsKFRribFAu0ANc5J8idAgSBHYyLjAaIICwQCfgDH4etZ8rfeOX5fapNIKr9_YDl4yzXewqrIp4" host=tiktok.shop-brasil.com request_id=4a58e9e3-7202-09a4-fe86-97a78ba143eb fwd="187.69.85.39" dyno=web.3 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.601510+00:00 app[web.24]: 2:23:32 AM [express] serving on port 44730
+2025-10-18T02:23:32.861085+00:00 heroku[web.7]: State changed from starting to up
+2025-10-18T02:23:32.864221+00:00 heroku[web.21]: State changed from starting to up
+2025-10-18T02:23:32.882801+00:00 heroku[web.19]: State changed from starting to up
+2025-10-18T02:23:32.610172+00:00 app[web.70]: 
+2025-10-18T02:23:32.610184+00:00 app[web.70]: > rest-express@1.0.0 start
+2025-10-18T02:23:32.610191+00:00 app[web.70]: > node dist/index.js
+2025-10-18T02:23:32.610191+00:00 app[web.70]: 
+2025-10-18T02:23:32.853216+00:00 app[web.70]: 2:23:32 AM [express] serving on port 14402
+2025-10-18T02:23:32.924716+00:00 heroku[web.45]: State changed from starting to up
+2025-10-18T02:23:32.943366+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=872b4bc8-fc8f-4097-fbce-1adaa9286a45 fwd="191.37.172.234" dyno=web.3 connect=0ms service=3ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.030115+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=64fabe64-afa4-26fa-1ea3-3511c77a5f2f fwd="170.247.239.218" dyno=web.18 connect=0ms service=10ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.941334+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=214209c8-c3d4-5167-34ab-d776c10f31b7 fwd="191.37.172.234" dyno=web.1 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.689615+00:00 app[web.31]: 2:23:32 AM [express] serving on port 50162
+2025-10-18T02:23:32.947299+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.Ct8BNMvpzDanEtJhgTs0GRzXKR460khNmzD1y34QWu3WXBf1sWJ-AZKLn37RMDBcZQmbsMQ-Q2pQn7-88-vE4ibdbpwNkKnhqoMtE3--fEAcWe76wFMkfl8MU46AFhC8AgwTmL0QPlAkuwwlJ1tX0sabZeZ09-IyRqbb2Z-ka047KE6cAJ-FbXRAPzGi4xcPv7e2ZzX4oDQcy_SThmEKhV14ZKXKyZkNID2jG5RC2Ee2m817v_GMS4NwoxVTHVTzqm_cAzBoNpoYlgh5gafQ2w-IpcN9LtrbTKqAn568ZwXlsxIEdjIuMBog1wYyHYA7TH4K9AuVYwzpdU3mzMYvZ0d5RphTsQt7zW8" host=tiktok.shop-brasil.com request_id=48fd73f8-ca77-befc-8668-b8028909402b fwd="191.193.90.101" dyno=web.30 connect=0ms service=9ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.699919+00:00 app[web.42]: 2:23:32 AM [express] serving on port 3645
+2025-10-18T02:23:32.963019+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=05e3f61a-0346-76f7-8dfd-780de9841545 fwd="189.7.125.115" dyno=web.13 connect=0ms service=7ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:32.742182+00:00 app[web.20]: 2:23:32 AM [express] serving on port 40651
+2025-10-18T02:23:33.019339+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=b81b934e-2bf1-e703-2de1-003726847837 fwd="170.247.239.218" dyno=web.6 connect=0ms service=2ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.117178+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=9f4807b5-9479-6477-6b8a-f330c9f7f912 fwd="192.140.20.47" dyno=web.47 connect=0ms service=11ms status=200 bytes=56492 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.035279+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&show_landingpage=1&ttclid=E.C.P.CtUBNscplS8orZ0EGRj5idRtb89zTGMWWNTKqwLP35Pk0Ok3uATVhOQl1IqsJmYJ2TJj2MdxfhgEenYoaJqdHPymzLHzOjtfhmn_KqG4zpKvE0i-lzWgZ2fbJMnTaycZntvWM5fPpYleZwji66E-v5yOn5iuOPBzFWBfuKUQEeXBt4YhHFtfVcXuTIbm1cGAby3-rjZNoxw39qMLjIV5s7vlVdc0248iLElAerGzKS5Ynq1WqfKLH8bDAGV9VoQtr04tzT1nJz7AQY_eYLi4jVxyF9YUzeSSEgR2Mi4wGiBFkMxM1NAyWKCu4ZsRQQpBPCX7sD1mr3GLZHFIsdxq4w&orientation=portrait&height=823&wi..." host=tiktok.shop-brasil.com request_id=14a8fdb0-62f4-0cd8-d9a3-3c635a725fc9 fwd="177.37.148.239" dyno=web.26 connect=0ms service=8ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.042251+00:00 heroku[web.42]: State changed from starting to up
+2025-10-18T02:23:33.108698+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=1ca038fd-27f2-2f94-06d5-b719eab77c18 fwd="191.193.90.101" dyno=web.10 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.115286+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=ddd41355-a251-91b5-a339-34cab630c3ce fwd="191.193.90.101" dyno=web.47 connect=0ms service=9ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.121481+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=31c63fc8-94cd-0c54-cd77-f16316eab58a fwd="187.69.85.39" dyno=web.3 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.126720+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=d3e7f84d-e0cf-f4fd-75e8-e15a1560a06a fwd="187.69.85.39" dyno=web.49 connect=0ms service=5ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.137946+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=f6912303-9111-c1a7-bd2b-c8c5a5b56183 fwd="192.140.20.47" dyno=web.49 connect=0ms service=4ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.138686+00:00 heroku[web.31]: State changed from starting to up
+2025-10-18T02:23:33.135907+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=5537d9a1-3c82-29ca-8882-6bd842f0c083 fwd="192.140.20.47" dyno=web.47 connect=0ms service=2ms status=200 bytes=58172 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.142109+00:00 heroku[web.20]: State changed from starting to up
+2025-10-18T02:23:33.155326+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=3f3cf101-4e18-b4aa-4c56-588ea1c39571 fwd="177.72.178.237" dyno=web.4 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.175735+00:00 heroku[web.64]: State changed from starting to up
+2025-10-18T02:23:33.215682+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.Ct8B5IRXH-AP1I3xRF9Aqrj6weIjg_GBPFeRtmPS4_w5lTjyWhS65m9Pd7bu8qd4dwcDlJt2omjUZdSPsq9SXOVQ-Yd_4C2HMPkBryrnssaA3_cuq1SJlr4pxwVdwA4UU2CVWLwiLu4StICi9C6vhDHo0sRS6WWJTUd_ImNDur6L3fBbiJc1N3JWMAnrsPaaJSdJT1DhZLiQWzCzJVjQWDoIGLvZYcQAep_W7vJNgw9y8wew0XIZddQWRqipSgwcHao4ZGwSrZ_SuFrr1pgFRM6lsyhpGijym0gyzH5Nx51c2BIEdjIuMBogduYTDaicrKN_CET-sCn6_GHn7ZFKXlVNrBUCearWhhE" host=tiktok.shop-brasil.com request_id=0bb90a73-7a55-07f4-76b2-910bb02ca130 fwd="179.125.141.174" dyno=web.8 connect=0ms service=7ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.222334+00:00 heroku[web.70]: State changed from starting to up
+2025-10-18T02:23:33.279083+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=2b41d31c-f238-c191-5460-1b38d52f9294 fwd="177.37.148.239" dyno=web.13 connect=0ms service=3ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.284796+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=6932f5e9-be3b-c2d5-e857-66c38be85963 fwd="177.37.148.239" dyno=web.66 connect=0ms service=8ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.299434+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=e8049255-a061-a4ee-1449-b363a00a3f0a fwd="45.172.68.182" dyno=web.6 connect=0ms service=1ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.315815+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.CtIBghFY6_eO65D6eD7UL5B7grkSiql5T-UjlSNT_WGtCxGQYunF8MTQ-f75N82yc-4RlNiMMXfZzyrtF6_x3SbMforfrBOO72EcOrPYvItITaEhld_lGhg2JYYSIGnM6BinxQiw15QboMI12_9jEY-j1fuYwcwr-Cz0dq7Lue2CTkXB7XwVzdD5yeEE7Hx4tvvPFElQzxzDriwvCSHhCiOmSucLODkIzmPI1duEuBjL03ikNAu0k7Y_RyqJAwmkufZUa-341lAFEImf0Jj9_aB5ey6WEgR2Mi4wGiD7WqX6muheae_1480Hkuersy-taS1pae9AaecTxL6iFQ" host=tiktok.shop-brasil.com request_id=b271adac-f47e-63c8-b707-423d2d9ccd28 fwd="177.137.62.179" dyno=web.30 connect=0ms service=3ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.326164+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=8b1f6855-ee68-3e60-f99d-c9327faa97df fwd="187.69.85.39" dyno=web.27 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.415930+00:00 heroku[router]: at=info method=GET path="/api/transactions/4M1274459885" host=tiktok.shop-brasil.com request_id=e1493d54-3a80-d2fd-4e29-1c399d70e613 fwd="52.73.167.24" dyno=web.3 connect=0ms service=800ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.341806+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=daadf29d-a430-72f7-91c7-2755de8640be fwd="187.69.85.39" dyno=web.2 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.343070+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=9eaf3897-0465-ff16-b1f2-1ae21c66242b fwd="187.69.85.39" dyno=web.13 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.353482+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=881acae2-8aed-801b-a051-d111b8867481 fwd="191.193.90.101" dyno=web.3 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.359744+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=43afe2e2-5e01-2dd7-0506-c70d41c8d5d5 fwd="191.193.90.101" dyno=web.1 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.403256+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=f011c313-298c-de54-2497-1d82268fe2c5 fwd="179.125.141.174" dyno=web.40 connect=0ms service=8ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.405490+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=d0978497-ffd2-7070-b67e-6fcb1eded1b6 fwd="179.125.141.174" dyno=web.14 connect=0ms service=10ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.141744+00:00 app[web.41]: 
+2025-10-18T02:23:33.141796+00:00 app[web.41]: > rest-express@1.0.0 start
+2025-10-18T02:23:33.141799+00:00 app[web.41]: > node dist/index.js
+2025-10-18T02:23:33.141801+00:00 app[web.41]: 
+2025-10-18T02:23:33.377025+00:00 app[web.41]: 2:23:33 AM [express] serving on port 40365
+2025-10-18T02:23:33.448729+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=fa28ec2f-ff1c-073e-ec29-61b95bf303c3 fwd="170.84.38.58" dyno=web.51 connect=0ms service=8ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.189043+00:00 app[web.48]: 
+2025-10-18T02:23:33.189065+00:00 app[web.48]: > rest-express@1.0.0 start
+2025-10-18T02:23:33.189066+00:00 app[web.48]: > node dist/index.js
+2025-10-18T02:23:33.189066+00:00 app[web.48]: 
+2025-10-18T02:23:33.507817+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=189bf02a-9f10-a9b4-d214-e946de28a3d5 fwd="170.84.38.58" dyno=web.11 connect=0ms service=7ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.546052+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=5293ba28-4b12-1eea-309a-cfed2105025f fwd="191.121.16.252" dyno=web.5 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.534034+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=78fe5430-8d51-bcd3-c9a8-d3ed3ba80884 fwd="177.137.62.179" dyno=web.26 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.536924+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=fe63d59f-6a30-bb07-9895-038e0ab4040c fwd="177.137.62.179" dyno=web.6 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.596037+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=9657cb50-b963-22bf-1e35-3135d4627f59 fwd="177.35.129.35" dyno=web.39 connect=0ms service=9ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.373353+00:00 app[web.69]: 
+2025-10-18T02:23:33.373389+00:00 app[web.69]: > rest-express@1.0.0 start
+2025-10-18T02:23:33.373392+00:00 app[web.69]: > node dist/index.js
+2025-10-18T02:23:33.373394+00:00 app[web.69]: 
+2025-10-18T02:23:33.605617+00:00 app[web.69]: 2:23:33 AM [express] serving on port 56665
+2025-10-18T02:23:33.415445+00:00 app[web.3]: 🔍 RESPOSTA COMPLETA DA TRANSAÇÃO: {
+2025-10-18T02:23:33.415465+00:00 app[web.3]:   "gateway_id": "4M1274459885",
+2025-10-18T02:23:33.415466+00:00 app[web.3]:   "status": "waiting_payment",
+2025-10-18T02:23:33.415467+00:00 app[web.3]:   "amount": 149.8,
+2025-10-18T02:23:33.415467+00:00 app[web.3]:   "fee_amount": 0,
+2025-10-18T02:23:33.415467+00:00 app[web.3]:   "net_amount": 149.8,
+2025-10-18T02:23:33.415468+00:00 app[web.3]:   "customer_name": "Sérgio Rodrigues ",
+2025-10-18T02:23:33.415469+00:00 app[web.3]:   "customer_email": "sergiorodrigues2736@cliente.com",
+2025-10-18T02:23:33.415471+00:00 app[web.3]:   "description": "Buggy Controle remoto a Gasolina Com Bolsa Off Road 29cc",
+2025-10-18T02:23:33.415472+00:00 app[web.3]:   "pix_code": "00020101021226820014br.gov.bcb.pix2560qrcode.pagsm.com.br/pix/b8c745ff-fbee-4159-b0f0-07ff4ef7f3a65204000053039865802BR5918PAGAMENTOCERTOLTDA6008SaoPaulo62070503***630474D5",
+2025-10-18T02:23:33.415472+00:00 app[web.3]:   "pix_qr_code": "",
+2025-10-18T02:23:33.415472+00:00 app[web.3]:   "order_bump_accepted": false,
+2025-10-18T02:23:33.415473+00:00 app[web.3]:   "upsell_completed": false,
+2025-10-18T02:23:33.415473+00:00 app[web.3]:   "expires_at": null,
+2025-10-18T02:23:33.415473+00:00 app[web.3]:   "paid_at": null,
+2025-10-18T02:23:33.415474+00:00 app[web.3]:   "created_at": "2025-10-18T02:23:09.763Z",
+2025-10-18T02:23:33.415474+00:00 app[web.3]:   "updated_at": "2025-10-18T02:23:12.356Z"
+2025-10-18T02:23:33.415475+00:00 app[web.3]: }
+2025-10-18T02:23:33.415489+00:00 app[web.3]: 🎯 Status da transação: waiting_payment
+2025-10-18T02:23:33.416096+00:00 app[web.3]: 2:23:33 AM [express] GET /api/transactions/4M1274459885 304 in 800ms :: {"gateway_id":"4M1274459885"…
+2025-10-18T02:23:33.701207+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=bbbbb157-2707-3994-d94c-57bd3d1697f2 fwd="177.35.129.35" dyno=web.49 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.451142+00:00 app[web.48]: 2:23:33 AM [express] serving on port 52146
+2025-10-18T02:23:33.715516+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=e1bb784b-786d-ea35-c7f8-2b39319f0e89 fwd="177.70.222.70" dyno=web.14 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.752708+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=78cd725b-451c-8927-ab4d-92840f7a18c7 fwd="170.247.239.218" dyno=web.57 connect=0ms service=11ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.755497+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=62ee91cf-2cb0-99cd-d112-67ab6fd02371 fwd="170.247.239.218" dyno=web.18 connect=0ms service=3ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.770015+00:00 heroku[web.41]: State changed from starting to up
+2025-10-18T02:23:33.887228+00:00 heroku[web.48]: State changed from starting to up
+2025-10-18T02:23:33.975869+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CvkBjanUFEDSZmR5Y7MEzagzxNZMr0wpw7P9Duuw4gQe2buKipNyzIVSsHt493MudIHBseKtFKohZ59g853lFqBbqoUygh-HL4xyc86bBS9akDnBWcIZCH1H7ZZhb3TDTJkwlxmyi01oJ7Azdmk_ky8PbdFa7XO9AdiTKajruMnTDgZo3f9oew7su62I8rjdfupD0YvLsrNfT_g4mtmVcD76sDhJLzI8zIks4Wf-PUc2N__buMmZIUEPgo_uAOrKXd8CzeJH7QW3B4M49_Pkn9XLrUjBlBFhampfGq7zRZH7JNeTZPm40RX-GXoGZu5pQS-8Zh21XMZgRaV9EgR2Mi4wGiDHzZ7psI1jKtcUjAXAYTIG412OYBi8lGhsqb2uIt-3tw" host=tiktok.shop-brasil.com request_id=131cfe42-bed1-c188-a78f-55868fd94bed fwd="186.206.182.4" dyno=web.5 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:33.980029+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=e7707301-80ec-7f19-4027-b62112490f55 fwd="177.137.62.179" dyno=web.43 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.078168+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.Cs0BGu7e8orytZxv0y0DJ-5Qt3KJcBdHRDyORyLs4mHq-v009e9gnEPj3JYnnKu4A3mjOSu7tQviKOJb13DRzaDpYUmz9woUNbs0OHXZYjBIk4-HLcyJBUNy2cbAQ91oCuIYhIpWpZ5jK9c8GR2JxHEvyNbVTNVvVc3PxzVgF7TU9oAsezGH-lkpJfLlXalZl8TlVm_v1FEoWdioT4idy9Z7PZ0rx1FeIIrnOGCIQJ-4tOYG6elagiZ5F3tbuorVtHeRzJax50ulhr6hpp0eSRIEdjIuMBog9PvQHJjQZTkk0apvg3cWt7MPoIm8ZpJUQffnuZDJvAo" host=tiktok.shop-brasil.com request_id=2f6fb6d5-31fa-5ad9-f9c5-87065abe14ee fwd="177.33.86.74" dyno=web.68 connect=0ms service=7ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.118423+00:00 heroku[web.69]: State changed from starting to up
+2025-10-18T02:23:34.126107+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=24b3ea67-5a1a-edff-13bb-4fd24716d5e0 fwd="186.206.182.4" dyno=web.10 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.129392+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=0006ec6d-c421-dd4d-f971-27afa2273cd1 fwd="186.206.182.4" dyno=web.2 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.185136+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.CucBDlN1Ijf7vGOEQtTO8E2p7wUrLTQ5YlRIf6U1y-50q7-SWRIsqs06aDmpv1z9nPeGBOiR5NJNVMsYYDfHp1FxhantX6qLPM3LE6neYYvyy9Mj7p3xVx5Olw4Wg5KW6UvrYiyNjGD_6G_hAaXJ0FavAXE5osBhBYoxTtIS-31n-WE80EhqlNaHs_55iFtAoh74eHxndOP9_OGMIb6quulw9_gsuEX_9vtci7Z9tm_MkyrGA8FQNiM1ABahfAmbNEwJi_P21T1jL0xOA9OPWLaXlH4xXG0Leb7LiTA80ZAoMyB-fuJI2aRKEgR2Mi4wGiDUJf40DilQt35hAVN5sAkpZAFepjnd2y-krFhh6fy8ng" host=tiktok.shop-brasil.com request_id=faff22e2-02f8-f10e-1131-36f86336b9a2 fwd="45.173.222.133" dyno=web.11 connect=1ms service=3ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.163465+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.CucBXrS3ngjY4dxNeNvJjyWTpbg7jnpWTCo4xtVQ4qLZbsD9I8VMugHq69pzBubhWn8T0VpiD6FPeTQG7kl1xW21SqMIB6E-4rrppiED0jESkJHDUZs8Xu4FlA1LzmXVZhCx7kR6sgxwHAEqOkZ5XW6pwZ6ZQJfYZTGDgBS2-uXSx1UNp4jc8xcr5xagAiRtGP19-ih1CirpFVs8CSsgmDXin2iCI7AIUw7uCxCad0Fl2M7t4wcW9ZVCZkv0zNvnwnTJ-mj8c3Dn115pgNQrB_-kir4XkgdYAktpf3v06pFPCeG4oPFvPR1pEgR2Mi4wGiCpmeKfaDOVbf_jFvznRX2En1wJXRBKDnjF_MpIM3ynug" host=tiktok.shop-brasil.com request_id=460213e0-e9d0-9b63-e39a-7b7120ac28b1 fwd="177.37.108.237" dyno=web.8 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.194846+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&ttclid=E.C.P.CsgB7PZIvsmry215QKN_eNWbYdNbrVYdNPv_cTC7J1ZfluDAd7w_yZwZIPo5at1Nm_P-p7PdXaX57oJcC06xrupYxiZ0P5h2qNlEITZgZd2I11GKOmXP3NUR3h8Lji4bJctLFSDrW1hYwIOCN_l38EYs5l2mBblPGHZ_SuT-Yls9ZUhVMw-dcpHoA6dUZr_ytunfm4ypvvi7a36wX7pdFwTTt0Z1-pjOQbLnscwXnq0P77vhWzwE2kolAT-dT88C_7i9FfjCqs9S5EYSBHYyLjAaIEuUtTIcfCN-KZKGfsHHyO2vkz5Co8tgklQBxc9u-rF4" host=tiktok.shop-brasil.com request_id=be31835d-70a9-517b-50f1-3e24bbb4f457 fwd="170.81.156.10" dyno=web.49 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.200164+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CtIBrkOzsxj3ETuNEdOq4KYt_18nNEGi9EIWcwxFPnptVQyuamEViuS6GeI7p_LhwruPtJsf2L0luh73Fr9kM5iJhptXJKh9U1u_OcqTwJJVhdoqb3QCKPKmYxSi48SqvaxUi3FS_98eM7t0xB1IDYH2FqQV8s_HK62T6oqwLfzb7gAaxdy8A5iOHmWRxsUYZm9_nTr44Idt1pOywVIsxhl5-0ifgv6rIu_MGnh_d0s4pdgc6OaJWCM1h0KLUQ-E8sZ_KXDTeLTRRGGc13PF-ZwR0NLDEgR2Mi4wGiDeFue49IwAtHiOoSBB8CW3JzIlnBgXMO5Va6JMIzaF-w" host=tiktok.shop-brasil.com request_id=55cd7cc5-1434-cacf-5e40-66701f0d57b3 fwd="177.125.94.214" dyno=web.9 connect=0ms service=8ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.248408+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=24c44438-31b2-cb08-9a30-e0f6114b1777 fwd="179.125.141.174" dyno=web.2 connect=0ms service=1ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.297868+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=8c92f9f7-ffb9-59fc-eb21-d968392dc766 fwd="179.34.52.67" dyno=web.66 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.338733+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=5d198b0c-e114-c28c-5197-eca5675dea67 fwd="186.206.182.4" dyno=web.45 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.301653+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=4f4a1f8f-ef4b-4d2d-dcad-91846bebbc7a fwd="177.37.148.239" dyno=web.65 connect=0ms service=7ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.305808+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=8af8db31-1305-8ad4-4ba9-808da93729dd fwd="52.73.167.24" dyno=web.50 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.309999+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=474ac928-903e-d2a2-7e85-2f7ee87b61d3 fwd="186.206.182.4" dyno=web.18 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.320961+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=55eec939-0d1b-3ad3-4206-28d9aaeba768 fwd="177.37.108.237" dyno=web.35 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.321241+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=14ee9ce2-629a-282a-bbfb-60e972f4d8db fwd="177.37.108.237" dyno=web.36 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.318824+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=ed32f6ca-36a7-6140-29ef-1cf5f1d4e45f fwd="179.125.141.174" dyno=web.58 connect=0ms service=10ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.329439+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=bcab6791-8de8-938c-721c-38db99e70d13 fwd="177.37.148.239" dyno=web.22 connect=0ms service=8ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.330923+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=03c76341-414d-11f3-3aa7-9c4a3541393f fwd="45.173.222.133" dyno=web.32 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.332118+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=f814c729-0491-5458-c7db-2463a8c16be0 fwd="45.173.222.133" dyno=web.23 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.333360+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=d128fd23-b3df-bf9a-6830-f37200b4ba0f fwd="177.101.117.218" dyno=web.23 connect=0ms service=9ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.398985+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.CsoBVWdUyBn8UsoRFnqCyEsY8IsZUwEnPcJtdwZd_Rko8gt70yadvdQvq-sTTreBUni8U6-cnnujD8jbP5bKIYduVNvvotZY5LXCSPZO8jIVKeg1OKhSk6KzknlUKEtkHsUKYj_j1LyrnvFn0RsKrRZ584_AgNkxO9XKBDIIqOn2drqwLvsbuNiTZLie5qOuWxjw0NVIRvY5T3NdL4E5YvrQBDbwFeH7JjR3xozBN7zWRVH2N82v8n3pTHzNdy1m2BthmzeW5Oi1aRHEpxIEdjIuMBogPyg1-nRMflvujv8lbaqioVI6X4LGR2hepUhepV4FJ2A" host=tiktok.shop-brasil.com request_id=462f542a-6110-7c7f-e452-d577c406dff2 fwd="177.192.11.104" dyno=web.36 connect=0ms service=4ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.338407+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=6e9c6d10-e7ba-940a-6eaa-b1a8654c3a1c fwd="186.206.182.4" dyno=web.52 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.370210+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=11a8f1be-c919-360f-d04f-f60679853d88 fwd="177.33.86.74" dyno=web.51 connect=0ms service=4ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.369825+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=df5a48c2-46c2-9d64-c51e-f7e60f8f8dbb fwd="177.33.86.74" dyno=web.60 connect=0ms service=7ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.402247+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=1f4d48ec-d550-58d0-1b39-0780ee11ec0b fwd="170.81.156.10" dyno=web.5 connect=0ms service=3ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.404353+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=e9279506-df20-d420-49dd-b32f95b661ef fwd="170.81.156.10" dyno=web.27 connect=0ms service=4ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.503962+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=6a8a74ce-e67a-f79c-00aa-294f4bc657e2 fwd="177.37.108.237" dyno=web.28 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.508203+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=626fad66-2d03-6ad0-e4df-373ae32c7096 fwd="45.173.222.133" dyno=web.5 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.547923+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=14ad8e04-ae7f-58af-9bb1-b99e00451fe0 fwd="45.173.222.133" dyno=web.7 connect=0ms service=7ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.533117+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=8b1843e4-b3c2-3843-1816-2b057c2f1e26 fwd="177.37.108.237" dyno=web.43 connect=0ms service=3ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.532581+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=be9cdcac-8b06-d51f-2a4a-f3e245ef3bd2 fwd="177.37.108.237" dyno=web.66 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.547357+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=424b1b02-9c86-1bce-ff36-fb0001a72781 fwd="45.173.222.133" dyno=web.42 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.614611+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=13d3936b-8472-e307-beaa-305057ea5e54 fwd="177.125.94.214" dyno=web.55 connect=1ms service=8ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.615796+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=a904e1cd-819d-9a42-9b1f-aa76722f141c fwd="177.125.94.214" dyno=web.46 connect=1ms service=9ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.648755+00:00 heroku[router]: at=info method=GET path="/api/transactions/4M1274459885" host=tiktok.shop-brasil.com request_id=7d5c7b3a-15f6-5423-1bc0-12b597d10e67 fwd="52.73.167.24" dyno=web.10 connect=0ms service=1107ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.661172+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.CtUB5PSgitSfZoZQ2e1AzgV7JuQYHJhNCf-YPRCjbj4fpR5RH9j9zY8zqMOZP25XlA67jGY17dfJaCvML9ZBPGRo6nJmcEZ3WBqx0oGp5WaGzVhH4O5tv9ci2CHoMo8unDQHK0ImJ5XuxdSkvgERyt70njfMzGOgQi51ltE4_UKgsWx1Yawj1vuQYI69uIevCwQ96W1LF2NgGl63ivANifqbiO-jTXcQzyZlk8GYXuP147B7PCkN_7xtvoHlamzH6qTiYjRzdcjpHr8tUf0rTzqUIgNBeuxSEgR2Mi4wGiD3DqGk_dfo0Xas8-9nYNPuuOQjSRM7qM01GffVdQnNuQ" host=tiktok.shop-brasil.com request_id=889768ed-68ad-30d0-9287-33c57bcb3173 fwd="189.6.238.251" dyno=web.13 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.681162+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=8c52b7ea-a9ab-c02f-22cc-a33975b1babd fwd="177.192.11.104" dyno=web.49 connect=0ms service=3ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.685913+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=4903126a-ed59-12fd-f7f7-6585297faea3 fwd="177.192.11.104" dyno=web.33 connect=0ms service=8ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.716600+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&ttclid=E.C.P.CscBmC1y6ZSqXRc_oGRrhsVUsTGIKGIWQq0QzoXvINMMfN2agwAaz37YrN6qxW_sMPXIRV8dfd0OFqSEsCnQJCCbAVev4M74jx9D_Ui7Vw3BxpLuAjKIIFi_HXrpOmdWZaJ5APS_NNAlFnWBE-6BVVQwwEyLWogmUbcxwTW9uThrGYQseNP-mAX73ETc0WPhtTfCAlXSKYoBjH8wkMmLIieROXDaEg6Vm2lLoaxs1dLFBq7G8qmdM5-DaCtMKDQUDf8CngwVGqSMoBIEdjIuMBogHPZHOZXtC8BGD8iCJqVr7YgWKvj26gvyjqZFn8rfSPc" host=tiktok.shop-brasil.com request_id=1fd4aea6-aa9d-ac73-9a8d-3b24cabd844c fwd="191.37.21.162" dyno=web.34 connect=0ms service=8ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.798641+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.Ct8B-F9yapIv7Y8lfYHC_4qVavopv2qmDUZSCmZFWmnI6bxIal8DDugw18nMkyUVfQ1s3QZgbDHF9JLHTcXYZUgIcskcul5Faj_DjVA0wAKUESCgqqcdeWGaXkEyRGu5xlb-sJT1dBap3AfQTSEzNFY3VST1bLVy9H8pxmXVNoESoVaHOs8cesSNFob4nDSYf9V20MZMEcjlNJVPQ7q7TT9cFlQ9zt8S6Y331cNQgcNWrx1rFmtyIO9Q9dYPHLEo2CjFNxHgVTKPds_HoY0fqHQ4NBiysji9yG8EZyU8oWwDhBIEdjIuMBogR5SvFgLLOMKsot905dr5ksWFbIvlbfuqZbp9KCRaJbo" host=tiktok.shop-brasil.com request_id=77826838-ab15-1b51-4a71-7e6db3eb47f3 fwd="191.38.209.72" dyno=web.51 connect=0ms service=3ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.885918+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&ttclid=E.C.P.CsgBWzwEN_7WIhhqU8YNKdfPfHzV0GiIKU2W4bTe9pWsc2FuOtp9xxNEtsUap0ENdkKXmPv6WE2JudbVXtRTVOqAgF8jgddZCP1WDMTRu0K0ylQ09RdG1ZHy0wc921qfeKpA4W3fc1bAKql0fcD9PQYw6YP1hv73yMsyih3Y8Nswxq_n757W6u2fkQZ_3ZXeRucyfQpOYq1z5UIEEpRU3gwYb5dtBL_9By7PcTUHEsuEHcDOIHXoSKVvcd5oVEM6SsW1jyRoFvMHRy0SBHYyLjAaIADPsNafHiVt1RSu53-oNsyuW0lNYwb4Y9MtVgeECphg" host=tiktok.shop-brasil.com request_id=c784ee97-a9e4-54df-6851-af4707edb607 fwd="138.186.109.70" dyno=web.56 connect=0ms service=8ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.901017+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=49a59e84-e12c-db6f-3f3b-0ab51edf48ac fwd="177.27.1.47" dyno=web.29 connect=0ms service=7ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.647219+00:00 app[web.10]: 🔍 RESPOSTA COMPLETA DA TRANSAÇÃO: {
+2025-10-18T02:23:34.647264+00:00 app[web.10]:   "gateway_id": "4M1274459885",
+2025-10-18T02:23:34.647264+00:00 app[web.10]:   "status": "waiting_payment",
+2025-10-18T02:23:34.647268+00:00 app[web.10]:   "amount": 149.8,
+2025-10-18T02:23:34.647268+00:00 app[web.10]:   "fee_amount": 0,
+2025-10-18T02:23:34.647268+00:00 app[web.10]:   "net_amount": 149.8,
+2025-10-18T02:23:34.647269+00:00 app[web.10]:   "customer_name": "Sérgio Rodrigues ",
+2025-10-18T02:23:34.647270+00:00 app[web.10]:   "customer_email": "sergiorodrigues2736@cliente.com",
+2025-10-18T02:23:34.647272+00:00 app[web.10]:   "description": "Buggy Controle remoto a Gasolina Com Bolsa Off Road 29cc",
+2025-10-18T02:23:34.647273+00:00 app[web.10]:   "pix_code": "00020101021226820014br.gov.bcb.pix2560qrcode.pagsm.com.br/pix/b8c745ff-fbee-4159-b0f0-07ff4ef7f3a65204000053039865802BR5918PAGAMENTOCERTOLTDA6008SaoPaulo62070503***630474D5",
+2025-10-18T02:23:34.647273+00:00 app[web.10]:   "pix_qr_code": "",
+2025-10-18T02:23:34.647273+00:00 app[web.10]:   "order_bump_accepted": false,
+2025-10-18T02:23:34.647274+00:00 app[web.10]:   "upsell_completed": false,
+2025-10-18T02:23:34.647274+00:00 app[web.10]:   "expires_at": null,
+2025-10-18T02:23:34.647275+00:00 app[web.10]:   "paid_at": null,
+2025-10-18T02:23:34.647275+00:00 app[web.10]:   "created_at": "2025-10-18T02:23:09.763Z",
+2025-10-18T02:23:34.647275+00:00 app[web.10]:   "updated_at": "2025-10-18T02:23:12.356Z"
+2025-10-18T02:23:34.647277+00:00 app[web.10]: }
+2025-10-18T02:23:34.647281+00:00 app[web.10]: 🎯 Status da transação: waiting_payment
+2025-10-18T02:23:34.649076+00:00 app[web.10]: 2:23:34 AM [express] GET /api/transactions/4M1274459885 304 in 1107ms :: {"gateway_id":"4M1274459885…
+2025-10-18T02:23:34.929023+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CvkBNbNQpEe2JbWyj2PXMwJl_FI2F0OLMT0iZPC6NHBAiqAyuCoIoUsn6bVdx0i5sIrLDbA63KVkYvu5KoryZfcR6GVGkJKTvlpVQlh200junO45Z_IYB_4860s4nZTd063lvfsjE0sSNvLIymayOhht3Qe0v-vt2XzP0B8240swEsaTc-TdCpl0ogMWw68HAXf3rAdKFznZvcryoV6ftbvUl9YzB6dZnM4X7DcgsNlfPb6dLzeTCJkqYTkOLzOUe0KbP4f_fRFe6QZavwYBjG_oalhfQjK7VgMKR-yFiM1JE-2tEmpJE45xxH1BpmHpWSj6M1Plk6UU4jthEgR2Mi4wGiDag_fInBFd6xkkUgDJ6J8DEVY4JhppaVHSUeHu3GHueA" host=tiktok.shop-brasil.com request_id=b85f7df6-0b84-cb08-0181-108a5f863acb fwd="186.247.244.44" dyno=web.11 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.963601+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=20af604f-b695-34ce-413c-077ef0f0191c fwd="189.6.238.251" dyno=web.22 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.969454+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=187c79ba-b807-bba9-b9ad-54b5351098f9 fwd="189.6.238.251" dyno=web.68 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:34.977674+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CuABtfuzs2C57LYLDCeF0GE7XBc0_hOean6kpmccnLTAYIUkNqy9KpoCNW62mVu66EN6ZZjIZjFGLsq357ZC30nliZuP79Gu0NtqRe8iOCun1b_RbX8GcG--ADs5h6DT0QtULzw0eVjyNPaNWEKr_45wmILlrGbJoqtjze6vomn8fBEwPB-RKIEE13DpG9lJ5B9B2PWdQ8TnPcz-yF1uzCMQOZwCHk08B9SgVvzY6LHaaq8Umt3nt7N20d7dQWSqiDmZ7bMZ9tU2NFune5oUhcA2Z5-UYpkKO7jvsZt1-fnTkNsSBHYyLjAaIET3MUjKgcrKbHj8C4HysXHua6WNENVhK2KHceYspdJm" host=tiktok.shop-brasil.com request_id=a7237833-b2fd-83e7-8493-cb16070dfc39 fwd="187.106.43.245" dyno=web.53 connect=0ms service=8ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.010164+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CtUBePkVCXceg6FAY-XmkHtvUxlxCJliTg5MkRtNSN0WjS7bsdMxYEAQ1mlLDXJfBTMz8QHWitCstvSP7bKOefMAMjk0YsHpc5ltocp7biqFfefG7UopYM-Dl5AleGMxk3FkqcUuJOfAY1dboEinoemBNT-fOtvcjOtoHDNZ1MDRNkgh8i_t87guNc4PI_dTB39UVWM2uQn8DGGptnj_gYvnY1MHQSFUgS1yxsXPz6Ms6_9wuxEzqzKbFp5vzRw2xcdoC4_K37CY-LfJ_2Q_qGDPrSjDgJQyEgR2Mi4wGiBjflqE5_2qAE6WU_ND0E3LoPlZixjT8Rmk7rV6y1ks5w" host=tiktok.shop-brasil.com request_id=5f0649bb-18a8-977a-f3a4-4dbf838d55e2 fwd="170.78.81.231" dyno=web.2 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.014150+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=1354796b-def9-0a74-1d52-3bb24c93c13f fwd="191.38.209.72" dyno=web.70 connect=0ms service=9ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.013382+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=26b400d6-2c0e-d4e0-ec3d-ecf2d6ccb624 fwd="191.38.209.72" dyno=web.16 connect=0ms service=8ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.022692+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=3e3c66be-9e25-b0bc-39f3-b96450efbf2b fwd="191.121.16.252" dyno=web.16 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.066228+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=592b0112-a6f1-95f8-2ff0-7331ef7222cc fwd="186.247.244.44" dyno=web.22 connect=0ms service=3ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.066498+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=0e2e5ffd-0206-5f7e-830f-15fbe8dfaca1 fwd="186.247.244.44" dyno=web.8 connect=0ms service=3ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.071206+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=d8ea05a1-baa0-d4cf-14a5-f76c75f5b46a fwd="138.186.109.70" dyno=web.13 connect=0ms service=2ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.074210+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=8da3b504-b214-844a-6584-555996e4b617 fwd="138.186.109.70" dyno=web.32 connect=0ms service=5ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.173376+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.CtgBEAK3JoQygp9nonhL4TFKGB_iLivAk71dAVjb9ClI_Z-tXyQVZS2Ptg6qY1eb15y7nZLe1bH-e9Qcpt9iIR0L0zO7YndOwto_FED49gFMUEvumo3NzIHZEhUDwvsdiwh98nmmO30J97robrEGD6RSo659RxCqc3vDqUjtW7hF7zGAqaSn-pw2VQahPXtZLYpCiq1Ia9avg4hA3j17407L8ABn4P2I_yzpdHaskldBafZJAlIQIlskW0LM9hS2MgwLw1gimXvIRNK9dvzeD5KKBckAXtfeOUywEgR2Mi4wGiCosAHkiVdRtYjifXsZW9CCfNxG8sdi6OlGnmoqh7OQxw" host=tiktok.shop-brasil.com request_id=de864e53-5c36-f24d-e1e2-58833f12f1b3 fwd="187.183.44.40" dyno=web.49 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.235360+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=571a282f-7347-0790-7692-68cc4551e454 fwd="170.78.81.231" dyno=web.22 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.235973+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=5636213a-1faa-5bc1-fdf2-f64f3bddcd7a fwd="170.78.81.231" dyno=web.13 connect=0ms service=3ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.255023+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=e3f56864-5f2e-4225-9b6c-b7d2d4aa207f fwd="187.106.43.245" dyno=web.7 connect=0ms service=5ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.263261+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=c3f646a5-2734-f499-40c3-b7d9cbc7fc97 fwd="187.106.43.245" dyno=web.12 connect=0ms service=13ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.298046+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=8877760b-8987-5cf4-dadb-cb515de69226 fwd="189.6.238.251" dyno=web.64 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.301756+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=941b6cc3-6ec1-2e61-6021-d4c5b0406a6f fwd="189.6.238.251" dyno=web.46 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.319097+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&show_landingpage=1&ttclid=E.C.P.CuABGrA3BF_-daFgYGOuCekMXqpaGt3ODyZTiwTZmMbvpWZfpx4LFNkmPaPBj7OYSE3n-5TMLcyS5NVq1Xj0vzzwigcrdm1gbY8v-Qew3uu9_94OjoJr3O0JhYm9vUVzl4UHI6kX7hAbqBRYb-YI8UMVvImnHkZdZxTQEb0htqbsxEzexR_ACAYYfr70RrQ3ILSggWNHekKK4ZmGTic3uQscjDzMQ6xISADoIwiAeC3v_r67KRpifKply2qcfFjQ4V2xX7SYcANycUHyyi5S5ci3iumYxnbr-8fmN0m-Wvn0KmgSBHYyLjAaILVjPWIP2UU7DZh0XpcqA3Ewhd_Xcz4XbQwpCw2QHPia&orientation=portrait&height=88..." host=tiktok.shop-brasil.com request_id=8557d35d-206b-5b7f-5a41-873df2547b9d fwd="177.212.145.172" dyno=web.15 connect=0ms service=8ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.486672+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=6a01426a-0542-82f1-fd69-123540c2be96 fwd="45.172.68.182" dyno=web.65 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.487760+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=e7e255ac-3a54-1b1d-4def-d69ab81c2015 fwd="187.44.180.89" dyno=web.68 connect=0ms service=5ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.528320+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=cbbfde8b-7ad7-ab76-ad22-646b2ed16233 fwd="177.212.145.172" dyno=web.11 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.532580+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=dc64c8e7-f7af-bfa8-3151-0e7d437f1718 fwd="177.212.145.172" dyno=web.32 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.556910+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=ffebafdb-32b0-ab9c-3b21-f4e514433463 fwd="187.183.44.40" dyno=web.50 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.562307+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=48e7c46d-dfb8-06bc-3153-351e48c553e8 fwd="187.183.44.40" dyno=web.69 connect=0ms service=6ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.748311+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CvkB6r7JpwUy2BC4A_phrLobZ2K_EXYykB9uFwldy8I1_LOfbd8pGsB9FL3VNmaYqn5eOLQ3SCkwfn57ym6qtGxS71Y40UVaSD3aUealoRC6GMqOdOZ2iIcJEnArdFWUh_x2QX9J4J1gjkbe9KHBgerH-96G_F7t15r1nACTVRC-92sfpldV-9YMzzLPFZXZcB7R6OfQWqtpJQH0gbyrOGJ8tnaczE07JO7PvrBVL52nm4CnrTqV3llKPb4LKueZO99hMFkvFo6uZPRh0lCtUdVV6KUaJU6sUNrN7wRs_yeKZMFEvCHU_2keI1Ql12LgU6IpUNlyW2XnNRntEgR2Mi4wGiA9WWXGEABGbMKGJkd7M7wERnD9byiIcGxpQtELdOVlnw" host=tiktok.shop-brasil.com request_id=a221cf13-6986-9220-b694-008993fb7f42 fwd="189.0.145.88" dyno=web.37 connect=0ms service=12ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.792978+00:00 heroku[router]: at=info method=GET path="/api/transactions/4M1274459885" host=tiktok.shop-brasil.com request_id=f49ffaf4-d6b6-cf94-981d-b6b47357d527 fwd="52.73.167.24" dyno=web.61 connect=0ms service=1017ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.811201+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=55065013-9306-5e6f-aac5-655caa5496e6 fwd="186.247.244.44" dyno=web.12 connect=0ms service=4ms status=200 bytes=56492 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.818703+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&show_landingpage=1&ttclid=E.C.P.CvkB6XLLHMQxzNRt7FOlfuazg5ytustmnMAE1PpLDrPJQLpCNZ2y_9DCiyhUhPHCmPPXvvjob_MY3J-mqLOsTQt4mHj30erjXKB0ALH-1x2OdK-loylCSpUosz53o6GEZS4TC9zwEIxX0J0a_U3Fhno0uWoVPKina2tCRF0p4w-qcbIYgIxYMjKumNPYkBCbY6baY7a14-syG2QqyeS3bbK_0RJwSX9Xv0YKmCAWfCX6kKC_f5r9txgbq5BZ86ldU7kr5Z_txc7izkfZc6W4qCIYf6LWDjtSfChET3bxBcl_q4QFOc8sdo01WKAaVN7aCePxmOzyW8re-rQAEgR2Mi4wGiAxqDTi9LlUGzKpNAOc7G00SI978Ov9gu-AfVEPz7e..." host=tiktok.shop-brasil.com request_id=89298d88-e3f0-fbae-7d33-203d8e9d1662 fwd="179.94.224.9" dyno=web.17 connect=1ms service=9ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.844926+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=95fba740-09b7-9a27-c72e-410fa56cc718 fwd="186.247.244.44" dyno=web.18 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.850580+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=387537e8-bf34-45f3-c55e-c0c83219f6f9 fwd="186.247.244.44" dyno=web.61 connect=0ms service=7ms status=200 bytes=58172 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.907557+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=9d9f6875-2a5a-0345-a0ab-9eaea87115ed fwd="187.183.44.40" dyno=web.12 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.912476+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=1e0e41d2-514d-0e91-244b-38b92e6db5dc fwd="187.183.44.40" dyno=web.27 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.917346+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=5efeacad-8545-11ee-2633-a1f5c435d9ad fwd="177.212.145.172" dyno=web.30 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.993374+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=4dedd0b5-8bf2-21b3-dc87-e4c5e9ff18ea fwd="177.212.145.172" dyno=web.29 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.922958+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.Cs0BPgodh2QACk9qtVT_U-gKcUzVjfxfl76YERWDFRYP-1oBcToq3xKX_D-RZBqtz9u4KHihzuqCd7K9XC3QeGccZ6sR1anm_QHsucuna_ZgZTbXnM3FIfaaHkIL4YlOxx9oXNvRmLLWUf9uFqb2WDmj0pEQZuvf0HO_SSs1s_QXF8Zoey3jywSoB-GHJmjQyqimbc7Ddp0uCY-XMhm1LgXKTq1XeOjlZwYnas3PJc_RJlzof2bD-wNicnJrQTPpf5SK49SL_sHlNIWfsIHJ2xIEdjIuMBogFbngeoyNFz3eo0IGkFGuhVb_z4PZC6XQLqN8qbpLTU8" host=tiktok.shop-brasil.com request_id=8b342323-0386-5df3-714e-08ad018855dd fwd="177.112.117.65" dyno=web.9 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.939176+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=a5a79214-5244-3196-5a9d-9c7db1ae49b0 fwd="191.38.209.72" dyno=web.28 connect=0ms service=3ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.957972+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=3fdf4150-0767-065c-6382-55c10c6ed3e8 fwd="189.0.145.88" dyno=web.47 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.969021+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=0e49ebd8-d1da-92f6-9769-045d60c8ce5c fwd="189.0.145.88" dyno=web.24 connect=0ms service=13ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.969066+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=1c30681c-3f75-188e-c391-f5188825deaa fwd="179.94.224.9" dyno=web.46 connect=0ms service=3ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.970245+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=250b4361-c37e-28ce-bdb7-2372eab55c9c fwd="179.94.224.9" dyno=web.58 connect=0ms service=4ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.994202+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=49240eac-2cee-29a1-9cdf-b5c64eece220 fwd="177.125.94.214" dyno=web.65 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:35.789225+00:00 app[web.61]: 🔍 RESPOSTA COMPLETA DA TRANSAÇÃO: {
+2025-10-18T02:23:35.789256+00:00 app[web.61]:   "gateway_id": "4M1274459885",
+2025-10-18T02:23:35.789257+00:00 app[web.61]:   "status": "waiting_payment",
+2025-10-18T02:23:35.789257+00:00 app[web.61]:   "amount": 149.8,
+2025-10-18T02:23:35.789257+00:00 app[web.61]:   "fee_amount": 0,
+2025-10-18T02:23:35.789257+00:00 app[web.61]:   "net_amount": 149.8,
+2025-10-18T02:23:35.789258+00:00 app[web.61]:   "customer_name": "Sérgio Rodrigues ",
+2025-10-18T02:23:35.789259+00:00 app[web.61]:   "customer_email": "sergiorodrigues2736@cliente.com",
+2025-10-18T02:23:35.789268+00:00 app[web.61]:   "description": "Buggy Controle remoto a Gasolina Com Bolsa Off Road 29cc",
+2025-10-18T02:23:35.789270+00:00 app[web.61]:   "pix_code": "00020101021226820014br.gov.bcb.pix2560qrcode.pagsm.com.br/pix/b8c745ff-fbee-4159-b0f0-07ff4ef7f3a65204000053039865802BR5918PAGAMENTOCERTOLTDA6008SaoPaulo62070503***630474D5",
+2025-10-18T02:23:35.789271+00:00 app[web.61]:   "pix_qr_code": "",
+2025-10-18T02:23:35.789271+00:00 app[web.61]:   "order_bump_accepted": false,
+2025-10-18T02:23:35.789271+00:00 app[web.61]:   "upsell_completed": false,
+2025-10-18T02:23:35.789271+00:00 app[web.61]:   "expires_at": null,
+2025-10-18T02:23:35.789271+00:00 app[web.61]:   "paid_at": null,
+2025-10-18T02:23:35.789272+00:00 app[web.61]:   "created_at": "2025-10-18T02:23:09.763Z",
+2025-10-18T02:23:35.789272+00:00 app[web.61]:   "updated_at": "2025-10-18T02:23:12.356Z"
+2025-10-18T02:23:35.789272+00:00 app[web.61]: }
+2025-10-18T02:23:35.789275+00:00 app[web.61]: 🎯 Status da transação: waiting_payment
+2025-10-18T02:23:35.793785+00:00 app[web.61]: 2:23:35 AM [express] GET /api/transactions/4M1274459885 304 in 1016ms :: {"gateway_id":"4M1274459885…
+2025-10-18T02:23:36.064367+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=1646b300-a1ad-4b26-619c-ae19d68dde1e fwd="177.125.94.214" dyno=web.53 connect=0ms service=3ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.189097+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=b0b97cd5-6c6e-8c87-bfda-789614e732ec fwd="177.112.117.65" dyno=web.22 connect=1ms service=5ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.190872+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=14bf423a-4ab9-7549-aaf0-8fd4c67ec167 fwd="177.112.117.65" dyno=web.41 connect=0ms service=8ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.205685+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=2329cca7-09d2-e754-fbfc-df731263ab90 fwd="177.192.11.104" dyno=web.33 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.262537+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.Cs0BRGMiBcPMvNLC9dfGHGXOYY2XkcyiiewUu2QcRAxeNfNrU9ywFu-cq7GuLxFSnZcYA4ybSXViIq7BmrjOjFG8Oq1rd1tvhQxggDytwOO9VY8oVp-MxrIoR676jRVYt65exA9eOG4qkNtrbqDrVau3zpuZjMWpStt3-y3l7bzYzWI7oJdFnoGAYWnlbR2W7qEc5hsfI4faPCquOs0myPjLq4QsXZFvLJH9eWqtDHo7YDO-dzTFCObwg9Utd-S2d_P1IuK8PCJRIvtbALOeoRIEdjIuMBog4TinCeoBPO7OOy976nX6lvw2YXCXY5XSNQo2PPRdLEc" host=tiktok.shop-brasil.com request_id=20c03609-c5e7-8689-52fb-e6bc2112adef fwd="191.241.129.102" dyno=web.5 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.320276+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=e22f6bce-9cc4-832f-2b0c-329492ecbb8f fwd="177.192.11.104" dyno=web.58 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.395232+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=f7f5ebf8-0158-536a-80d7-45a3c7e5658c fwd="187.106.43.245" dyno=web.7 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.401288+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=652c1abe-9b0c-73b9-a3d8-2df9c4b63653 fwd="187.44.180.89" dyno=web.69 connect=0ms service=4ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.531855+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.Ct8Bc3s3-yTes-ttcY5NY4sW-y_LCgkg-BvvKi5d6lFNxp-wCG_QWlTJNsDGBPpP7jytTcCIVrFa-Zck7u3QH3nE_I_KfvQiBU-P8M8Efb54PI8LVs1xvwHRywNOTGmaMi8SGtvfjl5psL_bSwP_8kI3WN1M7sDW2WnKEArGpkH-sK33q7jC5uQ27MKXkhYn8YSiLKv1r0cQGu_KA4XirHuV6DZwsldo748V7K8wASjc4mJ00PLNpOoRbrqCx_y3FIbrXD3KdevFiqDpsWQWICMwR_eKrhFP8Nrw-guBbL7TphIEdjIuMBogLLjhbFfVOCKtXgQM4hABnY0156nYwmjgxD5D4E_L8mg" host=tiktok.shop-brasil.com request_id=98d22aa6-3ea7-951c-adb0-c26e16f77879 fwd="170.238.198.200" dyno=web.34 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.596654+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&ttclid=E.C.P.Cs0BGu7e8orytZxv0y0DJ-5Qt3KJcBdHRDyORyLs4mHq-v009e9gnEPj3JYnnKu4A3mjOSu7tQviKOJb13DRzaDpYUmz9woUNbs0OHXZYjBIk4-HLcyJBUNy2cbAQ91oCuIYhIpWpZ5jK9c8GR2JxHEvyNbVTNVvVc3PxzVgF7TU9oAsezGH-lkpJfLlXalZl8TlVm_v1FEoWdioT4idy9Z7PZ0rx1FeIIrnOGCIQJ-4tOYG6elagiZ5F3tbuorVtHeRzJax50ulhr6hpp0eSRIEdjIuMBog9PvQHJjQZTkk0apvg3cWt7MPoIm8ZpJUQffnuZDJvAo" host=tiktok.shop-brasil.com request_id=c2f50a85-aa23-5a5d-9f6f-fb814188c2b6 fwd="177.33.86.74" dyno=web.65 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.633987+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=5046cf98-1636-2e04-bdfa-6b285988763f fwd="179.94.224.9" dyno=web.3 connect=0ms service=2ms status=200 bytes=56492 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.716672+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&lpt=1&show_landingpage=1&ttclid=E.C.P.CtgBmOfzKcxJwbjhP1KCaPSSflAXOiKnd39aB48G8HF6xSuhuF2lb0iyAq-SooEO-0W5XdS_kpMUnR34kCOcZTKbuHJYueR63JvZfZ2f3HfDHXRiwEmgJjWLKCDe_Ftr0Ge6QDGkvMN9IWXVHtC8M-EbV7tP9N-FlUdHmAYHb0vtnwgWsC7Lz0JXHKDe1EfBVuPLnVVC50L8u5evRBCZ_LeoI9V741nJk1I1UlIIHTp3YgXOfPhsOY5YOPNOLqJCu2GO_CjmGxn6__kS22M8dYHagppDasUesbtfEgR2Mi4wGiAiVRJR6yWHTGi4lqqIUi0Y0mLB0SImUYgic2kKuioMpw&orientation=portrait&height=77..." host=tiktok.shop-brasil.com request_id=03c4c762-c426-6ebe-9943-915aef8b5364 fwd="170.238.172.34" dyno=web.9 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.662770+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CtUBSDjK4fANfEmy4ADfScz-9QR4a0PzsSmx8H0gKSpigPUToePuHO1MLrfJ8MHvfg2Id3Jf50tdaVn6RhfzMgA1gn6EYXUI3GvWysHIHrR864vEoqEuu6UQGOYV-G0YRRhtBx2G719_UIR4RzcfAiSS5gJd8DoXUN8pQyawki_dtC92HeIbeltE3xM3T6EZv_BErAW0mvkfz7iqR-nKO-RvqpVU77uVWkYNIso-0hYRyPZT8vXgJmQ21cwsli6pBJFIqadE_3InEewG9TB4NfnJfPJAouweEgR2Mi4wGiAjvwZBUuJdcC18e8tHGbtDAlnuX2jW6TWKmqdhTuoI8Q" host=tiktok.shop-brasil.com request_id=a5d3214e-f9b0-6435-5b28-f555ee74b628 fwd="201.40.92.79" dyno=web.65 connect=0ms service=1ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.663925+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=990ca374-b8cc-b162-b844-86f195074155 fwd="191.241.129.102" dyno=web.13 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.671190+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=af3583a4-382e-57f4-cf44-936642f4824d fwd="191.241.129.102" dyno=web.54 connect=0ms service=9ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.666550+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=27869bb8-75cb-79df-95ce-fb0df6fc2507 fwd="179.94.224.9" dyno=web.47 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.668152+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=ddaa7eff-7c5c-bd5b-00cc-9c9cb181a98a fwd="179.94.224.9" dyno=web.41 connect=0ms service=3ms status=200 bytes=58172 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.686114+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&ttclid=E.C.P.CukB8RZATgf0ikm2DsqmvgLS86wNe8mqkYFJngyd9IJdoc_NnNNEIhQ0cE27wde1pSQ0uZe6qlt3ZPApQ-zfGYmCc79pDlzoXYDnDV_u22D1EZS9kJwXVwA0jVSD407G0y1SFlJA4SzLV8fDduSypmDzyzfd5_t29H8d43OpAHqp9V61I2Juo7tJ06cU2wAoHLZ0LKZEdrnTJp0lKQ5IQeqrALhif_hm7seJFChs-Nk5htEeb3Vm9MUS3t85AaLzu9xU1DtUTH78qI5f15icw5epq0DWHl-cCXi5nA3XSal980JM2KZh5uHzlksSBHYyLjAaIBp0oVfwMjKqXq5Xs0j4GHpgN62hGbu2DM27qbMDMwyU" host=tiktok.shop-brasil.com request_id=95b7fff2-5ee6-ea13-47b4-eaec9cf6c1d6 fwd="189.60.81.157" dyno=web.19 connect=0ms service=8ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.688342+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CuABshccG7dWazmK9gxYvHPU_ml9CeLPaX30kEkzesWAGUKxTtEQWaldfzcNuoi4FRptmmn3Jm3Jtwf6t6uXv3N4EQ0jY-_jHrPFytTrdAiljE-wWrH0dSBsvzn5oHFax6Z7PDCxafgjMpJ-W5a3-yz66p3KKolRzodbwng5tqg2m7uxB4kYiUEVxyQ2Bp_t2OCg0-RLONl3Jk4chOT6wxESCRavr4H9IaGKWKNiUGouBsi9_6jeV4tXruGS7Unxns-UQJUMNeUWohYYB_CHg8wxeAvwyO9EMSWaJp-A1WER3yASBHYyLjAaIP5xydi8O5xKxYJyYB5UzlRoe53lsLu8XMIDFBv9QKra" host=tiktok.shop-brasil.com request_id=9db9bc13-ec1b-3871-aa9d-e7ac45303f93 fwd="45.165.120.75" dyno=web.70 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.747568+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=091a616f-bd11-d683-8db1-6fa8d5c12db9 fwd="170.238.198.200" dyno=web.11 connect=0ms service=4ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.750836+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=9abdee5c-b222-2635-9e49-3aead8bdc7ed fwd="170.238.198.200" dyno=web.25 connect=0ms service=8ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.820314+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&ttclid=E.C.P.Cr0B1z4bkUpoUyPA7YpCzlFAaT7l8LfDWrO0K1LJePjbM-ktDeSLrrzHCqWaumykTkAATizYVRI_Spz3J5tTHnmm6mQpW2HDp9shgVaWpPEEUBVSoQ-TnSKwZEjAyhd9Pb42kTkaMnAuhM2kGT0h1VsjwIqzDij5eBF6OP15vWof53NV1V9eqKZBq-n36c8FPL0ItYsF2556eZcL7Hi9yf1tiwz6U47cFr7_9aAh3Eidhp7_jIeNAkf27jwGWrPdEgR2Mi4wGiDa1QJAgm9mMFcbg7hnGObqXdHnB2_EI11zYxHPStJ1Bw" host=tiktok.shop-brasil.com request_id=c90219cc-0dff-1b3e-6c34-99ffda5e1e8b fwd="45.162.136.133" dyno=web.9 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.839393+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=c5cf4c62-44b0-352b-517a-0581c5233fe4 fwd="189.60.81.157" dyno=web.12 connect=0ms service=3ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.842727+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=f2e31c84-742e-2f45-96ef-84b987486f38 fwd="189.60.81.157" dyno=web.45 connect=0ms service=6ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.866842+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=c8af0160-3aaa-180c-5f8c-b04e58189a68 fwd="45.165.120.75" dyno=web.53 connect=0ms service=4ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.871172+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=daeb6a3b-7fa1-513e-fba8-c1e887ca8885 fwd="45.165.120.75" dyno=web.63 connect=0ms service=8ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.909362+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=a5f203a9-8cd1-7f15-7ec7-58ef628c521a fwd="201.40.92.79" dyno=web.32 connect=0ms service=4ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.918541+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=388bc14d-9263-e51f-e344-2df5f8ddd472 fwd="177.33.86.74" dyno=web.37 connect=0ms service=3ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.931200+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=b551f0ec-4cd7-6eef-2882-d2cf8b47e5f6 fwd="177.33.86.74" dyno=web.21 connect=0ms service=8ms status=206 bytes=1 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.932162+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=fcc0fbd4-db33-8188-6051-f89e0d0b85a7 fwd="201.40.92.79" dyno=web.1 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.972386+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.CtUBDJqOXXVyQW_TWXIzZ77TAEXgyIWANPs94ab-2h9zU7T155gAzBM-Se1selQW7UNDcpwQXdZmnxUT_TcJ23KFNWlvjmdIDBa2CQowvPb7tzr_EyQ3NXbpwe2iDhBQRS6HDEplisR6V5dT1wBcbf6FryQ4GjcDMbRKSaCIOOILJ8DdgHLoEB0_QgphCl13pO7gM-KabhI_lImZkptpwvlJknWYfwyurwHOPklMBi22L7vasQ2t9alxJXD76h2GxIvYdzamqByIdRIQaPQKmBzx1Y_OsfC9EgR2Mi4wGiB0XerUHutvWbFgaCIpDyuEvZGjDYz840VoFFJT9Wwd6g" host=tiktok.shop-brasil.com request_id=eb8fe814-01a3-0818-fc65-485c9b59a1a3 fwd="45.70.52.77" dyno=web.46 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:36.993223+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2" host=tiktok.shop-brasil.com request_id=fea7d6b5-1cf3-61c9-3216-1bb7b803441f fwd="170.78.81.231" dyno=web.33 connect=0ms service=2ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.018983+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Regular.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=8afc7ac5-9b6d-c599-f425-6812b8e1e3d3 fwd="189.0.145.88" dyno=web.63 connect=0ms service=3ms status=200 bytes=56492 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.054331+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Bold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=364f4cff-7b84-41cb-a09b-4cc1a0021e91 fwd="189.0.145.88" dyno=web.71 connect=0ms service=8ms status=200 bytes=58172 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.050373+00:00 heroku[router]: at=info method=GET path="/fonts/TikTokFont-Semibold.woff2?v=1760739696" host=tiktok.shop-brasil.com request_id=df7b856f-c41b-048f-ae7f-22be70bb6d61 fwd="189.0.145.88" dyno=web.21 connect=0ms service=4ms status=200 bytes=56968 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.092277+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=e378c401-513e-7807-9a85-843d0a43ccc7 fwd="170.238.172.34" dyno=web.65 connect=0ms service=3ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.094403+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=ff7ac514-82e9-d7d8-2c85-0d9fa6e7902f fwd="170.238.172.34" dyno=web.21 connect=0ms service=4ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.096564+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tiktok.shop-brasil.com request_id=07025c12-09da-cb48-4fba-840b0e33d7a5 fwd="170.78.81.231" dyno=web.38 connect=0ms service=7ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.178082+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=aa94ca1b-6f73-2284-fc9c-b8a1a9b99ea2 fwd="45.162.136.133" dyno=web.30 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.177344+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=526f2866-12fc-21e3-cd62-af24f345f502 fwd="45.162.136.133" dyno=web.50 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.191384+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&ttclid=E.C.P.Cs0BaT_wQlfaExjO5EtTHn7CcHw91hOjmyEatxjdte5iQGnfPa6u8N1sD3bW8OfyNXZYPJAT3Fh-y17FWyzD_dJ2MjxKln_TdyRI4PvgbYCKZhiLAriTA493HqLgip2IiTtglcvninECa_WvohCOLzl69rnawHyMkKTa-7WVgkl2nKOYZwJS5L2LqC5DyrUJwijvLoYiW-nZkdwT9A8gP4fGg1H0z6SHUqH28J2a4dPShB6F08b2_0c8IZNwoURtTzzMaNiZAF1HdhEDSfvuTxIEdjIuMBog_rXOLHCmE27arMHqQ_eCCn9RTylFS6shTKzH1Hn6NrU" host=tiktok.shop-brasil.com request_id=6a2a1695-e458-7b55-db7f-cfa8d8a26236 fwd="177.174.193.222" dyno=web.32 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.204806+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846264400538625&utm_campaign=Copy+1+of+carrinho+baja&ttclid=E.C.P.CtEBuk30kLJX4A_PI_cNB1EvJYIbizYTBIkuwmidzcO5A7uxCVL6E0G05syaTQ_rmUdIF9_TTuTVZ1IMqzfRLl6M2bLIbsJXPdxicJf4wGSUti2zpB-4HiD3KMN2LupWfkBfBygOcChPbnwxDF5QJXJIXw0Myw1trc00m4WKgfo02c5ZaOY3C1SGktKFQ5NkhW3FUIrudg6Z1OvhcYK-pjC9sjFIMopxPDLzySIvcA54LSpWtPA7GhSRUzfvySe7wm4f2dSZyRfmlj1HTioL0l2SEhQSBHYyLjAaIF-yd5bJAvb9OtclvbHa9YhBivRQbSaJKtzqx6V8ojP9" host=tiktok.shop-brasil.com request_id=0faa3ef6-147e-97c5-e924-b40d1af58358 fwd="177.192.8.235" dyno=web.40 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.364119+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846262643167329&utm_campaign=carrinho+baja&lpt=1&show_landingpage=1&ttclid=E.C.P.CvkBtCRjJ8L-ZKoBXFuYHZCpRZeg428J3kxbl1-aOSc-wOhdcBDLUQ25vkvQ2HTRfWHQkLwM9SkEZuQ70eOblgCpFRODH0V6DHBhLYchZvT__ikifpO4Eel9fpXenNdAPJ3dyQ6wzcu_o9Iz90-SU6WhMThyf6zEvxt2ifwjSzsKGUi6SYwTDs__vWLAwk6JgtSffHXC1ILUBUlh7p7Q3x1ZDdK1mXofhTSHOXKkYObQiRybqOjpUXO-5fKjTjqqfMOHnnhG0Uf7QM8drJDSe7xf7CTLWxsnn1SqZETYB05kdFZd3tbf4_jjhI-L_VthFrSLMffy-9gLOBy8EgR2Mi4wGiDjA6EAzVPj8qSfnJvzZ6LA5j0uAS0Ml1GUYRa_YiM..." host=tiktok.shop-brasil.com request_id=e4027bce-2e2e-ff9f-5e4d-70906261364a fwd="191.177.121.120" dyno=web.29 connect=0ms service=2ms status=200 bytes=1352 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.407630+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=b94b48ad-96cb-0e54-ed9d-3eef86a7bfc5 fwd="45.70.52.77" dyno=web.36 connect=0ms service=5ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.373423+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=e1d0163e-d4b1-c15e-5094-60015e8411c2 fwd="177.192.8.235" dyno=web.39 connect=0ms service=4ms status=200 bytes=307550 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.377171+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=cd177d39-07d5-2b7e-ad4b-2143437f0fbb fwd="177.192.8.235" dyno=web.20 connect=0ms service=7ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.404099+00:00 heroku[router]: at=info method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=40a7834c-de7f-f3d4-b252-a5b2dd69b86f fwd="45.70.52.77" dyno=web.41 connect=0ms service=2ms status=200 bytes=78652 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.416727+00:00 heroku[router]: at=info method=GET path="/assets/index-Bbx9xr3G.js" host=tiktok.shop-brasil.com request_id=c73951fc-3235-bfa9-350c-24b6c073cb4a fwd="177.33.86.74" dyno=web.22 connect=0ms service=5ms status=206 bytes=299257 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-18T02:23:37.522940+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/assets/index-Cpv_y1kS.css" host=tiktok.shop-brasil.com request_id=ec81e339-bdea-72e0-e7a6-99ffac7dd6b2 fwd="177.174.193.222" dyno=web.29 connect=0ms service=2ms status=200 bytes=0

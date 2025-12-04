@@ -1,0 +1,58 @@
+~ $ ls -la
+ls -la dist/
+node dist/index.js
+total 420
+drwx------  10 u52444 dyno   4096 Oct 11 22:50 .
+drwxr-xr-x  11 root   root   4096 Sep 24 08:57 ..
+-rw-------   1 u52444 dyno    223 Oct 11 22:47 .env.example
+-rw-------   1 u52444 dyno     67 Oct 11 22:47 .gitignore
+drwx------   4 u52444 dyno   4096 Oct 11 22:48 .heroku
+drwx------   2 u52444 dyno   4096 Oct 11 22:48 .profile.d
+-rw-------   1 u52444 dyno    697 Oct 11 22:47 .replit
+-rw-------   1 u52444 dyno   1974 Oct 11 22:47 CORRIGIR_HEROKU.md
+-rw-------   1 u52444 dyno   1829 Oct 11 22:47 DEPLOY_HEROKU.md
+-rw-------   1 u52444 dyno   1761 Oct 11 22:47 DIAGNOSTICO_HEROKU.md
+-rw-------   1 u52444 dyno   1271 Oct 11 22:47 HEROKU_SETUP.md
+-rw-------   1 u52444 dyno     15 Oct 11 22:47 Procfile
+-rw-------   1 u52444 dyno   1145 Oct 11 22:47 SOLUCAO_RAPIDA_HEROKU.md
+drwx------   2 u52444 dyno   4096 Oct 11 22:47 attached_assets
+-rw-------   1 u52444 dyno    620 Oct 11 22:47 build.js
+drwx------   4 u52444 dyno   4096 Oct 11 22:47 client
+-rw-------   1 u52444 dyno    459 Oct 11 22:47 components.json
+-rw-------   1 u52444 dyno   3858 Oct 11 22:47 design_guidelines.md
+drwx------   3 u52444 dyno   4096 Oct 11 22:48 dist
+-rw-------   1 u52444 dyno    325 Oct 11 22:47 drizzle.config.ts
+drwx------ 275 u52444 dyno  12288 Oct 11 22:48 node_modules
+-rw-------   1 u52444 dyno 294618 Oct 11 22:48 package-lock.json
+-rw-------   1 u52444 dyno   3580 Oct 11 22:47 package.json
+-rw-------   1 u52444 dyno   3580 Oct 11 22:47 package.json.final
+-rw-------   1 u52444 dyno     80 Oct 11 22:47 postcss.config.js
+-rw-------   1 u52444 dyno   5400 Oct 11 22:47 replit.md
+drwx------   2 u52444 dyno   4096 Oct 11 22:47 server
+drwx------   2 u52444 dyno   4096 Oct 11 22:47 shared
+-rw-------   1 u52444 dyno   4050 Oct 11 22:47 tailwind.config.ts
+-rw-------   1 u52444 dyno    657 Oct 11 22:47 tsconfig.json
+-rw-------   1 u52444 dyno   1080 Oct 11 22:47 vite.config.ts
+total 20
+drwx------  3 u52444 dyno 4096 Oct 11 22:48 .
+drwx------ 10 u52444 dyno 4096 Oct 11 22:50 ..
+-rw-------  1 u52444 dyno 6616 Oct 11 22:48 index.js
+drwx------  4 u52444 dyno 4096 Oct 11 22:48 public
+node:internal/modules/esm/resolve:873
+  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+        ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'vite' imported from /app/dist/index.js
+    at packageResolve (node:internal/modules/esm/resolve:873:9)
+    at moduleResolve (node:internal/modules/esm/resolve:946:18)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:168:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v20.19.5
+~ $ 

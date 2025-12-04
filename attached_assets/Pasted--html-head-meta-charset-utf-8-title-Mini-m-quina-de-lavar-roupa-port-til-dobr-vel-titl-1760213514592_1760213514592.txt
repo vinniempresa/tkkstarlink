@@ -1,0 +1,385 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Mini máquina de lavar roupa portátil dobrável</title>
+  <meta content="width=428, initial-scale=1.0" name="viewport"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+    }
+    .text-primary { color: #F52B56; }
+    .bg-primary { background-color: #F52B56; }
+    .border-primary { border-color: #F52B56; }
+    .text-black { color: #000000 !important; }
+    .border-cinza { border-color: #e0e0e0; }
+    .border-aleatorio { border-style: dashed; border-width: 2px; border-color: #e0e0e0; }
+    .carousel-img {
+      transition: opacity 0.3s;
+    }
+    .carousel-arrow {
+      background: rgba(0,0,0,0.35);
+      color: #fff;
+      border-radius: 9999px;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+    }
+    .carousel-arrow:active {
+      background: rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body class="bg-white text-black">
+  <!-- Header -->
+  <div class="fixed top-0 left-0 w-full z-30 bg-white flex items-center justify-between px-3 pt-3 pb-2" style="max-width:428px;">
+    <div class="flex items-center space-x-3">
+      <i class="fas fa-times text-2xl"></i>
+    </div>
+    <div class="flex items-center space-x-5">
+      <img src="https://i.ibb.co/wNscKnC6/Captura-de-Tela-2025-10-11-a-s-15-49-56.png" alt="Barra de ícones de ação: compartilhar, carrinho e menu, estilizados em fundo branco" class="w-24 h-7 object-contain"/>
+    </div>
+  </div>
+  <!-- Main Image Carousel -->
+  <div class="pt-12 relative" style="max-width:428px;">
+    <div class="relative w-full h-[320px] flex items-center justify-center overflow-hidden" id="carousel-container">
+      <img 
+        src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m2dab30m5z755d.webp"
+        alt="Mini máquina de lavar roupa portátil dobrável cor roxa, vista frontal, produto inteiro, fundo branco"
+        class="carousel-img absolute inset-0 w-full h-full object-contain"
+        style="opacity:1; z-index:2;"
+        data-index="0"
+      />
+      <img 
+        src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m2d9v0et8iticf.webp"
+        alt="Mini máquina de lavar roupa portátil dobrável cor roxa, vista lateral, produto inteiro, fundo branco"
+        class="carousel-img absolute inset-0 w-full h-full object-contain"
+        style="opacity:0; z-index:1;"
+        data-index="1"
+      />
+      <img 
+        src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m2dab30mlf7q60.webp"
+        alt="Mini máquina de lavar roupa portátil dobrável cor roxa, vista superior, produto inteiro, fundo branco"
+        class="carousel-img absolute inset-0 w-full h-full object-contain"
+        style="opacity:0; z-index:1;"
+        data-index="2"
+      />
+      <img 
+        src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m2d9v0et9xdyf9.webp"
+        alt="Mini máquina de lavar roupa portátil dobrável cor roxa, detalhes do interior, fundo branco"
+        class="carousel-img absolute inset-0 w-full h-full object-contain"
+        style="opacity:0; z-index:1;"
+        data-index="3"
+      />
+      <!-- Carousel Arrows -->
+      <div class="absolute left-2 top-1/2 -translate-y-1/2 carousel-arrow" id="carousel-prev">
+        <i class="fas fa-chevron-left"></i>
+      </div>
+      <div class="absolute right-2 top-1/2 -translate-y-1/2 carousel-arrow" id="carousel-next">
+        <i class="fas fa-chevron-right"></i>
+      </div>
+      <!-- Carousel Dots -->
+      <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex space-x-1 z-20">
+        <span class="w-2 h-2 rounded-full bg-primary opacity-80" data-dot="0"></span>
+        <span class="w-2 h-2 rounded-full bg-white border border-primary opacity-80" data-dot="1"></span>
+        <span class="w-2 h-2 rounded-full bg-white border border-primary opacity-80" data-dot="2"></span>
+        <span class="w-2 h-2 rounded-full bg-white border border-primary opacity-80" data-dot="3"></span>
+      </div>
+    </div>
+    <div class="absolute bottom-2 right-3 bg-black bg-opacity-60 text-white text-xs rounded-full px-2 py-0.5 z-30" id="carousel-counter">
+      1/4
+    </div>
+  </div>
+  <!-- Price and Title -->
+  <div class="px-4 pt-3 pb-2" style="max-width:428px;">
+    <div class="flex items-center space-x-2">
+      <span class="bg-primary text-white text-[10px] font-semibold px-2 py-0.5 rounded">
+        -73%
+      </span>
+      <span class="flex items-end">
+        <span class="text-primary text-xs font-bold leading-tight" style="margin-bottom:2px;">
+          A partir de&nbsp;
+        </span>
+        <span class="text-primary text-2xl font-bold leading-none">
+          R$ 94,20
+        </span>
+      </span>
+      <i class="fas fa-ticket-alt text-primary text-xs"></i>
+      <span class="flex items-center text-[#e0e0e0] line-through text-[11px] font-normal whitespace-nowrap">
+        R$ 350,00
+      </span>
+    </div>
+    <div class="text-[11px] text-[#757575] mt-1">
+      2x R$ 47,10
+      <span class="text-primary">
+        sem juros
+      </span>
+    </div>
+    <div class="mt-1 font-medium inline-block rounded px-2 py-1" style="background:#FDE5EA;">
+      <span class="text-primary text-[11px] flex items-center">
+        <i class="fas fa-ticket-alt mr-1"></i>
+        Desconto de 10%, máximo de R$ 25
+      </span>
+    </div>
+    <div class="mt-2 font-semibold text-xs leading-5 text-black">
+      Mini máquina de lavar roupa portátil dobrável moderna máquina de lavar automática roupa inte...
+    </div>
+    <div class="flex items-center mt-1">
+      <span class="text-[#ffb400] text-xs">
+        <i class="fas fa-star"></i>
+      </span>
+      <span class="text-[#ffb400] text-xs">
+        <i class="fas fa-star"></i>
+      </span>
+      <span class="text-[#ffb400] text-xs">
+        <i class="fas fa-star"></i>
+      </span>
+      <span class="text-[#ffb400] text-xs">
+        <i class="fas fa-star"></i>
+      </span>
+      <span class="text-[#ffb400] text-xs">
+        <i class="fas fa-star-half-alt"></i>
+      </span>
+      <span class="ml-1 text-black text-xs font-medium">
+        4.6
+      </span>
+      <span class="ml-1 text-[#757575] text-xs">
+        (32)
+      </span>
+      <span class="ml-2 text-[#757575] text-xs">
+        233 vendidos
+      </span>
+    </div>
+    <!-- Caminhão + Entrega + Taxa de envio alinhada -->
+    <div class="flex flex-col mt-2">
+      <div class="flex items-center text-xs">
+        <img src="https://i.ibb.co/prWkcTnx/Captura-de-Tela-2025-10-11-a-s-15-32-27-removebg-preview.png" alt="Ícone de caminhão de entrega com fundo transparente" class="w-5 h-5 mr-2 object-contain"/>
+        <span class="text-black">
+          Receba até 14–18 de out
+        </span>
+      </div>
+      <div class="pl-7 text-[11px] text-[#757575] mt-0.5">
+        Taxa de envio: R$ 22,60
+      </div>
+    </div>
+    <!-- Opções de cor (apenas ROXO) -->
+    <div id="color-options" class="flex items-center mt-3 space-x-2">
+      <button type="button" data-color="ROXO" class="color-btn rounded-full border-4 border-primary p-0.5 focus:outline-none">
+        <img alt="Mini máquina de lavar cor roxa, vista frontal, fundo branco" class="w-8 h-8 rounded-full object-cover" height="32" src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m2dab30m5z755d.webp" width="32"/>
+      </button>
+      <span id="selected-color-label" class="text-[10px] text-black ml-2 font-semibold">
+        ROXO
+      </span>
+    </div>
+  </div>
+  <!-- Imagem substituindo a box de serviços -->
+  <div style="max-width:428px;">
+    <img src="https://i.ibb.co/KjxGK14n/IMG-7372-1.jpg" alt="Banner promocional ou institucional da loja" class="w-full object-cover"/>
+  </div>
+  <!-- Ofertas -->
+  <div class="px-4 py-3 border-b border-[#f5e6d6] bg-white" style="max-width:428px;">
+    <div class="flex items-center justify-between">
+      <div>
+        <div class="text-xs font-semibold text-black">
+          10% OFF
+        </div>
+        <div class="text-[10px] text-[#757575]">
+          nos pedidos acima de R$ 39
+        </div>
+      </div>
+      <button class="bg-primary text-white text-[10px] font-semibold px-4 py-1 rounded">
+        Resgatar
+      </button>
+    </div>
+  </div>
+  <!-- Avaliações dos clientes -->
+  <div class="px-4 py-3" style="max-width:428px;">
+    <div class="text-xs font-semibold mb-2 text-black">
+      Avaliações dos clientes (32)
+    </div>
+    <div class="flex items-center mb-1">
+      <span class="text-[#ffb400] text-sm">
+        <i class="fas fa-star"></i>
+      </span>
+      <span class="text-[#ffb400] text-sm">
+        <i class="fas fa-star"></i>
+      </span>
+      <span class="text-[#ffb400] text-sm">
+        <i class="fas fa-star"></i>
+      </span>
+      <span class="text-[#ffb400] text-sm">
+        <i class="fas fa-star"></i>
+      </span>
+      <span class="text-[#ffb400] text-sm">
+        <i class="fas fa-star-half-alt"></i>
+      </span>
+      <span class="ml-2 text-black text-xs font-semibold">
+        4.6
+      </span>
+      <span class="ml-2 text-[#757575] text-xs">
+        /5
+      </span>
+    </div>
+    <div class="flex items-center text-[10px] text-[#757575] mb-2">
+      <span class="mr-2">
+        Rosifran Lima dos Santos
+      </span>
+    </div>
+    <div class="flex items-center mb-1">
+      <span class="text-[#ffb400] text-xs">
+        <i class="fas fa-star"></i>
+      </span>
+      <span class="text-[#ffb400] text-xs">
+        <i class="fas fa-star"></i>
+      </span>
+      <span class="text-[#ffb400] text-xs">
+        <i class="fas fa-star"></i>
+      </span>
+      <span class="text-[#ffb400] text-xs">
+        <i class="fas fa-star"></i>
+      </span>
+      <span class="text-[#ffb400] text-xs">
+        <i class="fas fa-star"></i>
+      </span>
+    </div>
+    <div class="text-[10px] text-[#757575] mb-1">
+      Item: BEGE   COM CESTO 6,5L
+    </div>
+    <div class="text-xs text-black mb-2">
+      Produto excelente! Chegou muito bem embalado e antes do prazo previsto. A mini máquina é prática, fácil de usar e realmente lava muito bem peças pequenas. Recomendo para quem busca praticidade no dia a dia. Estou muito satisfeita com a compra e com a agilidade na entrega!
+    </div>
+    <div class="flex space-x-2 mb-2">
+      <img alt="Foto real do produto mini máquina de lavar bege com cesto, em ambiente doméstico, fundo claro" class="w-14 h-14 rounded object-cover border border-[#e0e0e0]" height="56" src="https://ae-pic-a1.aliexpress-media.com/kf/A93d444a0c38b4cbba8228a35340b4290i.jpg_.webp" width="56"/>
+      <img alt="Foto real do produto mini máquina de lavar bege, tampa aberta, detalhes internos, fundo claro" class="w-14 h-14 rounded object-cover border border-[#e0e0e0]" height="56" src="https://ae-pic-a1.aliexpress-media.com/kf/Ada2643dfeccb4003aa81d33e704ac3d3P.jpg_.webp" width="56"/>
+      <img alt="Foto real do produto mini máquina de lavar bege, detalhes do funcionamento, fundo claro" class="w-14 h-14 rounded object-cover border border-[#e0e0e0]" height="56" src="https://ae-pic-a1.aliexpress-media.com/kf/A68c3b51931644371b27db72de114fe4fz.jpg_.webp" width="56"/>
+    </div>
+  </div>
+  <!-- Descrição -->
+  <div class="px-4 pb-24" style="max-width:428px;">
+    <div class="text-xs font-semibold mb-2 text-black">
+      Descrição
+    </div>
+    <div class="text-[11px] text-black mb-2">
+      <span class="font-semibold">
+        Mini Máquina de Lavar Dobrável: Praticidade e Eficiência na Lavagem de Pequenos Itens
+      </span>
+      <br/><br/>
+      Agora, lavar pequenas peças como roupas íntimas, meias, roupinhas de bebê e pequenos panos ficou muito mais fácil. Com a Mini Máquina de Lavar, você garante uma lavagem eficiente e de qualidade.
+      <br/><br/>
+      <span class="font-semibold">
+        Descrição do Produto:
+      </span>
+      <br/>
+      Esta mini máquina é integrada a um balde dobrável e possui uma potência de 40W. Ela vem com um sistema de escoamento localizado na parte traseira, permitindo o despejo da água sem necessidade de virar o balde e correr o risco de derrubar suas roupas. O design dobrável oferece praticidade para armazenamento e transporte.
+      <br/><br/>
+      <span class="font-semibold">
+        Características Inteligentes:
+      </span>
+      <br/>
+      Fácil de Usar: Toque o botão touch por 2 segundos para acender o LED vermelho. Toque novamente para iniciar a lavagem. Após 10 minutos, a máquina para automaticamente e emite um sinal.
+      <br/>
+      Sistema de Escoamento: Permite o escoamento da água sem precisar inclinar o balde.
+      <br/><br/>
+      <span class="font-semibold">
+        Especificações:
+      </span>
+      <br/>
+      Material: Polipropileno + Silicone
+      <br/>
+      Voltagem: Bivolt
+      <br/>
+      Nota: O produto é testado antes do envio para garantir a qualidade, podendo apresentar marcas de água residuais devido aos testes realizados.
+      <br/><br/>
+      <span class="font-semibold">
+        Garantia:
+      </span>
+      <br/>
+      Tempo de Garantia: 1 mês
+      <br/>
+      Tipo de Garantia: Fornecedor
+      <br/>
+      <span class="text-[#bdbdbd]">
+        *Imagens meramente ilustrativas.
+      </span>
+    </div>
+  </div>
+  <!-- Floating Action Bar -->
+  <div class="fixed bottom-0 left-0 w-full bg-white flex items-center justify-between px-4 py-3 z-40" style="max-width:428px;">
+    <div class="flex items-center">
+      <img src="https://i.ibb.co/mFB188wc/Captura-de-Tela-2025-10-11-a-s-15-39-55.png" alt="Ícone institucional da loja, fundo branco, símbolo dourado" class="w-16 h-16 object-contain"/>
+    </div>
+    <div class="flex items-center space-x-2 ml-6">
+      <button class="bg-[#F2F2F2] text-black font-semibold text-xs rounded-lg px-1 py-2 shadow-sm">
+        Adicionar ao carrinho
+      </button>
+      <button class="bg-primary text-white font-semibold text-xs rounded-lg px-1 py-2 shadow-sm ml-0">
+        Comprar com cupom
+      </button>
+    </div>
+  </div>
+  <!-- Floating Up Button -->
+  <button class="fixed bottom-24 right-4 bg-white border border-[#e0e0e0] shadow-lg rounded-full w-10 h-10 flex items-center justify-center z-50">
+    <i class="fas fa-arrow-up text-xl text-[#757575]"></i>
+  </button>
+  <script>
+    // Carousel logic
+    const images = document.querySelectorAll('.carousel-img');
+    const dots = document.querySelectorAll('[data-dot]');
+    const counter = document.getElementById('carousel-counter');
+    const prev = document.getElementById('carousel-prev');
+    const next = document.getElementById('carousel-next');
+    let current = 0;
+    const total = images.length;
+
+    function showImage(idx) {
+      images.forEach((img, i) => {
+        img.style.opacity = (i === idx) ? '1' : '0';
+        img.style.zIndex = (i === idx) ? '2' : '1';
+      });
+      dots.forEach((dot, i) => {
+        if(i === idx) {
+          dot.classList.remove('bg-white', 'border', 'border-primary');
+          dot.classList.add('bg-primary');
+        } else {
+          dot.classList.remove('bg-primary');
+          dot.classList.add('bg-white', 'border', 'border-primary');
+        }
+      });
+      counter.textContent = (idx+1) + '/' + total;
+    }
+
+    prev.addEventListener('click', () => {
+      current = (current - 1 + total) % total;
+      showImage(current);
+    });
+    next.addEventListener('click', () => {
+      current = (current + 1) % total;
+      showImage(current);
+    });
+    dots.forEach((dot, i) => {
+      dot.addEventListener('click', () => {
+        current = i;
+        showImage(current);
+      });
+    });
+    showImage(current);
+
+    // Só existe ROXO, então não há seleção dinâmica
+    document.querySelectorAll('#color-options .color-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        // Não faz nada, pois só há uma opção
+      });
+    });
+  </script>
+</body>
+</html>
