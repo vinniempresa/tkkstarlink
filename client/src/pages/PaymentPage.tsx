@@ -328,9 +328,9 @@ export default function PaymentPage() {
           {/* Logo PIX centralizado */}
           <div className="flex justify-center mb-4">
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Logo%E2%80%94pix_powered_by_Banco_Central_%28Brazil%2C_2020%29.svg" 
-              alt="PIX - Banco Central" 
-              className="h-8"
+              src="/pix-logo.png"
+              alt="PIX - Banco Central"
+              className="h-8 object-contain"
             />
           </div>
 
