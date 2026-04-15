@@ -60,7 +60,7 @@ Por Que Escolher o Starlink Mini:
 ✓ Cobertura onde nenhuma operadora chega
 
 Conecte-se ao futuro com o Starlink Mini!`,
-  price: '1009.70',
+  price: '138.45',
   originalPrice: '1499.00',
   discount: 33,
   mainImage: 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/afe064a8030c4180b9efd79a451da579~tplv-o3syd03w52-crop-webp:1200:1200.webp?dr=15592&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=e1be8f53&idc=my&from=2378011839',
