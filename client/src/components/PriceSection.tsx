@@ -130,30 +130,6 @@ export default function PriceSection({ product, timeLeft = "1 dia", couponApplie
         </div>
       </div>
       
-      <div className="px-4 mt-3 bg-gray-100 rounded-lg p-3 inline-flex items-center gap-3">
-        <button 
-          type="button" 
-          className="border-2 border-[#F52B56] p-0 focus:outline-none"
-          style={{ borderRadius: '0px' }}
-        >
-          <img 
-            alt={`${product.name} - ${product.variant}`}
-            className="w-10 h-10 object-cover" 
-            height="40" 
-            src={product.variantImage}
-            width="40"
-            style={{ borderRadius: '0px' }}
-          />
-        </button>
-        <div className="flex flex-col">
-          <span className="text-sm text-black font-normal">
-            Starlink
-          </span>
-          <span className="text-[9px] text-[#757575] font-normal">
-            {product.stock} unidades restantes
-          </span>
-        </div>
-      </div>
     </div>
   );
 }
