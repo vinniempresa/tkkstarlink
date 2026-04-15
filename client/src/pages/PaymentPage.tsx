@@ -331,7 +331,6 @@ export default function PaymentPage() {
               src="/pix-logo-oficial.png"
               alt="PIX powered by Banco Central"
               className="h-16 object-contain"
-              style={{ mixBlendMode: 'multiply' }}
             />
           </div>
 
