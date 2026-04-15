@@ -15,73 +15,72 @@ import {
   type InsertDomain,
 } from '@shared/schema';
 
-// Dados hardcoded da Adidas - Camisa Flamengo
+// Dados hardcoded do O Boticário - Calendário do Advento
 const HARDCODED_STORE: Store = {
   id: 'store-1',
-  name: 'Adidas',
-  logo: '/attached_assets/adidas_1764530967814.jpg',
-  salesCount: '245K',
-  reviewsCount: '89,5 mil',
+  name: 'oBoticário',
+  logo: '/attached_assets/logo o boticario_1762761428802.jpg',
+  salesCount: '68.8K',
+  reviewsCount: '12,8 mil',
   rating: '4.9',
 };
 
 const HARDCODED_PRODUCT: Product = {
   id: 'product-1',
   storeId: 'store-1',
-  name: 'Camisa I Flamengo 25/26',
-  description: `Camisa I Flamengo 25/26 - A Nova Era Rubro-Negra!
+  name: 'Calendário do Advento 2025 O Boticário (12 itens)',
+  description: `Calendário do Advento 2025 O Boticário: Uma Contagem Regressiva Mágica para o Natal!
 
-Vista as cores da maior torcida do mundo com a nova Camisa I do Flamengo para a temporada 2025/26! Desenvolvida pela adidas com tecnologia de ponta, esta camisa une tradição, conforto e performance em uma peça única.
+Surpreenda-se todos os dias de dezembro com o Calendário do Advento 2025 de O Boticário! Este kit exclusivo traz 12 caixinhas especiais com produtos clássicos da marca em tamanhos viagem, perfeitos para você descobrir ou redescobrir as fragrâncias e cuidados favoritos.
 
-Design Exclusivo:
-A camisa traz o clássico padrão rubro-negro que é a marca registrada do Mengão, com detalhes modernos que celebram a grandeza do clube. O escudo bordado no peito e as três listras características da adidas completam o visual icônico.
+O Que Vem Dentro:
+O Calendário do Advento contém 12 produtos surpresa em tamanho viagem das linhas mais icônicas de O Boticário, incluindo perfumaria, skincare, maquiagem e cuidados pessoais. Além disso, você também recebe 1 Cartão Mais Presente para escolher um mimo extra entre ofertas exclusivas!
 
-Tecnologia e Conforto:
-• Tecido AEROREADY: Absorve a umidade e mantém você seco
-• Corte regular: Confortável para o dia a dia
-• Tecido leve e respirável: Perfeito para torcer com todo gás
-• Gola careca clássica: Elegância atemporal
+Categorias de Produtos Incluídos:
+• Perfumaria: Miniaturas de fragrâncias das linhas Lily, Floratta, Malbec, Zaad
+• Skincare: Produtos de cuidados com a pele
+• Maquiagem: Itens de beleza para realçar sua beleza natural
+• Cuidados Pessoais: Produtos para o dia a dia das linhas Nativa SPA, Cuide-se Bem e Botik
+• Bônus: 1 Cartão Mais Presente com experiências exclusivas
+
+Como Funciona:
+Abra 1 caixinha por dia de 1º a 12 de dezembro e descubra qual será a surpresa! Cada produto é cuidadosamente selecionado entre os sucessos de vendas da marca, proporcionando uma experiência única de descoberta e autocuidado.
+
+Design Especial de Natal:
+Linda embalagem verde com guirlanda desenhada, design sofisticado e temático de Natal 2025. Perfeito para presente ou para se presentear nesta época tão especial!
 
 Especificações:
-• Material: 100% Poliéster reciclado
-• Cor: Preto/Vermelho
-• Modelo: IV6052
-• Tamanhos disponíveis: P, M, G, GG, XGG
-
-Personalização:
-Você pode adicionar nome e número do seu craque favorito! Escolha entre os jogadores do elenco atual como Arrascaeta, Pedro, Gerson, De La Cruz e muitos outros.
+• 12 produtos em tamanho viagem
+• 1 Cartão Mais Presente
+• Embalagem premium com design exclusivo de Natal
+• Produtos das melhores linhas de O Boticário
+• Ideal para presentear ou se presentear
 
 Por Que Escolher:
-✓ Produto oficial licenciado pelo Flamengo
-✓ Qualidade adidas reconhecida mundialmente
-✓ Design exclusivo temporada 25/26
-✓ Tecido sustentável (poliéster reciclado)
-✓ Perfeita para jogos, treinos ou casual
-✓ Presente ideal para todo rubro-negro
+✓ Variedade de produtos para experimentar
+✓ Tamanhos perfeitos para viagem ou teste
+✓ Embalagem linda e sofisticada
+✓ Presente perfeito para quem ama beleza
+✓ Elemento surpresa a cada dia
+✓ Qualidade garantida O Boticário
 
-Seja no Maracanã ou em qualquer lugar do Brasil, mostre sua paixão pelo Mengão com estilo e qualidade!
-
-Uma satisfação, Nação! 🔴⚫`,
-  price: '67.90',
-  originalPrice: '399.99',
-  discount: 83,
-  mainImage: 'https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/1373178f36144872b8e20fe0f58df233_9366/Camisa_I_Flamengo_25-26_Preto_IV6052_21_model.jpg',
+*Produtos podem variar conforme disponibilidade. A lista exata não é divulgada previamente - o elemento surpresa faz parte da experiência!`,
+  price: '87.90',
+  originalPrice: '599.90',
+  discount: 85,
+  mainImage: 'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B89300/37a98184-de9c-4d80-8ac1-1b932e88a8d8-bot-89300-calendario-do-advento-mini-01.jpg',
   images: [
-    'https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/1373178f36144872b8e20fe0f58df233_9366/Camisa_I_Flamengo_25-26_Preto_IV6052_21_model.jpg',
-    'https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/c68c1be12cad40ba987ae97b28333564_9366/Camisa_I_Flamengo_25-26_Preto_IV6052_23_hover_model.jpg',
-    'https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/bca30251e13340df8491bfbd2424983a_9366/Camisa_I_Flamengo_25-26_Preto_IV6052_25_model.jpg',
-    'https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a29004ae0414319abc5c88d19180af4_9366/Camisa_I_Flamengo_25-26_Preto_IV6052_01_laydown.jpg',
-    'https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/e27623c7b9144a649035744feaf3e621_9366/Camisa_I_Flamengo_25-26_Preto_IV6052_02_laydown.jpg',
-    'https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/49d13a2c6721494da236345916b21178_9366/Camisa_I_Flamengo_25-26_Preto_IV6052_25_outfit.jpg',
-    'https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/2bcaed146c2a417c958562dbc8040ae1_9366/Camisa_I_Flamengo_25-26_Preto_IV6052_41_detail.jpg',
-    'https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/1b025bb30854443eaf4c8c4f170a672c_9366/Camisa_I_Flamengo_25-26_Preto_IV6052_42_detail.jpg',
+    'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B89300/37a98184-de9c-4d80-8ac1-1b932e88a8d8-bot-89300-calendario-do-advento-mini-01.jpg',
+    'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B89300/4ebc1073-4a73-4a1a-ab36-5fae453a4f8a-bot-89300-calendario-do-advento-mini-03.jpg',
+    'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B89300/8fd4d935-5668-4022-8667-3626798bd0bf-bot-89300-calendario-do-advento-mini-02.jpg',
+    'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B89300/5a43fa1e-d212-4f92-ba48-397165679190-bot-card-mais-presente-natal.jpg',
   ],
-  variant: 'PRETO',
-  variantImage: 'https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/1373178f36144872b8e20fe0f58df233_9366/Camisa_I_Flamengo_25-26_Preto_IV6052_21_model.jpg',
-  stock: 127,
+  variant: 'PADRÃO',
+  variantImage: 'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B89300/37a98184-de9c-4d80-8ac1-1b932e88a8d8-bot-89300-calendario-do-advento-mini-01.jpg',
+  stock: 85,
   rating: '4.9',
-  reviewsCount: 168,
-  salesCount: 892,
+  reviewsCount: 47,
+  salesCount: 156,
   deliveryFee: '0.00',
   installments: 10,
   couponDiscount: 10,
@@ -94,51 +93,51 @@ const HARDCODED_REVIEWS: Review[] = [
   {
     id: 'review-1',
     productId: 'product-1',
-    customerName: 'Rafael Souza',
+    customerName: 'Júlia Mendes',
     rating: 5,
-    variant: 'Preto - M',
-    comment: 'Ótimo presente. Atendeu as expectativas da pessoa que recebeu o presente.',
-    image: '/attached_assets/WhatsApp Image 2025-11-30 at 19.31.50_1764542769561.jpeg',
+    variant: 'PADRÃO',
+    comment: 'Gente, que coisa mais linda!! Já abri uns 5 dias e tô apaixonada. Veio Lily, Floratta, um hidratante que cheira mto bom... a embalagem tá servindo de enfeite aqui em casa kkkk',
+    image: '/attached_assets/WhatsApp Image 2025-11-10 at 05.40.13_1762764231487.jpeg',
     createdAt: new Date('2025-01-01'),
   },
   {
     id: 'review-2',
     productId: 'product-1',
-    customerName: 'Fernanda Martins',
+    customerName: 'Fernanda Oliveira',
     rating: 5,
-    variant: 'Preto - G',
-    comment: 'O melhor presente para um amante de futebol. Material ótimo e muito bonita, caimento perfeito, cores vibrantes. Camisa original é outro nível!',
-    image: '/attached_assets/WhatsApp Image 2025-11-30 at 19.31.51_1764542769571.jpeg',
+    variant: 'PADRÃO',
+    comment: 'Melhor compra!! Os tamanhos são ótimos pra testar e levar na bolsa. Veio até Malbec o cartão presente foi um plus que eu nem esperava',
+    image: '/attached_assets/WhatsApp Image 2025-11-10 at 05.40.46_1762764231493.jpeg',
     createdAt: new Date('2025-01-02'),
   },
   {
     id: 'review-3',
     productId: 'product-1',
-    customerName: 'Bruno Carvalho',
+    customerName: 'Patrícia Santos',
     rating: 5,
-    variant: 'Preto - GG',
-    comment: 'Tecido respirável bem leve, material maravilhoso. A personalização perfeita, tecido respirável bom e leve. Adidas sempre melhorando.',
-    image: '/attached_assets/WhatsApp Image 2025-11-30 at 19.31.52 (1)_1764542769572.jpeg',
+    variant: 'PADRÃO',
+    comment: 'Dezembro ficou mil vezes mais gostoso com esse calendário! Tem produtos q eu já uso e adoro, e outros que descobri agora. Já tô querendo comprar pra minha irmã tbm',
+    image: '/attached_assets/WhatsApp Image 2025-11-10 at 05.41.12_1762764231493.jpeg',
     createdAt: new Date('2025-01-03'),
   },
   {
     id: 'review-4',
     productId: 'product-1',
-    customerName: 'Amanda Lima',
+    customerName: 'Camila Rodrigues',
     rating: 5,
-    variant: 'Preto - M',
-    comment: 'Que camisa top amigos! Eu simplesmente Ameiiiiiiiiiiiiiii Perfeita, linda. Dei de presente.',
-    image: '/attached_assets/WhatsApp Image 2025-11-30 at 19.31.52 (2)_1764542769572.jpeg',
+    variant: 'PADRÃO',
+    comment: 'Vale a pena demais! 12 produtos + cartão presente, tudo O Boticário. Veio perfume, creme, maquiagem... a caixa chegou perfeita, super caprichada',
+    image: '/attached_assets/WhatsApp Image 2025-11-10 at 05.41.27_1762764231494.jpeg',
     createdAt: new Date('2025-01-04'),
   },
   {
     id: 'review-5',
     productId: 'product-1',
-    customerName: 'Marcelo Pereira',
-    rating: 4.5,
-    variant: 'Preto - G',
-    comment: 'Linda e ótima qualidade. Manto sagrado sempre vale a pena. Ótima qualidade e entrega no prazo.',
-    image: '/attached_assets/WhatsApp Image 2025-11-30 at 19.31.52_1764542769572.jpeg',
+    customerName: 'Renata Costa',
+    rating: 5,
+    variant: 'PADRÃO',
+    comment: 'Dei pra minha mãe e ela tá no céu kkk todo dia de manhã ela abre uma caixinha animada igual criança. Acertei no presente!',
+    image: '/attached_assets/WhatsApp Image 2025-11-10 at 05.41.46_1762764231495.jpeg',
     createdAt: new Date('2025-01-05'),
   },
 ];
