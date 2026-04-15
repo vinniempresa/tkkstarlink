@@ -18,8 +18,8 @@ import {
 // Dados hardcoded - Starlink Mini
 const HARDCODED_STORE: Store = {
   id: 'store-1',
-  name: 'Starlink',
-  logo: '/starlink-logo.jpeg',
+  name: 'Tudocell PREMIUM',
+  logo: 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/afe064a8030c4180b9efd79a451da579~tplv-o3syd03w52-crop-webp:1200:1200.webp?dr=15592&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=e1be8f53&idc=my&from=2378011839',
   salesCount: '12,5K',
   reviewsCount: '2,1 mil',
   rating: '4.9',

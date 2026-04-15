@@ -198,7 +198,7 @@ export default function ProductPage() {
         <ImageCarousel images={images} />
 
         {/* Price and Title */}
-        <PriceSection product={product} store={store} timeLeft={formatTime(timeLeft)} couponApplied={couponApplied} />
+        <PriceSection product={product} timeLeft={formatTime(timeLeft)} couponApplied={couponApplied} />
 
         {/* Separador */}
         <div className="border-t-8 border-gray-100"></div>
