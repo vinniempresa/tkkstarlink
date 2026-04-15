@@ -335,13 +335,21 @@ export default function PaymentPage() {
           </div>
 
           {/* QR Code */}
-          {(transaction.pixCopiaECola || transaction.pix_code || transaction.pixQrCode) && (
+          {(transaction.pixCopiaECola || transaction.pix_code || transaction.pixQrCode || transaction.pixQrCodeBase64) && (
             <div className="flex justify-center mb-4">
-              <img 
-                src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(transaction.pixCopiaECola || transaction.pix_code || transaction.pixQrCode)}`}
-                alt="QR Code PIX" 
-                className="w-48 h-48 object-contain"
-              />
+              {transaction.pixQrCodeBase64 ? (
+                <img
+                  src={`data:image/png;base64,${transaction.pixQrCodeBase64}`}
+                  alt="QR Code PIX"
+                  className="w-48 h-48 object-contain"
+                />
+              ) : (
+                <img
+                  src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(transaction.pixCopiaECola || transaction.pix_code || transaction.pixQrCode)}`}
+                  alt="QR Code PIX"
+                  className="w-48 h-48 object-contain"
+                />
+              )}
             </div>
           )}
 

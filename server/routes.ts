@@ -362,106 +362,85 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Payment Routes - SpeedPag API
+  // Payment Routes - BuckPay API
+  const BUCKPAY_BASE_URL = 'https://api.realtechdev.com.br';
+  const BUCKPAY_USER_AGENT = 'Buckpay API';
+
+  const buckpayHeaders = () => ({
+    'Content-Type': 'application/json',
+    'Authorization': `Bearer ${process.env.PICATIC_API_KEY}`,
+    'User-Agent': BUCKPAY_USER_AGENT
+  });
+
   app.post('/api/payments', async (req, res) => {
     try {
       const { amount, customer_name, customer_email, customer_cpf, customer_phone, description, product_id, address } = req.body;
 
-      // SpeedPag usa Basic Auth com publicKey:secretKey
-      const publicKey = process.env.SPEEDPAG_PUBLIC_KEY;
-      const secretKey = process.env.SPEEDPAG_SECRET_KEY;
-      const auth = 'Basic ' + Buffer.from(publicKey + ':' + secretKey).toString('base64');
-
-      // SpeedPag requer amount em centavos
       const amountInCents = Math.round(parseFloat(amount) * 100);
 
-      // Usar endereço real do cliente ou valores padrão
-      const customerAddress = address || {};
-      const zipcode = (customerAddress.cep || '01000000').replace(/\D/g, '');
-      const state = (customerAddress.state || 'SP').toUpperCase();
-      const city = customerAddress.city || 'São Paulo';
-      const neighborhood = customerAddress.neighborhood || 'Centro';
-      const street = customerAddress.street || 'Rua Principal';
-      const streetNumber = customerAddress.number || '100';
-
-      // Formatar telefone corretamente (apenas números, sem +55)
+      // Formatar telefone: BuckPay espera 55 + DDD + número (12-13 dígitos)
       const cleanPhone = customer_phone.replace(/\D/g, '');
-      // Remover 55 do início se presente
-      const formattedPhone = cleanPhone.startsWith('55') ? cleanPhone.substring(2) : cleanPhone;
+      const formattedPhone = cleanPhone.startsWith('55') ? cleanPhone : '55' + cleanPhone;
 
-      const paymentData = {
+      // Gerar external_id único para esta transação
+      const externalId = `pedido-${Date.now()}-${Math.random().toString(36).substring(2, 8)}`;
+
+      const paymentData: any = {
+        external_id: externalId,
+        payment_method: 'pix',
         amount: amountInCents,
-        paymentMethod: 'pix',
-        items: [
-          {
-            tangible: true,
-            title: 'curso_do_futuro_25',
-            unitPrice: amountInCents,
-            quantity: 1,
-            externalRef: 'camisa-flamengo-2526'
-          }
-        ],
-        customer: {
-          name: customer_name.toUpperCase(),
+        buyer: {
+          name: customer_name,
           email: customer_email.toLowerCase(),
-          phone: formattedPhone,
-          document: {
-            type: 'cpf',
-            number: customer_cpf.replace(/\D/g, '')
-          },
-          address: {
-            street: street,
-            streetNumber: streetNumber,
-            complement: '',
-            zipCode: zipcode,
-            neighborhood: neighborhood,
-            city: city,
-            state: state,
-            country: 'BR'
-          }
+          document: customer_cpf.replace(/\D/g, ''),
+          phone: formattedPhone
+        },
+        product: {
+          id: product_id || 'starlink-mini',
+          name: description || 'Kit De Internet Via Satelite Starlink Mini'
+        },
+        offer: {
+          id: 'oferta-starlink-mini',
+          name: description || 'Kit De Internet Via Satelite Starlink Mini',
+          quantity: 1
         }
       };
 
-      console.log('Criando transação PIX com SpeedPag...');
-      console.log('Payload:', JSON.stringify(paymentData).substring(0, 300));
+      console.log('🚀 Criando transação PIX com BuckPay...');
+      console.log('📦 Payload:', JSON.stringify(paymentData).substring(0, 300));
 
-      const response = await fetch('https://api.speedpag.com/v1/transactions', {
+      const response = await fetch(`${BUCKPAY_BASE_URL}/v1/transactions`, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': auth
-        },
+        headers: buckpayHeaders(),
         body: JSON.stringify(paymentData)
       });
 
       const apiResponse = await response.json();
 
       if (!response.ok) {
-        console.error('Erro na API SpeedPag:', JSON.stringify(apiResponse, null, 2));
-        console.error('Payload enviado:', JSON.stringify(paymentData, null, 2));
+        console.error('❌ Erro na API BuckPay:', JSON.stringify(apiResponse, null, 2));
         return res.status(response.status).json({ error: apiResponse });
       }
-      
-      console.log('Transação criada com sucesso. ID:', apiResponse.id);
-      console.log('Dados da transação:', JSON.stringify(apiResponse).substring(0, 500));
-      console.log('PIX QRCode:', apiResponse.pix?.qrcode);
 
-      // Mapear resposta do SpeedPag para o formato esperado pelo frontend
-      // SpeedPag retorna o código PIX em pix.qrcode (minúsculo)
+      const data = apiResponse.data || apiResponse;
+      console.log('✅ Transação BuckPay criada. ID:', data.id, '| external_id:', externalId);
+      console.log('📋 PIX Code:', data.pix?.code?.substring(0, 50));
+
       const transaction = {
-        id: apiResponse.id,
-        transaction_id: apiResponse.id,
-        status: apiResponse.status,
+        id: externalId,
+        transaction_id: externalId,
+        internal_id: data.id,
+        status: data.status,
         amount: (amountInCents / 100).toFixed(2),
-        pixCopiaECola: apiResponse.pix?.qrcode,
-        pixQrCode: apiResponse.pix?.qrcode,
-        pix_code: apiResponse.pix?.qrcode,
-        expirationDate: apiResponse.pix?.expirationDate
+        pixCopiaECola: data.pix?.code,
+        pixQrCode: data.pix?.code,
+        pix_code: data.pix?.code,
+        pixQrCodeBase64: data.pix?.qrcode_base64
       };
 
       res.json({ data: transaction });
     } catch (error: any) {
-      console.error('Payment error:', error);
+      console.error('❌ Payment error:', error);
       res.status(500).json({ error: { message: error.message } });
     }
   });
@@ -470,14 +449,10 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const { id } = req.params;
 
-      const publicKey = process.env.SPEEDPAG_PUBLIC_KEY;
-      const secretKey = process.env.SPEEDPAG_SECRET_KEY;
-      const auth = 'Basic ' + Buffer.from(publicKey + ':' + secretKey).toString('base64');
+      console.log('🔍 GET /api/payments/:id - Buscando transação BuckPay. external_id:', id);
 
-      const response = await fetch(`https://api.speedpag.com/v1/transactions/${id}`, {
-        headers: {
-          'Authorization': auth
-        }
+      const response = await fetch(`${BUCKPAY_BASE_URL}/v1/transactions/external_id/${id}`, {
+        headers: buckpayHeaders()
       });
 
       if (!response.ok) {
@@ -486,25 +461,24 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
 
       const apiResponse = await response.json();
-      
-      // Mapear para formato esperado
-      // SpeedPag retorna o código PIX em pix.qrcode (minúsculo)
+      const data = apiResponse.data || apiResponse;
+
       const transaction = {
-        id: apiResponse.id,
-        transaction_id: apiResponse.id,
-        status: apiResponse.status,
-        amount: apiResponse.amount ? (apiResponse.amount / 100).toFixed(2) : '0.00',
-        pixCopiaECola: apiResponse.pix?.qrcode,
-        pixQrCode: apiResponse.pix?.qrcode,
-        pix_code: apiResponse.pix?.qrcode,
-        expirationDate: apiResponse.pix?.expirationDate
+        id: id,
+        transaction_id: id,
+        internal_id: data.id,
+        status: data.status,
+        amount: data.total_amount ? (data.total_amount / 100).toFixed(2) : '0.00',
+        pixCopiaECola: data.pix?.code,
+        pixQrCode: data.pix?.code,
+        pix_code: data.pix?.code
       };
-      
-      console.log('GET /api/payments/:id - PIX Code:', apiResponse.pix?.qrcode?.substring(0, 50));
-      
+
+      console.log('📥 GET /api/payments/:id - Status:', data.status);
+
       res.json({ data: transaction });
     } catch (error: any) {
-      console.error('Payment fetch error:', error);
+      console.error('❌ Payment fetch error:', error);
       res.status(500).json({ error: { message: error.message } });
     }
   });
@@ -526,37 +500,31 @@ export async function registerRoutes(app: Express): Promise<Server> {
         });
       }
 
-      console.log('🔍 Verificando status do pagamento na SpeedPag. Transaction ID:', id);
+      console.log('🔍 Verificando status do pagamento na BuckPay. external_id:', id);
 
-      const publicKey = process.env.SPEEDPAG_PUBLIC_KEY;
-      const secretKey = process.env.SPEEDPAG_SECRET_KEY;
-      const auth = 'Basic ' + Buffer.from(publicKey + ':' + secretKey).toString('base64');
-
-      const response = await fetch(`https://api.speedpag.com/v1/transactions/${id}`, {
-        headers: {
-          'Authorization': auth
-        }
+      const response = await fetch(`${BUCKPAY_BASE_URL}/v1/transactions/external_id/${id}`, {
+        headers: buckpayHeaders()
       });
 
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({}));
-        console.error('❌ Erro ao verificar status:', response.status, errorData);
+        console.error('❌ Erro ao verificar status BuckPay:', response.status, errorData);
         return res.status(response.status).json({ error: errorData });
       }
 
       const apiResponse = await response.json();
-      
-      console.log('📊 Status atual do pagamento:', apiResponse.status || 'pending');
-      
-      // Mapear status do SpeedPag para o formato esperado
-      // SpeedPag usa: waiting_payment, paid, refused, refunded, etc.
+      const data = apiResponse.data || apiResponse;
+
+      console.log('📊 Status atual do pagamento BuckPay:', data.status || 'pending');
+
       const transaction = {
-        id: apiResponse.id,
-        transaction_id: apiResponse.id,
-        status: apiResponse.status,
-        amount: apiResponse.amount ? (apiResponse.amount / 100).toFixed(2) : '0.00'
+        id: id,
+        transaction_id: id,
+        internal_id: data.id,
+        status: data.status,
+        amount: data.total_amount ? (data.total_amount / 100).toFixed(2) : '0.00'
       };
-      
+
       res.json({ data: transaction });
     } catch (error: any) {
       console.error('❌ Transaction status error:', error);
