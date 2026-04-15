@@ -326,14 +326,14 @@ export default function PaymentPage() {
         {/* QR Code e Código PIX */}
         <div className="bg-white rounded-lg p-4">
           {/* Logo PIX + QR Code centralizados juntos */}
-          <div className="flex flex-col items-center gap-2 mb-4">
+          <div className="flex flex-col items-center gap-0 mb-4">
             <img
               src="/pix-logo-oficial.png"
               alt="PIX powered by Banco Central"
               className="h-20 object-contain"
             />
             {(transaction.pixCopiaECola || transaction.pix_code || transaction.pixQrCode || transaction.pixQrCodeBase64) && (
-              <>
+              <div className="-mt-4">
                 {transaction.pixQrCodeBase64 ? (
                   <img
                     src={`data:image/png;base64,${transaction.pixQrCodeBase64}`}
@@ -347,7 +347,7 @@ export default function PaymentPage() {
                     className="w-52 h-52 object-contain"
                   />
                 )}
-              </>
+              </div>
             )}
           </div>
 
