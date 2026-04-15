@@ -325,33 +325,31 @@ export default function PaymentPage() {
 
         {/* QR Code e Código PIX */}
         <div className="bg-white rounded-lg p-4">
-          {/* Logo PIX centralizado */}
-          <div className="flex justify-center mb-4">
+          {/* Logo PIX + QR Code centralizados juntos */}
+          <div className="flex flex-col items-center gap-2 mb-4">
             <img
               src="/pix-logo-oficial.png"
               alt="PIX powered by Banco Central"
-              className="h-16 object-contain"
+              className="h-20 object-contain"
             />
+            {(transaction.pixCopiaECola || transaction.pix_code || transaction.pixQrCode || transaction.pixQrCodeBase64) && (
+              <>
+                {transaction.pixQrCodeBase64 ? (
+                  <img
+                    src={`data:image/png;base64,${transaction.pixQrCodeBase64}`}
+                    alt="QR Code PIX"
+                    className="w-52 h-52 object-contain"
+                  />
+                ) : (
+                  <img
+                    src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(transaction.pixCopiaECola || transaction.pix_code || transaction.pixQrCode)}`}
+                    alt="QR Code PIX"
+                    className="w-52 h-52 object-contain"
+                  />
+                )}
+              </>
+            )}
           </div>
-
-          {/* QR Code */}
-          {(transaction.pixCopiaECola || transaction.pix_code || transaction.pixQrCode || transaction.pixQrCodeBase64) && (
-            <div className="flex justify-center mb-4">
-              {transaction.pixQrCodeBase64 ? (
-                <img
-                  src={`data:image/png;base64,${transaction.pixQrCodeBase64}`}
-                  alt="QR Code PIX"
-                  className="w-48 h-48 object-contain"
-                />
-              ) : (
-                <img
-                  src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(transaction.pixCopiaECola || transaction.pix_code || transaction.pixQrCode)}`}
-                  alt="QR Code PIX"
-                  className="w-48 h-48 object-contain"
-                />
-              )}
-            </div>
-          )}
 
           {/* Código PIX */}
           <div className="mb-4">
