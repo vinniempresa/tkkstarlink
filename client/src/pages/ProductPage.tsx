@@ -3,7 +3,6 @@ import { useLocation } from 'wouter';
 import { useQuery } from "@tanstack/react-query";
 import ImageCarousel from '@/components/ImageCarousel';
 import PriceSection from '@/components/PriceSection';
-import PersonalizationSection, { type PersonalizationSelection } from '@/components/PersonalizationSection';
 import OffersSection from '@/components/OffersSection';
 import ReviewsSection from '@/components/ReviewsSection';
 import DescriptionSection from '@/components/DescriptionSection';
@@ -23,11 +22,6 @@ export default function ProductPage() {
   const [couponApplied, setCouponApplied] = useState(false);
   const [timeLeft, setTimeLeft] = useState(12 * 60 + 22); // 12:22 em segundos
   const [showLoader, setShowLoader] = useState(true);
-  const [personalization, setPersonalization] = useState<PersonalizationSelection>({
-    size: null,
-    personalization: 'none'
-  });
-
   // Buscar o primeiro produto do banco
   const { data: products } = useQuery<Product[]>({
     queryKey: ["/api/products"],
@@ -130,16 +124,9 @@ export default function ProductPage() {
 
   const handleGoToCheckout = () => {
     window.scrollTo(0, 0);
-    // Passar productId e dados de personalização para o checkout
     const params = new URLSearchParams();
     params.set('productId', product?.id || '');
     if (couponApplied) params.set('cupom', 'true');
-    if (personalization.size) params.set('size', personalization.size);
-    params.set('personalizationType', personalization.personalization);
-    if (personalization.playerName) params.set('playerName', personalization.playerName);
-    if (personalization.playerNumber) params.set('playerNumber', personalization.playerNumber);
-    if (personalization.customName) params.set('customName', personalization.customName);
-    if (personalization.customNumber) params.set('customNumber', personalization.customNumber);
     setLocation(`/oferta/checkout?${params.toString()}`);
   };
 
@@ -212,12 +199,6 @@ export default function ProductPage() {
 
         {/* Price and Title */}
         <PriceSection product={product} timeLeft={formatTime(timeLeft)} couponApplied={couponApplied} />
-
-        {/* Separador */}
-        <div className="border-t-8 border-gray-100"></div>
-
-        {/* Personalização e Tamanhos */}
-        <PersonalizationSection onSelectionChange={setPersonalization} />
 
         {/* Separador */}
         <div className="border-t-8 border-gray-100"></div>
