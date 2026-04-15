@@ -147,7 +147,7 @@ export default function PriceSection({ product, timeLeft = "1 dia", couponApplie
         </button>
         <div className="flex flex-col">
           <span className="text-sm text-black font-normal">
-            {product.variant}
+            Starlink
           </span>
           <span className="text-[9px] text-[#757575] font-normal">
             {product.stock} unidades restantes

@@ -18,7 +18,7 @@ import {
 // Dados hardcoded - Starlink Mini
 const HARDCODED_STORE: Store = {
   id: 'store-1',
-  name: 'Tudocell PREMIUM',
+  name: 'Starlink',
   logo: '/starlink-logo.jpeg',
   salesCount: '12,5K',
   reviewsCount: '2,1 mil',
