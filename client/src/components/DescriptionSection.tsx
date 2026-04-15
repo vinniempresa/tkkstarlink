@@ -37,6 +37,7 @@ function TopicItem({ title, content, children, isOpen, onToggle }: TopicItemProp
 }
 
 const VIDEO_URL = "https://down-zl-br.vod.susercontent.com/api/v4/11110105/mms/br-11110105-6v6x4-mmkz7lgh8g07f6.16000081775171470.mp4";
+const VIDEO_THUMBNAIL = `${VIDEO_URL}?x-oss-process=video/snapshot,t_1000,f_jpg`;
 const FALLBACK_IMAGE = "https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/9658316ce0234681ba5ed7a4ce0787e8~tplv-o3syd03w52-crop-webp:1200:1200.webp?dr=15592&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=e1be8f53&idc=my&from=2378011839";
 
 export default function DescriptionSection({ product }: DescriptionSectionProps) {
@@ -63,7 +64,8 @@ export default function DescriptionSection({ product }: DescriptionSectionProps)
           <div className="mb-3">
             {videoError ? (
               <img
-                src={FALLBACK_IMAGE}
+                src={VIDEO_THUMBNAIL}
+                onError={(e) => { (e.target as HTMLImageElement).src = FALLBACK_IMAGE; }}
                 alt="Starlink Mini"
                 className="w-full rounded-lg object-cover"
               />
@@ -72,7 +74,7 @@ export default function DescriptionSection({ product }: DescriptionSectionProps)
                 src={VIDEO_URL}
                 controls
                 playsInline
-                poster={FALLBACK_IMAGE}
+                poster={VIDEO_THUMBNAIL}
                 className="w-full rounded-lg"
                 onError={() => setVideoError(true)}
               />
