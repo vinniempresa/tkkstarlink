@@ -1,13 +1,14 @@
 import { getDeliveryDateRange } from '@/utils/deliveryDate';
-import type { Product } from "@shared/schema";
+import type { Product, Store } from "@shared/schema";
 
 interface PriceSectionProps {
   product: Product;
+  store?: Store;
   timeLeft?: string;
   couponApplied?: boolean;
 }
 
-export default function PriceSection({ product, timeLeft = "1 dia", couponApplied = false }: PriceSectionProps) {
+export default function PriceSection({ product, store, timeLeft = "1 dia", couponApplied = false }: PriceSectionProps) {
   const deliveryRange = getDeliveryDateRange();
   
   if (!product) {
@@ -90,6 +91,19 @@ export default function PriceSection({ product, timeLeft = "1 dia", couponApplie
       <div className="px-4 mt-2 font-bold text-base leading-5 text-black uppercase">
         {product.name}
       </div>
+
+      {store && (
+        <div className="px-4 mt-1 flex items-center gap-2">
+          {store.logo && (
+            <img
+              src={store.logo}
+              alt={store.name}
+              className="w-5 h-5 rounded-full object-cover"
+            />
+          )}
+          <span className="text-[#757575] text-sm">Vendido por <span className="font-semibold text-black">{store.name}</span></span>
+        </div>
+      )}
       
       <div className="px-4 flex items-center mt-1">
         {[...Array(5)].map((_, i) => {
