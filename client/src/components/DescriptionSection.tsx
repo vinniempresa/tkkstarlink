@@ -191,7 +191,53 @@ export default function DescriptionSection({ product }: DescriptionSectionProps)
           )}
         </TopicItem>
       </div>
-      
+
+      <div>
+        {/* Tamanho e ajuste */}
+        <TopicItem
+          title="Tamanho e ajuste"
+          isOpen={openTopics['tamanho'] || false}
+          onToggle={() => toggleTopic('tamanho')}
+        >
+          <TamanhoContent />
+        </TopicItem>
+
+        {/* Detalhes */}
+        <TopicItem
+          title="Detalhes"
+          isOpen={openTopics['detalhes'] || false}
+          onToggle={() => toggleTopic('detalhes')}
+        >
+          <div className="whitespace-pre-line"><span className="font-medium">•</span>{` Modelagem justa
+`}<span className="font-medium">•</span>{` Decote V canelado
+`}<span className="font-medium">•</span>{` Malha dupla 100% poliéster reciclado
+`}<span className="font-medium">•</span>{` AEROREADY
+`}<span className="font-medium">•</span>{` Escudo do CR Flamengo bordado
+`}<span className="font-medium">•</span>{` Barra traseira alongada
+`}<span className="font-medium">•</span>{` Escudo bordado do CR Flamengo
+`}<span className="font-medium">•</span>{` Cor do artigo: Black
+`}<span className="font-medium">•</span>{` Código do artigo: IV6052`}</div>
+        </TopicItem>
+
+        {/* Cuidados */}
+        <TopicItem
+          title="Cuidados"
+          isOpen={openTopics['cuidados'] || false}
+          onToggle={() => toggleTopic('cuidados')}
+        >
+          <div className="whitespace-pre-line"><span className="font-medium text-black">Instruções de lavagem</span>{`
+`}<span className="font-medium">•</span>{` Não alvejar
+`}<span className="font-medium">•</span>{` Utilizar secadora em baixa temperatura
+`}<span className="font-medium">•</span>{` Não lava a seco
+`}<span className="font-medium">•</span>{` Passa em temperatura baixa
+`}<span className="font-medium">•</span>{` Lava à máquina com água fria
+
+`}<span className="font-medium text-black">Informação adicional sobre cuidados</span>{`
+`}<span className="font-medium">•</span>{` Remover imediatamente
+`}<span className="font-medium">•</span>{` Não utilizar amaciante
+`}<span className="font-medium">•</span>{` Lavar e passar do lado avesso`}</div>
+        </TopicItem>
+      </div>
     </div>
   );
 }
