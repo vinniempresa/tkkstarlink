@@ -137,7 +137,7 @@ export default function ReviewsSection({ reviews, product, store, isLoading }: R
                 <img 
                   src={store.logo}
                   alt={`Logo ${store.name}`}
-                  className="w-12 h-12 rounded-full object-contain bg-white mr-3"
+                  className="w-12 h-12 rounded-full object-cover mr-3"
                 />
               )}
               <div>
