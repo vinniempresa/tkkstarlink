@@ -15,77 +15,73 @@ import {
   type InsertDomain,
 } from '@shared/schema';
 
-// Dados hardcoded do O Boticário - Calendário do Advento
+// Dados hardcoded - Starlink Mini
 const HARDCODED_STORE: Store = {
   id: 'store-1',
-  name: 'oBoticário',
-  logo: '/attached_assets/logo o boticario_1762761428802.jpg',
-  salesCount: '68.8K',
-  reviewsCount: '12,8 mil',
+  name: 'Tudocell PREMIUM',
+  logo: 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/afe064a8030c4180b9efd79a451da579~tplv-o3syd03w52-crop-webp:1200:1200.webp?dr=15592&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=e1be8f53&idc=my&from=2378011839',
+  salesCount: '12,5K',
+  reviewsCount: '2,1 mil',
   rating: '4.9',
 };
 
 const HARDCODED_PRODUCT: Product = {
   id: 'product-1',
   storeId: 'store-1',
-  name: 'Calendário do Advento 2025 O Boticário (12 itens)',
-  description: `Calendário do Advento 2025 O Boticário: Uma Contagem Regressiva Mágica para o Natal!
+  name: 'Kit De Internet Via Satelite Starlink Mini',
+  description: `Kit De Internet Via Satelite Starlink Mini: Conectividade de Alta Velocidade em Qualquer Lugar!
 
-Surpreenda-se todos os dias de dezembro com o Calendário do Advento 2025 de O Boticário! Este kit exclusivo traz 12 caixinhas especiais com produtos clássicos da marca em tamanhos viagem, perfeitos para você descobrir ou redescobrir as fragrâncias e cuidados favoritos.
+Leve internet de alta velocidade para qualquer lugar do Brasil com o Kit Starlink Mini! Com tecnologia de ponta da SpaceX, o Starlink Mini entrega conexão via satélite confiável mesmo em regiões remotas, onde o sinal de internet convencional não chega.
 
-O Que Vem Dentro:
-O Calendário do Advento contém 12 produtos surpresa em tamanho viagem das linhas mais icônicas de O Boticário, incluindo perfumaria, skincare, maquiagem e cuidados pessoais. Além disso, você também recebe 1 Cartão Mais Presente para escolher um mimo extra entre ofertas exclusivas!
+O Que Está Incluso:
+O kit completo acompanha antena Starlink Mini compacta e portátil, cabo de alimentação integrado, suporte de fixação e guia de instalação. Pronto para usar assim que chegar!
 
-Categorias de Produtos Incluídos:
-• Perfumaria: Miniaturas de fragrâncias das linhas Lily, Floratta, Malbec, Zaad
-• Skincare: Produtos de cuidados com a pele
-• Maquiagem: Itens de beleza para realçar sua beleza natural
-• Cuidados Pessoais: Produtos para o dia a dia das linhas Nativa SPA, Cuide-se Bem e Botik
-• Bônus: 1 Cartão Mais Presente com experiências exclusivas
+Especificações Técnicas:
+• Velocidade de download: 50 a 100 Mbps
+• Velocidade de upload: 5 a 20 Mbps
+• Latência: 20 a 100 ms
+• Peso: 370g — o mais compacto da linha Starlink
+• Alimentação: via cabo USB-C (incluído)
+• Cobertura: todo o território nacional
 
-Como Funciona:
-Abra 1 caixinha por dia de 1º a 12 de dezembro e descubra qual será a surpresa! Cada produto é cuidadosamente selecionado entre os sucessos de vendas da marca, proporcionando uma experiência única de descoberta e autocuidado.
+Para Quem É Ideal:
+• Viajantes e nômades digitais
+• Moradores de áreas rurais sem fibra óptica
+• Proprietários de chácaras, sítios e fazendas
+• Campers, trilheiros e aventureiros
+• Profissionais que precisam de internet em campo
 
-Design Especial de Natal:
-Linda embalagem verde com guirlanda desenhada, design sofisticado e temático de Natal 2025. Perfeito para presente ou para se presentear nesta época tão especial!
+Por Que Escolher o Starlink Mini:
+✓ Funciona em qualquer lugar do Brasil
+✓ Instalação simples — sem técnico necessário
+✓ Antena compacta e portátil
+✓ Tecnologia SpaceX de última geração
+✓ Sem fidelidade ou taxa de cancelamento
+✓ Cobertura onde nenhuma operadora chega
 
-Especificações:
-• 12 produtos em tamanho viagem
-• 1 Cartão Mais Presente
-• Embalagem premium com design exclusivo de Natal
-• Produtos das melhores linhas de O Boticário
-• Ideal para presentear ou se presentear
-
-Por Que Escolher:
-✓ Variedade de produtos para experimentar
-✓ Tamanhos perfeitos para viagem ou teste
-✓ Embalagem linda e sofisticada
-✓ Presente perfeito para quem ama beleza
-✓ Elemento surpresa a cada dia
-✓ Qualidade garantida O Boticário
-
-*Produtos podem variar conforme disponibilidade. A lista exata não é divulgada previamente - o elemento surpresa faz parte da experiência!`,
-  price: '87.90',
-  originalPrice: '599.90',
-  discount: 85,
-  mainImage: 'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B89300/37a98184-de9c-4d80-8ac1-1b932e88a8d8-bot-89300-calendario-do-advento-mini-01.jpg',
+Conecte-se ao futuro com o Starlink Mini!`,
+  price: '1009.70',
+  originalPrice: '1499.00',
+  discount: 33,
+  mainImage: 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/afe064a8030c4180b9efd79a451da579~tplv-o3syd03w52-crop-webp:1200:1200.webp?dr=15592&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=e1be8f53&idc=my&from=2378011839',
   images: [
-    'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B89300/37a98184-de9c-4d80-8ac1-1b932e88a8d8-bot-89300-calendario-do-advento-mini-01.jpg',
-    'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B89300/4ebc1073-4a73-4a1a-ab36-5fae453a4f8a-bot-89300-calendario-do-advento-mini-03.jpg',
-    'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B89300/8fd4d935-5668-4022-8667-3626798bd0bf-bot-89300-calendario-do-advento-mini-02.jpg',
-    'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B89300/5a43fa1e-d212-4f92-ba48-397165679190-bot-card-mais-presente-natal.jpg',
+    'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/afe064a8030c4180b9efd79a451da579~tplv-o3syd03w52-crop-webp:1200:1200.webp?dr=15592&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=e1be8f53&idc=my&from=2378011839',
+    'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/d420ae8b865448b895126a058ba1fc97~tplv-o3syd03w52-crop-webp:1200:1200.webp?dr=15592&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=e1be8f53&idc=my&from=2378011839',
+    'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/9658316ce0234681ba5ed7a4ce0787e8~tplv-o3syd03w52-crop-webp:1200:1200.webp?dr=15592&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=e1be8f53&idc=my&from=2378011839',
+    'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/b69b654c1dad400bbc29e0969579ac57~tplv-o3syd03w52-crop-webp:1200:1200.webp?dr=15592&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=e1be8f53&idc=my&from=2378011839',
+    'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/c061138be6a34e1c943d9bb5e9d5ef19~tplv-o3syd03w52-crop-webp:1200:1200.webp?dr=15592&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=e1be8f53&idc=my&from=2378011839',
   ],
   variant: 'PADRÃO',
-  variantImage: 'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B89300/37a98184-de9c-4d80-8ac1-1b932e88a8d8-bot-89300-calendario-do-advento-mini-01.jpg',
-  stock: 85,
+  variantImage: 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/afe064a8030c4180b9efd79a451da579~tplv-o3syd03w52-crop-webp:1200:1200.webp?dr=15592&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=e1be8f53&idc=my&from=2378011839',
+  stock: 43,
   rating: '4.9',
-  reviewsCount: 47,
-  salesCount: 156,
+  reviewsCount: 11,
+  salesCount: 115,
   deliveryFee: '0.00',
-  installments: 10,
+  installments: 12,
   couponDiscount: 10,
-  couponMinValue: '99.00',
-  couponMaxDiscount: '50.00',
+  couponMinValue: '999.00',
+  couponMaxDiscount: '150.00',
   createdAt: new Date('2025-01-01'),
 };
 
@@ -93,51 +89,51 @@ const HARDCODED_REVIEWS: Review[] = [
   {
     id: 'review-1',
     productId: 'product-1',
-    customerName: 'Júlia Mendes',
+    customerName: 'Carlos Eduardo',
     rating: 5,
     variant: 'PADRÃO',
-    comment: 'Gente, que coisa mais linda!! Já abri uns 5 dias e tô apaixonada. Veio Lily, Floratta, um hidratante que cheira mto bom... a embalagem tá servindo de enfeite aqui em casa kkkk',
-    image: '/attached_assets/WhatsApp Image 2025-11-10 at 05.40.13_1762764231487.jpeg',
+    comment: 'Moro no interior de Goiás e nunca tive uma internet decente. Com o Starlink Mini chegou tudo mudou! 80 Mbps de download aqui no sítio. Valeu cada centavo!',
+    image: null,
     createdAt: new Date('2025-01-01'),
   },
   {
     id: 'review-2',
     productId: 'product-1',
-    customerName: 'Fernanda Oliveira',
+    customerName: 'Marcelo Teixeira',
     rating: 5,
     variant: 'PADRÃO',
-    comment: 'Melhor compra!! Os tamanhos são ótimos pra testar e levar na bolsa. Veio até Malbec o cartão presente foi um plus que eu nem esperava',
-    image: '/attached_assets/WhatsApp Image 2025-11-10 at 05.40.46_1762764231493.jpeg',
+    comment: 'Instalação super simples, em menos de 30 minutos já tava funcionando. Uso na chácara todo fim de semana e a conexão é excelente. Recomendo demais!',
+    image: null,
     createdAt: new Date('2025-01-02'),
   },
   {
     id: 'review-3',
     productId: 'product-1',
-    customerName: 'Patrícia Santos',
+    customerName: 'Amanda Ferreira',
     rating: 5,
     variant: 'PADRÃO',
-    comment: 'Dezembro ficou mil vezes mais gostoso com esse calendário! Tem produtos q eu já uso e adoro, e outros que descobri agora. Já tô querendo comprar pra minha irmã tbm',
-    image: '/attached_assets/WhatsApp Image 2025-11-10 at 05.41.12_1762764231493.jpeg',
+    comment: 'Trabalho home office e morava refém de internet ruim. O Starlink Mini resolveu minha vida! Faço videochamadas sem travar, upload rápido. Produto incrível.',
+    image: null,
     createdAt: new Date('2025-01-03'),
   },
   {
     id: 'review-4',
     productId: 'product-1',
-    customerName: 'Camila Rodrigues',
+    customerName: 'Roberto Alves',
     rating: 5,
     variant: 'PADRÃO',
-    comment: 'Vale a pena demais! 12 produtos + cartão presente, tudo O Boticário. Veio perfume, creme, maquiagem... a caixa chegou perfeita, super caprichada',
-    image: '/attached_assets/WhatsApp Image 2025-11-10 at 05.41.27_1762764231494.jpeg',
+    comment: 'Levei numa viagem de camping e funcionou perfeitamente no meio da serra. Nunca imaginei ter internet boa num lugar tão remoto. Tecnologia impressionante!',
+    image: null,
     createdAt: new Date('2025-01-04'),
   },
   {
     id: 'review-5',
     productId: 'product-1',
-    customerName: 'Renata Costa',
+    customerName: 'Juliana Moraes',
     rating: 5,
     variant: 'PADRÃO',
-    comment: 'Dei pra minha mãe e ela tá no céu kkk todo dia de manhã ela abre uma caixinha animada igual criança. Acertei no presente!',
-    image: '/attached_assets/WhatsApp Image 2025-11-10 at 05.41.46_1762764231495.jpeg',
+    comment: 'Entrega rápida e produto original. Instalei na fazenda do meu pai que fica numa região sem sinal nenhum. Agora ele consegue assistir TV e fazer videochamada. Muito feliz!',
+    image: null,
     createdAt: new Date('2025-01-05'),
   },
 ];
