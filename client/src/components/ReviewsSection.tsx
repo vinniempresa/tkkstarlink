@@ -76,7 +76,7 @@ export default function ReviewsSection({ reviews, product, store, isLoading }: R
           </div>
           
           <div className="text-sm text-[#757575] mb-1 font-normal">
-            Starlink Mini
+            Item: Starlink Mini
           </div>
           
           <div className="text-sm text-black mb-2 font-normal">
