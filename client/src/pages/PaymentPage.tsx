@@ -327,11 +327,13 @@ export default function PaymentPage() {
         <div className="bg-white rounded-lg p-4">
           {/* Logo PIX centralizado */}
           <div className="flex justify-center mb-4">
-            <img 
-              src="/pix-logo.png"
-              alt="PIX - Banco Central"
-              className="h-8 object-contain"
-            />
+            <svg height="32" viewBox="0 0 146 54" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="PIX - Banco Central do Brasil">
+              <path d="M22.5 0L33.75 11.25L22.5 22.5L11.25 11.25L22.5 0Z" fill="#32BCAD"/>
+              <path d="M11.25 11.25L22.5 22.5L11.25 33.75L0 22.5L11.25 11.25Z" fill="#32BCAD"/>
+              <path d="M33.75 11.25L45 22.5L33.75 33.75L22.5 22.5L33.75 11.25Z" fill="#32BCAD"/>
+              <path d="M22.5 22.5L33.75 33.75L22.5 45L11.25 33.75L22.5 22.5Z" fill="#32BCAD"/>
+              <text x="54" y="36" fontFamily="Arial, sans-serif" fontSize="28" fontWeight="bold" fill="#32BCAD" letterSpacing="1">pix</text>
+            </svg>
           </div>
 
           {/* QR Code */}
